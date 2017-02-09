@@ -22,6 +22,7 @@ MinJae Cho, Kunal Garg, Ray Kim, Kelly Tan, Henry Zhu
  - Minjae: I can make the video, and would like to work on visual style, UX and shooting mechanism. - Kelly: I can try to work on the haptic/visual feedback.  Can also help with the arrow shooting/switching mechanisms.
  - Kelly: I can try to work on the haptic/visual feedback.  Can also help with the arrow shooting/switching mechanisms.
  - Kunal: I would like to work on the shooting mechanism or scene design
+ - Ray: I would like to work on the scene / environment. I can also work on painting / marking system.
 
 
 ####Invent your own mechanics and visual style - what will the win and loss conditions be? Do you have a preferred appearance for the world and for the player?
