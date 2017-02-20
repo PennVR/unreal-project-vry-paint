@@ -1,0 +1,890 @@
+﻿Log file open, 02/17/17 17:42:41
+LogInit:Display: Running engine for game: CIS568VRYPaint_lvl
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(972080520) SRandInit(972080521).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.096299
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.10.2(build = 321138) feature version = 0. Client runs version (prod = 1).1.10.2(build = 321138) feature version = 0
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.17-22.42.42:581][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.17-22.42.42:581][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.17-22.42.42:600][  0]LogInit: Computer: SIGLAB-VR5
+[2017.02.17-22.42.42:600][  0]LogInit: User: SIG
+[2017.02.17-22.42.42:600][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.17-22.42.42:600][  0]LogInit: High frequency timer resolution =3.604936 MHz
+[2017.02.17-22.42.42:600][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.02.17-22.42.42:600][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.17-22.42.42:600][  0]LogMemory: Process Physical Memory: 273.51 MB used, 273.51 MB peak
+[2017.02.17-22.42.42:600][  0]LogMemory: Process Virtual Memory: 269.83 MB used, 269.83 MB peak
+[2017.02.17-22.42.42:600][  0]LogMemory: Physical Memory: 4890.14 MB used,  27800.16 MB free, 32690.30 MB total
+[2017.02.17-22.42.42:600][  0]LogMemory: Virtual Memory: 727.27 MB used,  27800.16 MB free, 134217728.00 MB total
+[2017.02.17-22.42.42:772][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.17-22.42.44:544][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.17-22.42.44:568][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.02.17-22.42.44:568][  0]LogD3D11RHI:       8120/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.02.17-22.42.44:569][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.17-22.42.44:569][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.17-22.42.44:569][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.17-22.42.44:574][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.17-22.42.44:574][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.17-22.42.44:574][  0]LogWindows: EnumDisplayDevices:
+[2017.02.17-22.42.44:574][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.02.17-22.42.44:574][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.02.17-22.42.44:574][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.02.17-22.42.44:574][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.02.17-22.42.44:575][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.02.17-22.42.44:575][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.02.17-22.42.44:575][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.02.17-22.42.44:575][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.02.17-22.42.44:575][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.17-22.42.44:586][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.17-22.42.44:596][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.02.17-22.42.44:596][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Intermediate/Shaders/WorkingDirectory/7112/).
+[2017.02.17-22.42.44:597][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SIG/AppData/Local/Temp/UnrealShaderWorkingDir/5A72EE3547B6092A1FEB3985F2749C65/'.
+[2017.02.17-22.42.44:597][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.17-22.42.46:270][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.17-22.42.46:317][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.02.17-22.42.46:365][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.02.17-22.42.46:413][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.02.17-22.42.46:464][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.02.17-22.42.46:511][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.17-22.42.46:560][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.17-22.42.46:608][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.17-22.42.46:647][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.17-22.42.46:696][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.17-22.42.46:742][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.17-22.42.46:788][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.17-22.42.46:833][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.17-22.42.46:879][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.17-22.42.46:924][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.17-22.42.47:016][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.17-22.42.47:016][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.17-22.42.47:050][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.17-22.42.47:145][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.17-22.42.47:174][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.17-22.42.47:219][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.17-22.42.47:266][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.17-22.42.47:312][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.17-22.42.47:359][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.17-22.42.47:359][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.17-22.42.47:887][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.17-22.42.47:943][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/SIG/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.17-22.42.47:943][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SIG/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.02.17-22.42.47:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.17-22.42.47:943][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.17-22.42.47:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.17-22.42.47:943][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.17-22.42.47:961][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.17-22.42.47:973][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SIG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.17-22.42.49:628][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.17-22.42.49:631][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.17-22.42.49:827][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.02.17-22.42.49:864][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.02.17-22.42.49:906][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.02.17-22.42.49:906][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.02.17-22.42.49:906][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.17-22.42.50:699][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: cis568vrypaint_lvl, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1258645401
+[2017.02.17-22.42.50:762][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.02.17-22.42.50:812][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.027747 seconds
+[2017.02.17-22.42.50:818][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.02.17-22.42.50:818][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.02.17-22.42.50:818][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.17-22.42.50:876][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.17-22.42.51:579][  0]LogSlate: Using Freetype 2.6.0
+[2017.02.17-22.42.51:586][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.17-22.42.51:586][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.17-22.42.53:175][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.02.17-22.42.53:202][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.17-22.42.53:239][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.17-22.42.53:545][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.17-22.42.53:897][  0]SourceControl: Info Source control is disabled
+[2017.02.17-22.42.53:925][  0]SourceControl: Info Source control is disabled
+[2017.02.17-22.42.53:967][  0]SourceControl: Info Source control is disabled
+[2017.02.17-22.42.54:009][  0]SourceControl: Info Source control is disabled
+[2017.02.17-22.42.55:259][  0]LogEngine: Initializing Engine...
+[2017.02.17-22.42.55:278][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.02.17-22.42.55:278][  0]LogHMD: Oculus plugin initialized. Version: 4.14.3-3249277+++UE4+Release-4.14, LibOVR: 1.10.2, SDK: 1.8.0, built Jan  6 2017, 10:50:26
+[2017.02.17-22.42.55:493][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.17-22.42.55:502][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.17-22.42.55:638][  0]LogInit: FAudioDevice initialized.
+[2017.02.17-22.42.55:663][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/SIG/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.17-22.42.55:671][  0]LogInit: Texture streaming: Enabled
+[2017.02.17-22.42.55:843][  0]LogInit: Transaction tracking system initialized
+[2017.02.17-22.42.56:152][  0]BlueprintLog: New page: Editor Load
+[2017.02.17-22.42.56:958][  0]LocalizationService: Info Localization service is disabled
+[2017.02.17-22.42.57:557][  0]LogConsoleResponse:Display: 
+[2017.02.17-22.42.57:674][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.17-22.42.57:674][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.17-22.42.58:482][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/' took 0.02s
+[2017.02.17-22.42.58:524][  0]SourceControl: Info Source control is disabled
+[2017.02.17-22.42.58:524][  0]Cmd: MAP LOAD FILE="../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.17-22.42.58:525][  0]LightingResults: New page: Lighting Build
+[2017.02.17-22.42.58:561][  0]MapCheck: New page: Map Check
+[2017.02.17-22.42.58:561][  0]LightingResults: New page: Lighting Build
+[2017.02.17-22.42.59:387][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: FirstPersonExampleMap, Actor: /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.DESTROYED_Bow_C_CHILDACTOR_126
+[2017.02.17-22.42.59:401][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.17-22.42.59:517][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.17-22.42.59:518][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.17-22.42.59:562][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.403ms to complete.
+[2017.02.17-22.42.59:562][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.038
+[2017.02.17-22.42.59:705][  0]LogCollectionManager: Loaded 0 collections in 0.002188 seconds
+[2017.02.17-22.42.59:783][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Saved/Collections/' took 0.01s
+[2017.02.17-22.42.59:783][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/Developers/SIG/Collections/' took 0.01s
+[2017.02.17-22.42.59:783][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/Collections/' took 0.01s
+[2017.02.17-22.42.59:783][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.02.17-22.42.59:791][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2204 classes and 434 folders.
+[2017.02.17-22.42.59:832][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.17-22.42.59:832][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.17-22.42.59:833][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.02.17-22.42.59:893][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.02.17-22.43.00:074][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.02.17-22.43.00:115][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.02.17-22.43.00:217][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.17-22.43.00:222][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.17-22.43.00:283][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.02.17-22.43.00:283][  0]LogLoad: (Engine Initialization) Total time: 20.65 seconds
+[2017.02.17-22.43.00:283][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
+[2017.02.17-22.43.00:283][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.17-22.43.00:283][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.17-22.43.00:292][  0]LogOcInput: OculusInput pre-init called
+[2017.02.17-22.43.00:302][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.10.2
+[2017.02.17-22.43.00:325][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.17-22.43.00:470][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.02.17-22.43.00:539][  1]LogAssetRegistry: Asset discovery search completed in 9.7996 seconds
+[2017.02.17-22.43.00:539][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.02.17-22.43.00:539][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2017.02.17-22.43.49:874][744]Cmd: DELETE
+[2017.02.17-22.43.49:874][744]Cmd: ACTOR DELETE
+[2017.02.17-22.43.49:879][744]LogEditorActor: Deleted Actor: Brush
+[2017.02.17-22.43.49:905][744]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2017.02.17-22.44.22:515][594]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.17-22.44.22:529][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.44.22:529][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.17-22.44.22:529][594]PIE: New page: PIE session: FirstPersonExampleMap (Feb 17, 2017, 12:44:22 PM)
+[2017.02.17-22.44.22:530][594]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.02.17-22.44.22:556][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026148s)
+[2017.02.17-22.44.22:556][594]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.17-22.44.22:557][594]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2017.02.17-22.44.22:557][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027177s)
+[2017.02.17-22.44.22:573][594]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.17-22.44.22:583][594]LogInit: FAudioDevice initialized.
+[2017.02.17-22.44.22:626][594]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.02.17-22.44.22:629][594]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.02.17-17.44.22
+[2017.02.17-22.44.22:630][594]LogWorld: Bringing up level for play took: 0.002281
+[2017.02.17-22.44.22:630][594]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.02.17-22.44.22:667][594]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.02.17-22.44.23:003][594]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.115
+[2017.02.17-22.44.23:004][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.44.39:716][582]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.44.39:778][582]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.44.41:414][744]LogSavePackage: Save=179.59ms
+[2017.02.17-22.44.41:414][744]LogSavePackage: Moving '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Saved/FirstPersonExampleMap87826A8642EB5E56C5B378BCA0DCD6BD.tmp' to '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.02.17-22.44.41:419][744]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.02.17-22.44.41:656][744]LogSavePackage: Save=192.58ms
+[2017.02.17-22.44.41:656][744]LogSavePackage: Moving '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Saved/FirstPersonExampleMap_BuiltDataB0EE476D4E5F6B59094400BFC732615C.tmp' to '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.02.17-22.44.41:657][744]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.02.17-22.45.51:904][ 82]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 111 classes and 0 folders.
+[2017.02.17-22.45.55:840][324]LogRenderer: Reallocating scene render targets to support 1260x900 NumSamples 1 (Frame:35072).
+[2017.02.17-22.48.35:384][528]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Metal_Chrome.M_Metal_Chrome needed to have new flag set bUsedWithSkeletalMesh !
+[2017.02.17-22.48.35:386][528]LogMaterial: Missing cached shader map for material M_Metal_Chrome, compiling. 
+[2017.02.17-22.48.35:438][528]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.17-22.48.48:318][399]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.17-22.48.48:343][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.48.48:344][399]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.17-22.48.48:344][399]LogPlayLevel: [PlayLevel] Compiling ArrowBP before play...
+[2017.02.17-22.48.48:490][399]LogPlayLevel: PlayLevel: Blueprint regeneration took 146 ms (1 blueprints)
+[2017.02.17-22.48.48:490][399]PIE: New page: PIE session: FirstPersonExampleMap (Feb 17, 2017, 12:48:48 PM)
+[2017.02.17-22.48.48:490][399]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.02.17-22.48.48:518][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027329s)
+[2017.02.17-22.48.48:518][399]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.17-22.48.48:519][399]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2017.02.17-22.48.48:519][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028334s)
+[2017.02.17-22.48.48:543][399]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.17-22.48.48:553][399]LogInit: FAudioDevice initialized.
+[2017.02.17-22.48.48:583][399]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.02.17-22.48.48:587][399]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.02.17-17.48.48
+[2017.02.17-22.48.48:587][399]LogWorld: Bringing up level for play took: 0.002101
+[2017.02.17-22.48.48:587][399]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.02.17-22.48.48:924][399]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.035
+[2017.02.17-22.48.48:925][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.49.03:208][632]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.49.03:269][632]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.49.16:138][627]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold needed to have new flag set bUsedWithSkeletalMesh !
+[2017.02.17-22.49.16:140][627]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2017.02.17-22.49.16:172][627]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.17-22.49.22:987][ 29]LogSavePackage: Save=16.88ms
+[2017.02.17-22.49.22:987][ 29]LogSavePackage: Moving '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Saved/M_Metal_GoldCCDEEE814E65BB198A12C9BE6E4CE773.tmp' to '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/StarterContent/Materials/M_Metal_Gold.uasset'
+[2017.02.17-22.49.22:990][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2017.02.17-22.49.24:014][107]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.17-22.49.24:032][107]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.49.24:033][107]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.17-22.49.24:033][107]LogPlayLevel: [PlayLevel] Compiling ArrowBPTeleport before play...
+[2017.02.17-22.49.24:139][107]LogPlayLevel: PlayLevel: Blueprint regeneration took 106 ms (1 blueprints)
+[2017.02.17-22.49.24:139][107]PIE: New page: PIE session: FirstPersonExampleMap (Feb 17, 2017, 12:49:24 PM)
+[2017.02.17-22.49.24:139][107]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.02.17-22.49.24:166][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027124s)
+[2017.02.17-22.49.24:167][107]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.17-22.49.24:167][107]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2017.02.17-22.49.24:167][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028103s)
+[2017.02.17-22.49.24:189][107]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.17-22.49.24:199][107]LogInit: FAudioDevice initialized.
+[2017.02.17-22.49.24:230][107]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.02.17-22.49.24:232][107]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.02.17-17.49.24
+[2017.02.17-22.49.24:233][107]LogWorld: Bringing up level for play took: 0.002031
+[2017.02.17-22.49.24:233][107]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.02.17-22.49.24:564][107]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.325
+[2017.02.17-22.49.24:565][107]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.49.29:906][559]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_0
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.49.29:906][559]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.49.31:263][677]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_1
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.49.31:263][677]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.49.32:682][800]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_2
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.49.32:683][800]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.49.34:312][943]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_3
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.49.34:312][943]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.49.35:761][ 69]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_4
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.49.35:761][ 69]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.49.36:696][151]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_5
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.49.36:696][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.49.38:143][279]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_6
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.49.38:144][279]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.49.38:985][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.49.39:050][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.49.44:461][753]LogSavePackage: Save=23.24ms
+[2017.02.17-22.49.44:461][753]LogSavePackage: Moving '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Saved/ArrowBPTeleport30E7727E43122F5B284253BC141747AE.tmp' to '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.uasset'
+[2017.02.17-22.49.44:463][753]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.uasset
+[2017.02.17-22.49.56:711][670]LogSavePackage: Save=23.19ms
+[2017.02.17-22.49.56:711][670]LogSavePackage: Moving '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Saved/ArrowBPTeleport468B4C5E4AC6C0FF51FEBF9236917A96.tmp' to '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.uasset'
+[2017.02.17-22.49.56:714][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.uasset
+[2017.02.17-22.49.58:249][797]BlueprintLog: New page: Compile ArrowBPTeleport
+[2017.02.17-22.50.00:288][958]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.17-22.50.00:306][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.50.00:306][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.17-22.50.00:306][958]PIE: New page: PIE session: FirstPersonExampleMap (Feb 17, 2017, 12:50:00 PM)
+[2017.02.17-22.50.00:306][958]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.02.17-22.50.00:332][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025406s)
+[2017.02.17-22.50.00:332][958]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.17-22.50.00:332][958]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2017.02.17-22.50.00:332][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026328s)
+[2017.02.17-22.50.00:357][958]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.17-22.50.00:367][958]LogInit: FAudioDevice initialized.
+[2017.02.17-22.50.00:397][958]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.02.17-22.50.00:400][958]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.02.17-17.50.00
+[2017.02.17-22.50.00:400][958]LogWorld: Bringing up level for play took: 0.002141
+[2017.02.17-22.50.00:401][958]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.02.17-22.50.00:739][958]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.15
+[2017.02.17-22.50.00:740][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.50.05:364][371]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_0
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.05:364][371]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.06:470][472]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_1
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.06:470][472]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.08:232][635]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_2
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.08:232][635]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.12:106][993]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_3
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.12:106][993]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.17:034][448]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_4
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.17:034][448]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.19:218][650]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_5
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.19:218][650]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.23:381][ 36]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_6
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.23:381][ 36]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.25:450][229]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_7
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.25:450][229]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.27:511][421]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_8
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.27:511][421]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.31:472][789]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_9
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.31:472][789]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.32:066][845]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_10
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.32:066][845]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.38:347][438]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_11
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.38:347][438]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.42:677][840]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_12
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.42:677][840]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.44:365][997]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_13
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.44:365][997]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.46:182][164]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_14
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.46:182][164]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.48:402][368]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_15
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.48:402][368]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.50:319][547]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_16
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.50:319][547]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.53:669][858]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_17
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.53:669][858]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.56:623][130]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_18
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.56:623][130]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.50.58:464][302]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_19
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.50.58:464][302]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.51.02:415][664]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_20
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.51.02:415][664]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.51.09:460][310]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_21
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.51.09:460][310]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.51.10:905][442]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_22
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.51.10:906][442]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.51.14:712][792]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_23
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.51.14:712][792]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.51.16:389][947]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.51.16:448][947]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.51.18:091][ 59]LogSavePackage: Save=125.30ms
+[2017.02.17-22.51.18:091][ 59]LogSavePackage: Moving '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Saved/FirstPersonExampleMap69D2A63440052FE3CE139D894227DB3C.tmp' to '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.02.17-22.51.18:094][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.02.17-22.51.18:280][ 59]LogSavePackage: Save=144.96ms
+[2017.02.17-22.51.18:280][ 59]LogSavePackage: Moving '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Saved/FirstPersonExampleMap_BuiltData8CFB14BD4A1438E2C453789AA319682E.tmp' to '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.02.17-22.51.18:282][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.02.17-22.51.21:920][346]LogSavePackage: Save=21.78ms
+[2017.02.17-22.51.21:920][346]LogSavePackage: Moving '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Saved/ArrowBP5A73DFBE40042D60AC9509986CC406C7.tmp' to '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Blueprints/Arrow/ArrowBP.uasset'
+[2017.02.17-22.51.21:923][346]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Blueprints/Arrow/ArrowBP.uasset
+[2017.02.17-22.53.55:790][651]LogEditorTransaction: Undo Add Node
+[2017.02.17-22.53.57:480][750]LogEditorTransaction: Undo Move Nodes
+[2017.02.17-22.53.59:746][881]LogSavePackage: Save=75.86ms
+[2017.02.17-22.53.59:746][881]LogSavePackage: Moving '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Saved/FirstPersonCharacterF139033A4315412A6C35C39D99E59DD8.tmp' to '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Blueprints/Bow/FirstPersonCharacter.uasset'
+[2017.02.17-22.53.59:749][881]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Blueprints/Bow/FirstPersonCharacter.uasset
+[2017.02.17-22.59.19:668][854]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.17-22.59.19:689][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.59.19:689][854]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.02.17-22.59.19:689][854]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2017.02.17-22.59.19:909][854]LogPlayLevel: PlayLevel: Blueprint regeneration took 220 ms (1 blueprints)
+[2017.02.17-22.59.19:909][854]PIE: New page: PIE session: FirstPersonExampleMap (Feb 17, 2017, 12:59:19 PM)
+[2017.02.17-22.59.19:909][854]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.02.17-22.59.19:937][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027663s)
+[2017.02.17-22.59.19:938][854]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.02.17-22.59.19:938][854]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2017.02.17-22.59.19:938][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028778s)
+[2017.02.17-22.59.19:962][854]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.17-22.59.19:972][854]LogInit: FAudioDevice initialized.
+[2017.02.17-22.59.20:002][854]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.02.17-22.59.20:005][854]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.02.17-17.59.20
+[2017.02.17-22.59.20:005][854]LogWorld: Bringing up level for play took: 0.002161
+[2017.02.17-22.59.20:006][854]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.02.17-22.59.20:342][854]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.453
+[2017.02.17-22.59.20:343][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-22.59.28:799][548]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_0
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.28:799][548]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.29:266][586]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_1
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.29:266][586]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.29:838][634]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_2
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.29:838][634]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.30:348][676]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_3
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.30:348][676]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.30:754][710]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_4
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.30:754][710]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.31:285][754]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_5
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.31:286][754]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.31:658][785]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_6
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.31:658][785]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.32:050][818]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_7
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.32:050][818]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.32:426][849]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_8
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.32:426][849]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.32:816][882]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_9
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.32:816][882]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.33:188][913]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_10
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.33:188][913]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.33:669][952]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_11
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.33:669][952]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.33:947][975]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_12
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.33:947][975]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.34:166][993]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_13
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.34:166][993]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.34:457][ 16]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_14
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.34:457][ 16]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.34:720][ 38]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_15
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.34:720][ 38]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.35:186][ 77]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_16
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.35:186][ 77]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.35:824][129]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_17
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.35:824][129]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.36:487][183]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_18
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.36:487][183]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.37:292][249]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_19
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.37:292][249]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.37:966][306]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_20
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.37:966][306]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.38:823][377]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_21
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.38:824][377]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.39:315][417]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_22
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.39:315][417]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.39:521][434]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_23
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.39:521][434]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.39:857][462]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_24
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.39:857][462]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.40:406][507]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_26
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.40:406][507]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.40:956][553]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_27
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.40:957][553]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.41:257][578]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_25
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.41:258][578]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.41:765][619]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_28
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.41:766][619]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.42:539][682]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_29
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.42:539][682]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.43:262][742]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_30
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.43:262][742]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.43:989][802]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_31
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.43:989][802]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.44:653][857]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_32
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.44:653][857]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.44:865][875]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_33
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.44:865][875]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.46:713][ 29]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_34
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.46:713][ 29]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.47:364][ 82]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_35
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.47:364][ 82]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.48:071][142]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_36
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.48:071][142]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.48:669][191]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_37
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.48:669][191]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.49:483][258]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_38
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.49:483][258]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.49:826][287]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_39
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.49:826][287]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.50:380][333]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_40
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.50:380][333]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.53:003][552]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_41
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.53:003][552]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.55:040][722]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_42
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.55:040][722]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.56:448][839]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_43
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.56:448][839]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.57:138][897]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_44
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.57:138][897]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-22.59.58:457][  6]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+	ArrowBPTeleport_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ArrowBPTeleport_C_45
+	Function /Game/FirstPersonBP/Blueprints/Arrow/ArrowBPTeleport.ArrowBPTeleport_C:ExecuteUbergraph_ArrowBPTeleport:0179
+[2017.02.17-22.59.58:457][  6]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character from function: 'ExecuteUbergraph_ArrowBPTeleport' from node: Set TeleportArrowPresent in graph: EventGraph in object: ArrowBPTeleport with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character
+[2017.02.17-23.00.03:076][393]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-23.00.03:156][393]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.02.17-23.01.38:823][958]LogSavePackage: Save=23.95ms
+[2017.02.17-23.01.38:823][958]LogSavePackage: Moving '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Saved/FloorBP57CC04914C0D363BB1979FAF93943034.tmp' to '../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Blueprints/Floor/FloorBP.uasset'
+[2017.02.17-23.01.38:825][958]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Documents/Unreal Projects/CIS568VRYPaint_lvl/Content/FirstPersonBP/Blueprints/Floor/FloorBP.uasset
+[2017.02.17-23.02.18:411][960]LogClass:Warning: Type mismatch in corner1 of SKEL_FloorBP_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.02.17-23.02.31:614][474]LogTexture:Display: Building textures: HDRI_Epic_Courtyard_Daylight (RGBA16F)
+[2017.02.17-23.02.39:723][475]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.02.17-23.02.39:723][475]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.17-23.02.40:146][475]LogTexture:Display: Building textures: T_DeadLeavesAtlas_01_N (BC5)
+[2017.02.17-23.02.41:928][475]LogTexture:Display: Building textures: T_DeadLeavesAtlas_01_D (AutoDXT)
+[2017.02.17-23.02.48:035][475]LogTexture:Display: Building textures: T_DeadLeavesAtlasTop_01_D (AutoDXT)
+[2017.02.17-23.02.52:448][475]LogMaterial: Missing cached shader map for material M_DeadLeaves, compiling. 
+[2017.02.17-23.02.52:620][475]LogTexture:Display: Building textures: LUT_Daytime (BGRA8)
+[2017.02.17-23.02.52:800][475]LogTexture:Display: Building textures: T_MacroVariation (AutoDXT)
+[2017.02.17-23.02.55:113][475]LogTexture:Display: Building textures: T_Ground_Grass_N (BC5)
+[2017.02.17-23.02.55:545][475]LogStaticMesh: Building static mesh SM_Fern_01...
+[2017.02.17-23.02.55:590][475]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.02.17-23.02.55:624][475]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.02.17-23.02.55:710][475]LogStaticMesh: Built static mesh [0.16s] /Game/KiteDemo/Environments/Foliage/Ferns/SM_Fern_01.SM_Fern_01
+[2017.02.17-23.02.55:863][475]LogTexture:Display: Building textures: T_Fern_01_D (AutoDXT)
+[2017.02.17-23.02.57:053][475]LogTexture:Display: Building textures: T_Fern_01_N (BC5)
+[2017.02.17-23.02.57:473][475]LogTexture:Display: Building textures: T_Ice_Noise_N (BC5)
+[2017.02.17-23.02.57:707][475]LogTexture:Display: Building textures: T_TilingNoise06_N (BC5)
+[2017.02.17-23.02.58:131][475]LogTexture:Display: Building textures: T_Water_Screen_Noise_Soft2 (AutoDXT)
+[2017.02.17-23.02.58:349][475]LogMaterial: Missing cached shader map for material M_Fern_01, compiling. 
+[2017.02.17-23.02.58:596][475]LogTexture:Display: Building textures: BogMyrtleBush_01_Atlas_Billboards_Normal_Tex (BC5)
+[2017.02.17-23.02.58:972][475]LogStaticMesh: Building static mesh BogMyrtleBush_01...
+[2017.02.17-23.02.59:357][475]LogStaticMesh: Built static mesh [0.38s] /Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01.BogMyrtleBush_01
+[2017.02.17-23.02.59:463][475]LogTexture:Display: Building textures: BogMyrtle_01_Atlas_Billboards_Tex (AutoDXT)
+[2017.02.17-23.03.00:597][475]LogTexture:Display: Building textures: BogMyrtle_01_Atlas_Billboards_Normal_Tex (BC5)
+[2017.02.17-23.03.00:940][475]LogMaterial: Missing cached shader map for material BogMyrtle_01_Billboard_Mat, compiling. 
+[2017.02.17-23.03.01:159][475]LogTexture:Display: Building textures: BogMyrtleBush_01_Atlas_Billboards_Tex (AutoDXT)
+[2017.02.17-23.03.02:605][475]LogTexture:Display: Building textures: BogMyrtle_01_Atlas_Tex (AutoDXT)
+[2017.02.17-23.03.05:910][475]LogTexture:Display: Building textures: BogMyrtle_01_Atlas_Normal_Tex (BC5)
+[2017.02.17-23.03.07:795][475]LogTexture:Display: Building textures: T_BogMyrtleBtm_01_D (AutoDXT)
+[2017.02.17-23.03.10:802][475]LogTexture:Display: Building textures: T_BogMyrtleBtm_01_N (BC5)
+[2017.02.17-23.03.12:359][475]LogMaterial: Missing cached shader map for material BogMyrtle_01_Fronds_Mat, compiling. 
+[2017.02.17-23.03.12:464][475]LogStaticMesh: Building static mesh BogMyrtleBush_02...
+[2017.02.17-23.03.12:475][475]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.02.17-23.03.13:318][475]LogStaticMesh: Built static mesh [0.85s] /Game/KiteDemo/Environments/Foliage/BogMyrtleBush_02/BogMyrtleBush_02.BogMyrtleBush_02
+[2017.02.17-23.03.13:488][475]LogTexture:Display: Building textures: BogMyrtleBush_02_Atlas_Billboards_Tex (AutoDXT)
+[2017.02.17-23.03.14:822][475]LogTexture:Display: Building textures: BogMyrtleBush_02_Atlas_Billboards_Normal_Tex (BC5)
+[2017.02.17-23.03.21:048][475]LogTexture:Display: Building textures: D_Tree_Stump_01_D_R (AutoDXT)
+[2017.02.17-23.03.50:730][475]LogTexture:Display: Building textures: D_Tree_Stump_01_N (BC5)
+[2017.02.17-23.03.56:395][475]LogStaticMesh: Building static mesh BogMyrtle_01...
+[2017.02.17-23.03.56:604][475]LogStaticMesh: Built static mesh [0.21s] /Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01.BogMyrtle_01
+[2017.02.17-23.03.57:356][475]LogTexture:Display: Building textures: T_GDC_Tiling_LeafpathStones_N (BC5)
+[2017.02.17-23.03.59:182][475]LogTexture:Display: Building textures: T_GDC_Tiling_LeafPathStones_H (AutoDXT)
+[2017.02.17-23.04.07:459][475]LogTexture:Display: Building textures: T_Tile_PebblyRiverbank_D_R (AutoDXT)
+[2017.02.17-23.04.47:787][475]LogTexture:Display: Building textures: T_MountainRock_N (BC5)
+[2017.02.17-23.05.01:275][475]LogTexture:Display: Building textures: T_MountainRock_D (AutoDXT)
+[2017.02.17-23.05.30:112][475]LogTexture:Display: Building textures: T_GDC_Tiling_LeafPathStones_D_R (AutoDXT)
+[2017.02.17-23.05.39:792][475]LogTexture:Display: Building textures: T_GDC_Grass01_D_NoisyAlpha (AutoDXT)
+[2017.02.17-23.05.45:093][475]LogTexture:Display: Building textures: T_Tile_PebblyRiverbank_N (BC5)
+[2017.02.17-23.05.52:372][475]LogTexture:Display: Building textures: T_Tile_PebblyRiverbank_H (AutoDXT)
+[2017.02.17-23.06.00:722][475]LogMaterial: Missing cached shader map for material M_AssetPlatform_Grass, compiling. 
+[2017.02.17-23.06.00:819][475]LogMaterial: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2017.02.17-23.06.00:998][475]LogTexture:Display: Building textures: HDRI_Epic_Courtyard_Daylight (RGBA16F)
+[2017.02.17-23.06.10:170][475]LogStaticMesh: Building static mesh SM_FieldGrass_01...
+[2017.02.17-23.06.10:184][475]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.02.17-23.06.10:244][475]LogStaticMesh: Built static mesh [0.07s] /Game/KiteDemo/Environments/Foliage/Grass/FieldGrass/SM_FieldGrass_01.SM_FieldGrass_01
+[2017.02.17-23.06.10:248][475]LogActorComponent: UnregisterComponent: (/Game/KiteDemo/Maps/Showcase.Showcase:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0) Not registered. Aborting.
+[2017.02.17-23.06.10:252][475]LogStaticMesh: Building static mesh SM_Yarrow...
+[2017.02.17-23.06.10:357][475]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.02.17-23.06.10:437][475]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.02.17-23.06.10:470][475]LogStaticMesh: Built static mesh [0.22s] /Game/KiteDemo/Environments/Foliage/Flowers/Yarrow/SM_Yarrow.SM_Yarrow
+[2017.02.17-23.06.10:474][475]LogActorComponent: UnregisterComponent: (/Game/KiteDemo/Maps/Showcase.Showcase:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_1) Not registered. Aborting.
+[2017.02.17-23.06.10:476][475]LogStaticMesh: Building static mesh SM_Yarrow3...
+[2017.02.17-23.06.10:489][475]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.02.17-23.06.10:696][475]LogStaticMesh: Built static mesh [0.22s] /Game/KiteDemo/Environments/Foliage/Flowers/Yarrow/SM_Yarrow3.SM_Yarrow3
+[2017.02.17-23.06.10:700][475]LogActorComponent: UnregisterComponent: (/Game/KiteDemo/Maps/Showcase.Showcase:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_2) Not registered. Aborting.
+[2017.02.17-23.06.10:701][475]LogStaticMesh: Building static mesh SM_Buttercup_Patch_01...
+[2017.02.17-23.06.10:807][475]LogStaticMesh: Built static mesh [0.11s] /Game/KiteDemo/Environments/Foliage/Flowers/Buttercup/SM_Buttercup_Patch_01.SM_Buttercup_Patch_01
+[2017.02.17-23.06.10:810][475]LogActorComponent: UnregisterComponent: (/Game/KiteDemo/Maps/Showcase.Showcase:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_3) Not registered. Aborting.
+[2017.02.17-23.06.10:810][475]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/KiteDemo/Maps/Showcase.Showcase:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_0.
+[2017.02.17-23.06.10:810][475]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/KiteDemo/Maps/Showcase.Showcase:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_1.
+[2017.02.17-23.06.10:810][475]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/KiteDemo/Maps/Showcase.Showcase:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_2.
+[2017.02.17-23.06.10:810][475]LogStaticMesh:Warning: Rebuilding hierarchical instanced mesh component, please resave map HierarchicalInstancedStaticMeshComponent /Game/KiteDemo/Maps/Showcase.Showcase:PersistentLevel.InstancedFoliageActor_0.HierarchicalInstancedStaticMeshComponent_4.
+[2017.02.17-23.06.11:186][475]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.02.17-23.06.15:056][475]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2017.02.17-23.06.15:084][475]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2017.02.17-23.06.15:108][475]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2017.02.17-23.06.15:133][475]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2017.02.17-23.06.15:153][475]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.02.17-23.06.15:296][475]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.02.17-23.06.15:343][475]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2017.02.17-23.06.15:396][475]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2017.02.17-23.06.15:462][475]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2017.02.17-23.06.15:489][475]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2017.02.17-23.06.15:512][475]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2017.02.17-23.06.15:543][475]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2017.02.17-23.06.15:952][475]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.02.17-23.06.19:258][475]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2017.02.17-23.06.19:287][475]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2017.02.17-23.06.19:309][475]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2017.02.17-23.06.19:331][475]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2017.02.17-23.06.19:349][475]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.02.17-23.06.19:479][475]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2017.02.17-23.06.19:520][475]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2017.02.17-23.06.19:562][475]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2017.02.17-23.06.19:620][475]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2017.02.17-23.06.19:642][475]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2017.02.17-23.06.19:663][475]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2017.02.17-23.06.19:691][475]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2017.02.17-23.06.20:035][475]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.02.17-23.06.22:275][475]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2017.02.17-23.06.22:293][475]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2017.02.17-23.06.22:308][475]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2017.02.17-23.06.22:323][475]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2017.02.17-23.06.22:339][475]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.02.17-23.06.22:433][475]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2017.02.17-23.06.22:459][475]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2017.02.17-23.06.22:496][475]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2017.02.17-23.06.22:541][475]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2017.02.17-23.06.22:558][475]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2017.02.17-23.06.22:570][475]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2017.02.17-23.06.22:592][475]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2017.02.17-23.06.23:769][475]LogTexture:Display: Building textures: KimsBackYard (RGBA16F)
+[2017.02.17-23.08.31:320][475]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2017.02.17-23.08.31:915][475]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2017.02.17-23.08.32:005][475]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2017.02.17-23.08.32:012][475]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2017.02.17-23.08.32:019][475]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2017.02.17-23.08.32:040][475]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2017.02.17-23.08.32:046][475]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2017.02.17-23.08.32:161][475]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2017.02.17-23.08.32:646][475]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (BGRA8)
+[2017.02.17-23.08.32:743][475]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (BGRA8)
+[2017.02.17-23.08.32:762][475]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (BGRA8)
+[2017.02.17-23.08.32:769][475]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (BGRA8)
+[2017.02.17-23.08.32:774][475]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (BGRA8)
+[2017.02.17-23.08.32:776][475]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (BGRA8)
+[2017.02.17-23.08.32:779][475]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (BGRA8)
+[2017.02.17-23.08.32:785][475]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (BGRA8)
+[2017.02.17-23.08.32:787][475]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2017.02.17-23.08.32:789][475]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (BGRA8)
+[2017.02.17-23.08.32:791][475]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (BGRA8)
+[2017.02.17-23.08.32:792][475]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (BGRA8)
+[2017.02.17-23.08.32:798][475]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2017.02.17-23.08.32:802][475]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2017.02.17-23.08.32:807][475]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2017.02.17-23.08.32:809][475]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2017.02.17-23.08.32:997][475]LogStaticMesh: Building static mesh HillTree_Tall_02...
+[2017.02.17-23.08.33:021][475]LogWindows: Windows GetLastError: The operation completed successfully. (0)
