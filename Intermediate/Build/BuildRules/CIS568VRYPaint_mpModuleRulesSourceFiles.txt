@@ -1,0 +1,2 @@
+C:\Users\SIG\Documents\Unreal Projects\CIS568VRYPaint_mp\Plugins\VictoryUMG14\Source\VictoryUMG\VictoryUMG.Build.cs
+C:\Users\SIG\Documents\Unreal Projects\CIS568VRYPaint_mp\Intermediate\Source\CIS568VRYPaint_mp.Target.cs
