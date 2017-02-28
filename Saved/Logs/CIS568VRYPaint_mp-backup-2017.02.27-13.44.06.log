@@ -1,0 +1,1263 @@
+﻿Log file open, 02/26/17 23:59:15
+LogInit:Display: Running engine for game: CIS568VRYPaint_mp
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1821699980) SRandInit(1821699980).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.076422
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.11.0(build = 343615) feature version = 0. Client runs version (prod = 1).1.11.0(build = 343615) feature version = 0
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.27-04.59.16:324][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.27-04.59.16:324][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.27-04.59.16:334][  0]LogInit: Computer: SIGLAB-VR2
+[2017.02.27-04.59.16:334][  0]LogInit: User: SIG
+[2017.02.27-04.59.16:334][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.27-04.59.16:334][  0]LogInit: High frequency timer resolution =3.604928 MHz
+[2017.02.27-04.59.16:334][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.02.27-04.59.16:334][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.27-04.59.16:334][  0]LogMemory: Process Physical Memory: 271.95 MB used, 271.95 MB peak
+[2017.02.27-04.59.16:334][  0]LogMemory: Process Virtual Memory: 266.06 MB used, 266.06 MB peak
+[2017.02.27-04.59.16:334][  0]LogMemory: Physical Memory: 5604.98 MB used,  27085.42 MB free, 32690.41 MB total
+[2017.02.27-04.59.16:334][  0]LogMemory: Virtual Memory: 718.04 MB used,  27085.42 MB free, 134217728.00 MB total
+[2017.02.27-04.59.16:358][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.27-04.59.16:856][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.27-04.59.16:881][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.02.27-04.59.16:881][  0]LogD3D11RHI:       8120/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.02.27-04.59.16:881][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.27-04.59.16:881][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.27-04.59.16:881][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.27-04.59.16:886][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.27-04.59.16:886][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.27-04.59.16:886][  0]LogWindows: EnumDisplayDevices:
+[2017.02.27-04.59.16:886][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.02.27-04.59.16:886][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.02.27-04.59.16:886][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.02.27-04.59.16:886][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.02.27-04.59.16:886][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.02.27-04.59.16:886][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.02.27-04.59.16:886][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.02.27-04.59.16:886][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.02.27-04.59.16:886][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.27-04.59.16:897][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.27-04.59.16:908][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.02.27-04.59.16:908][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Intermediate/Shaders/WorkingDirectory/6092/).
+[2017.02.27-04.59.16:908][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SIG/AppData/Local/Temp/UnrealShaderWorkingDir/FAF404944F3FBF7DB9DAD4B86B5164C8/'.
+[2017.02.27-04.59.16:908][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.27-04.59.17:784][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.27-04.59.17:829][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.02.27-04.59.17:874][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.02.27-04.59.17:919][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.02.27-04.59.17:964][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.02.27-04.59.18:008][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.27-04.59.18:053][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.27-04.59.18:097][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.27-04.59.18:134][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.27-04.59.18:177][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.27-04.59.18:219][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.27-04.59.18:262][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.27-04.59.18:304][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.27-04.59.18:347][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.27-04.59.18:389][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.27-04.59.18:476][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.27-04.59.18:476][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.27-04.59.18:506][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.27-04.59.18:577][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.27-04.59.18:605][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.27-04.59.18:647][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.27-04.59.18:690][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.27-04.59.18:733][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.27-04.59.18:777][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.27-04.59.18:777][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.27-04.59.19:110][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.27-04.59.19:161][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/SIG/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.27-04.59.19:161][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SIG/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.02.27-04.59.19:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.27-04.59.19:161][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.27-04.59.19:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.27-04.59.19:161][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.27-04.59.19:176][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.27-04.59.19:188][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SIG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.27-04.59.19:355][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.27-04.59.19:357][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.27-04.59.19:540][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.02.27-04.59.19:576][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.02.27-04.59.19:614][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.02.27-04.59.19:614][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.02.27-04.59.19:614][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.27-04.59.20:033][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: cis568vrypaint_mp, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3560575784
+[2017.02.27-04.59.20:085][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.02.27-04.59.20:126][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021880 seconds
+[2017.02.27-04.59.20:131][  0]LogUObjectArray: 31953 objects as part of root set at end of initial load.
+[2017.02.27-04.59.20:131][  0]LogUObjectAllocator: 7149664 out of 0 bytes used by permanent object pool.
+[2017.02.27-04.59.20:131][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.27-04.59.20:767][  0]LogSlate: Using Freetype 2.6.0
+[2017.02.27-04.59.20:768][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.27-04.59.20:768][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.27-04.59.21:449][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.02.27-04.59.21:475][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.27-04.59.21:510][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.27-04.59.21:771][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.27-04.59.22:079][  0]SourceControl: Info Source control is disabled
+[2017.02.27-04.59.22:100][  0]SourceControl: Info Source control is disabled
+[2017.02.27-04.59.22:137][  0]SourceControl: Info Source control is disabled
+[2017.02.27-04.59.22:174][  0]SourceControl: Info Source control is disabled
+[2017.02.27-04.59.23:209][  0]LogEngine: Initializing Engine...
+[2017.02.27-04.59.23:965][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(260792ll)
+[2017.02.27-04.59.23:965][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.02.27-04.59.23:965][  0]LogHMD: Oculus plugin initialized. Version: 4.14.3-3249277+++UE4+Release-4.14, LibOVR: 1.11.0, SDK: 1.8.0, built Jan  6 2017, 10:50:26
+[2017.02.27-04.59.24:066][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(260792ll)
+[2017.02.27-04.59.24:167][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.27-04.59.24:180][  0]LogInit: XAudio2 using 'HTC-VIVE-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.27-04.59.24:196][  0]LogInit: FAudioDevice initialized.
+[2017.02.27-04.59.24:220][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/SIG/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.27-04.59.24:228][  0]LogInit: Texture streaming: Enabled
+[2017.02.27-04.59.24:392][  0]LogInit: Transaction tracking system initialized
+[2017.02.27-04.59.24:694][  0]BlueprintLog: New page: Editor Load
+[2017.02.27-04.59.25:424][  0]LocalizationService: Info Localization service is disabled
+[2017.02.27-04.59.25:953][  0]LogConsoleResponse:Display: 
+[2017.02.27-04.59.26:064][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.27-04.59.26:064][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.27-04.59.26:084][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/' took 0.01s
+[2017.02.27-04.59.26:843][  0]SourceControl: Info Source control is disabled
+[2017.02.27-04.59.26:843][  0]Cmd: MAP LOAD FILE="../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.27-04.59.26:844][  0]LightingResults: New page: Lighting Build
+[2017.02.27-04.59.26:877][  0]MapCheck: New page: Map Check
+[2017.02.27-04.59.26:877][  0]LightingResults: New page: Lighting Build
+[2017.02.27-04.59.27:100][  0]LogAIModule: Creating AISystem for world Lobby
+[2017.02.27-04.59.27:104][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.27-04.59.27:105][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.27-04.59.27:139][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.536ms to complete.
+[2017.02.27-04.59.27:139][  0]LogFileHelpers: Loading map 'Lobby' took 0.296
+[2017.02.27-04.59.27:267][  0]LogCollectionManager: Loaded 1 collections in 0.002097 seconds
+[2017.02.27-04.59.27:338][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Collections/' took 0.01s
+[2017.02.27-04.59.27:338][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/Developers/SIG/Collections/' took 0.01s
+[2017.02.27-04.59.27:338][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/Collections/' took 0.01s
+[2017.02.27-04.59.27:338][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000003 seconds
+[2017.02.27-04.59.27:338][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.02.27-04.59.27:346][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2206 classes and 437 folders.
+[2017.02.27-04.59.27:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.27-04.59.27:379][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.27-04.59.27:380][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.02.27-04.59.27:432][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.02.27-04.59.27:462][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.02.27-04.59.27:497][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.02.27-04.59.27:561][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.27-04.59.27:565][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.27-04.59.27:623][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.02.27-04.59.27:624][  0]LogLoad: (Engine Initialization) Total time: 13.20 seconds
+[2017.02.27-04.59.27:624][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.02.27-04.59.27:624][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.27-04.59.27:624][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.27-04.59.27:963][  0]LogOcInput: OculusInput pre-init called
+[2017.02.27-04.59.27:973][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.11.0
+[2017.02.27-04.59.27:992][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.27-04.59.28:122][  0]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:2).
+[2017.02.27-04.59.28:302][  1]LogAssetRegistry: Asset discovery search completed in 8.2384 seconds
+[2017.02.27-04.59.28:302][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000005 seconds (found 0 objects)
+[2017.02.27-04.59.28:302][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000015 seconds (updated 0 objects)
+[2017.02.27-04.59.31:185][ 19]LogContentBrowser: Native class hierarchy updated for 'DestructibleMeshEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.02.27-04.59.31:638][ 19]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2017.02.27-04.59.32:163][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Flag2'
+[2017.02.27-04.59.32:163][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Flag2' while loading ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall3/Flag.uasset.
+[2017.02.27-04.59.32:164][ 19]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Assets/stall3/Flag : Can't find file for asset. /Game/FirstPersonBP/Blueprints/Assets/stall3/Flag2
+[2017.02.27-04.59.32:164][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Flag2'
+[2017.02.27-04.59.32:164][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Flag2' while loading ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall3/Flag.uasset.
+[2017.02.27-04.59.32:164][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Metal'
+[2017.02.27-04.59.32:164][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Metal' while loading ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1_DM.uasset.
+[2017.02.27-04.59.32:164][ 19]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1_DM : Can't find file for asset. /Game/FirstPersonBP/Blueprints/Assets/stall3/Metal
+[2017.02.27-04.59.32:164][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood1'
+[2017.02.27-04.59.32:164][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood1' while loading ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1_DM.uasset.
+[2017.02.27-04.59.32:164][ 19]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1_DM : Can't find file for asset. /Game/FirstPersonBP/Blueprints/Assets/stall3/Wood1
+[2017.02.27-04.59.32:164][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood3'
+[2017.02.27-04.59.32:164][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood3' while loading ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1_DM.uasset.
+[2017.02.27-04.59.32:165][ 19]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1_DM : Can't find file for asset. /Game/FirstPersonBP/Blueprints/Assets/stall3/Wood3
+[2017.02.27-04.59.32:165][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Metal'
+[2017.02.27-04.59.32:165][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Metal' while loading ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1_DM.uasset.
+[2017.02.27-04.59.32:165][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1'
+[2017.02.27-04.59.32:165][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1' while loading ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1_DM.uasset.
+[2017.02.27-04.59.32:165][ 19]LoadErrors:Error: Error /Game/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1_DM : Can't find file for asset. /Game/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1
+[2017.02.27-04.59.32:165][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood1'
+[2017.02.27-04.59.32:165][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood1' while loading ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1_DM.uasset.
+[2017.02.27-04.59.32:165][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood3'
+[2017.02.27-04.59.32:165][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood3' while loading ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1_DM.uasset.
+[2017.02.27-04.59.32:165][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1'
+[2017.02.27-04.59.32:165][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1' while loading ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1_DM.uasset.
+[2017.02.27-04.59.32:175][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Flag2'
+[2017.02.27-04.59.32:175][ 19]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Assets/stall3/Flag2.Flag2 Referenced by MaterialExpressionTextureSample_0
+[2017.02.27-04.59.32:175][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Flag2' while loading NULL.
+[2017.02.27-04.59.32:176][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Flag2'
+[2017.02.27-04.59.32:176][ 19]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Assets/stall3/Flag2.Flag2 Referenced by MaterialExpressionTextureSample_1
+[2017.02.27-04.59.32:176][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Flag2' while loading NULL.
+[2017.02.27-04.59.32:176][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood1'
+[2017.02.27-04.59.32:176][ 19]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Assets/stall3/Wood1.Wood1 Referenced by DestructibleFractureSettings_0
+[2017.02.27-04.59.32:176][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood1' while loading NULL.
+[2017.02.27-04.59.32:176][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood3'
+[2017.02.27-04.59.32:176][ 19]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Assets/stall3/Wood3.Wood3 Referenced by DestructibleFractureSettings_0
+[2017.02.27-04.59.32:176][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood3' while loading NULL.
+[2017.02.27-04.59.32:176][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Metal'
+[2017.02.27-04.59.32:176][ 19]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Assets/stall3/Metal.Metal Referenced by DestructibleFractureSettings_0
+[2017.02.27-04.59.32:176][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Metal' while loading NULL.
+[2017.02.27-04.59.32:176][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1'
+[2017.02.27-04.59.32:177][ 19]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1.TradeTent1 Referenced by TradeTent1_DM
+[2017.02.27-04.59.32:177][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/TradeTent1' while loading NULL.
+[2017.02.27-04.59.32:177][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood1'
+[2017.02.27-04.59.32:177][ 19]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Assets/stall3/Wood1.Wood1 Referenced by TradeTent1_DM
+[2017.02.27-04.59.32:177][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood1' while loading NULL.
+[2017.02.27-04.59.32:177][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood3'
+[2017.02.27-04.59.32:177][ 19]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Assets/stall3/Wood3.Wood3 Referenced by TradeTent1_DM
+[2017.02.27-04.59.32:177][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Wood3' while loading NULL.
+[2017.02.27-04.59.32:177][ 19]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/stall3/Metal'
+[2017.02.27-04.59.32:177][ 19]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/Assets/stall3/Metal.Metal Referenced by TradeTent1_DM
+[2017.02.27-04.59.32:177][ 19]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/Assets/stall3/Metal' while loading NULL.
+[2017.02.27-04.59.32:196][ 19]LogMaterial: Missing cached shader map for material Flag, compiling. 
+[2017.02.27-04.59.32:197][ 19]LogMaterial:Warning: Failed to compile Material /Game/FirstPersonBP/Blueprints/Assets/stall3/Flag.Flag for platform PCD3D_SM5, Default Material will be used in game.
+[2017.02.27-04.59.32:197][ 19]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.02.27-04.59.32:406][ 19]LogMaterial:Warning: Material /Game/FirstPersonBP/Blueprints/Assets/stall/city_stall_M_INST.city_stall_M_INST needed to have new flag set bUsedWithSkeletalMesh !
+[2017.02.27-04.59.32:407][ 19]LogMaterial: Missing cached shader map for material city_stall_M_INST, compiling. 
+[2017.02.27-04.59.32:449][ 19]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-04.59.39:471][668]LogRenderer: Reallocating scene render targets to support 1208x932 NumSamples 1 (Frame:414).
+[2017.02.27-05.00.19:331][770]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SIG\Desktop\New folder (2)\Fruits\Go_DIFF.jpg)
+[2017.02.27-05.00.19:337][770]LogTexture:Display: Building textures: Go_DIFF (BGRA8)
+[2017.02.27-05.00.19:356][770]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SIG\Desktop\New folder (2)\Fruits\APPLE1.jpg)
+[2017.02.27-05.00.19:365][770]LogTexture:Display: Building textures: APPLE1 (AutoDXT)
+[2017.02.27-05.00.19:636][770]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SIG\Desktop\New folder (2)\Fruits\APPLE2.bmp)
+[2017.02.27-05.00.19:639][770]LogTexture:Display: Building textures: APPLE2 (AutoDXT)
+[2017.02.27-05.00.19:674][770]LogAssetTools:Warning: Failed to import 'C:\Users\SIG\Desktop\New folder (2)\Fruits\Fruits.3ds'. Unknown extension '3ds'.
+[2017.02.27-05.00.19:681][770]LogAssetTools:Warning: Failed to import 'C:\Users\SIG\Desktop\New folder (2)\Fruits\Fruits.mtl'. Unknown extension 'mtl'.
+[2017.02.27-05.00.19:690][770]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\SIG\Desktop\New folder (2)\Fruits\Fruits.obj)
+[2017.02.27-05.00.19:714][770]LogFbx: Loading FBX Scene from C:\Users\SIG\Desktop\New folder (2)\Fruits\Fruits.obj
+[2017.02.27-05.00.19:960][770]LogFbx: FBX Scene Loaded Succesfully
+[2017.02.27-05.00.21:474][770]LogFbx: Loading FBX Scene from C:\Users\SIG\Desktop\New folder (2)\Fruits\Fruits.obj
+[2017.02.27-05.00.21:719][770]LogFbx: FBX Scene Loaded Succesfully
+[2017.02.27-05.00.21:723][770]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/_null_Mat'
+[2017.02.27-05.00.21:723][770]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/_null_Mat'
+[2017.02.27-05.00.21:727][770]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.00.21:737][770]LogFbx:Warning: Triangulating static mesh (null)
+[2017.02.27-05.00.25:354][770]LogStaticMesh: Building static mesh Fruits...
+[2017.02.27-05.00.25:894][770]LogStaticMesh: Built static mesh [0.54s] /Game/FirstPersonBP/Blueprints/Assets/Fruits.Fruits
+[2017.02.27-05.00.26:076][770]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SIG\Desktop\New folder (2)\Fruits\Go_BUMP.jpg)
+[2017.02.27-05.00.26:081][770]LogTexture:Display: Building textures: Go_BUMP (BGRA8)
+[2017.02.27-05.00.32:192][388]LogRenderer: Reallocating scene render targets to support 1432x932 NumSamples 1 (Frame:2642).
+[2017.02.27-05.00.37:332][971]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.00.37:402][971]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.00.37:410][971]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.00.37:436][971]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.00.38:172][ 14]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.00.38:172][ 14]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.00.38:172][ 14]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.00.40:202][233]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.00.40:210][233]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.00.40:825][276]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.00.40:825][276]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.00.40:825][276]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.00.43:451][554]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.00.43:458][554]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.00.43:460][554]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.02.27-05.00.43:490][554]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.02.27-05.00.44:096][594]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.00.44:096][594]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.00.44:096][594]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.00.46:218][840]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.00.46:226][840]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.00.46:251][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.02.27-05.00.46:897][886]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2017.02.27-05.00.46:897][886]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.02.27-05.00.46:897][886]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.02.27-05.00.53:197][594]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.00.53:205][594]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.00.53:206][594]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.02.27-05.00.53:237][594]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.02.27-05.00.53:242][594]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.02.27-05.00.54:447][697]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.00.54:455][697]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.00.54:484][697]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.02.27-05.00.54:638][707]LogMaterialEditor: Saving and Compiling material _null_Mat
+[2017.02.27-05.00.55:148][707]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.00.55:164][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.00.55:183][707]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.00.55:203][707]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.00.55:221][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.00.56:842][707]LogSavePackage: Save=14.96ms
+[2017.02.27-05.00.56:842][707]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/_null_Mat30CBC2B541704A5B514E58B7A86B4F95.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/_null_Mat.uasset'
+[2017.02.27-05.00.56:844][707]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/_null_Mat.uasset
+[2017.02.27-05.00.56:847][707]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2017.02.27-05.00.56:847][707]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.02.27-05.00.56:847][707]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.02.27-05.01.29:346][130]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.02.27-05.01.29:895][130]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.01.29:896][130]LogMaterial:Warning: Failed to compile Material /Game/FirstPersonBP/Blueprints/Assets/_null_Mat._null_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.02.27-05.01.29:896][130]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.02.27-05.01.29:896][130]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (1 / 0)
+[2017.02.27-05.01.29:898][130]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.01.29:898][130]LogMaterial:Warning: Failed to compile Material /Game/FirstPersonBP/Blueprints/Assets/_null_Mat._null_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.02.27-05.01.29:898][130]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.02.27-05.01.29:931][130]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_7' or package '/Engine/Transient'.
+[2017.02.27-05.01.29:933][130]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.01.29:933][130]LogMaterial:Warning: Failed to compile Material /Engine/Transient._null_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.02.27-05.01.29:933][130]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.02.27-05.01.29:935][130]LogMaterial: Missing cached shader map for material _null_Mat, compiling. 
+[2017.02.27-05.01.29:935][130]LogMaterial:Warning: Failed to compile Material /Engine/Transient._null_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.02.27-05.01.29:935][130]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.02.27-05.01.29:935][130]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object '_null_Mat' or package '/Engine/Transient'.
+[2017.02.27-05.01.29:935][130]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_0' or package '/Engine/Transient'.
+[2017.02.27-05.01.29:936][130]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_1' or package '/Engine/Transient'.
+[2017.02.27-05.01.52:457][352]LogAssetTools:Warning: Failed to import 'C:\Users\SIG\Desktop\New folder (2)\Apples\Apples.mtl'. Unknown extension 'mtl'.
+[2017.02.27-05.01.52:461][352]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\SIG\Desktop\New folder (2)\Apples\Apples.obj)
+[2017.02.27-05.01.52:471][352]LogFbx: Loading FBX Scene from C:\Users\SIG\Desktop\New folder (2)\Apples\Apples.obj
+[2017.02.27-05.01.52:576][352]LogFbx: FBX Scene Loaded Succesfully
+[2017.02.27-05.01.53:651][352]LogFbx: Loading FBX Scene from C:\Users\SIG\Desktop\New folder (2)\Apples\Apples.obj
+[2017.02.27-05.01.53:759][352]LogFbx: FBX Scene Loaded Succesfully
+[2017.02.27-05.01.53:761][352]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/Copper'
+[2017.02.27-05.01.53:761][352]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/Copper'
+[2017.02.27-05.01.53:765][352]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.01.53:777][352]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/Material__26'
+[2017.02.27-05.01.53:777][352]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/Material__26'
+[2017.02.27-05.01.53:780][352]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.01.53:793][352]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/Material__25'
+[2017.02.27-05.01.53:794][352]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/Material__25'
+[2017.02.27-05.01.53:799][352]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2017.02.27-05.01.53:832][352]LogStaticMesh: Building static mesh Apples...
+[2017.02.27-05.01.53:962][352]LogStaticMesh: Built static mesh [0.13s] /Game/FirstPersonBP/Blueprints/Assets/Apples.Apples
+[2017.02.27-05.01.54:042][352]LogAssetTools:Warning: Failed to import 'C:\Users\SIG\Desktop\New folder (2)\Apples\Apples.3DS'. Unknown extension '3DS'.
+[2017.02.27-05.02.07:768][908]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.02.07:806][908]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.02.07:813][908]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.02.07:838][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.02.08:493][946]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.02.08:493][946]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.02.08:493][946]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.02.17:600][950]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.02.17:608][950]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.02.17:637][950]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.02.18:307][998]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.02.18:307][998]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.02.18:307][998]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.02.48:597][533]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.02.48:652][533]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.02.48:661][533]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.02.48:687][533]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.02.49:607][594]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.02.49:607][594]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.02.49:607][594]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.02.54:688][156]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.02.54:696][156]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.02.54:724][156]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.02.55:369][200]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.02.55:369][200]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.02.55:369][200]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.02.57:103][387]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.02.57:111][387]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.02.57:139][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.02.57:817][437]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.02.57:817][437]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.02.57:817][437]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.02.59:460][616]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.02.59:468][616]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.02.59:493][616]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.00:154][663]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.00:154][663]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.00:154][663]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.03.00:845][739]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.00:853][739]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.00:879][739]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.01:536][786]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.01:536][786]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.01:536][786]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.03.02:615][902]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.02:623][902]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.02:649][902]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.03:314][951]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.03:314][951]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.03:314][951]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.03.04:107][ 43]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.04:116][ 43]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.04:143][ 43]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.04:802][ 90]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.04:802][ 90]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.04:802][ 90]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.03.10:459][736]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.02.27-05.03.10:462][736]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.10:472][736]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.10:480][736]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.10:506][736]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.10:518][736]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.03.10:530][736]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.10:988][762]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.02.27-05.03.10:991][762]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.11:008][762]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.11:019][762]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.11:049][762]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.11:055][762]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.03.11:067][762]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.11:433][787]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.02.27-05.03.11:437][787]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.11:451][787]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.11:464][787]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.11:494][787]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.11:501][787]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.03.11:514][787]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.12:331][844]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.12:331][844]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.12:331][844]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.03.12:930][889]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.12:930][889]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.12:930][889]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.03.13:185][917]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.02.27-05.03.13:187][917]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.13:197][917]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.13:206][917]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.13:231][917]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.13:238][917]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.03.13:250][917]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.13:887][962]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.13:887][962]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.13:887][962]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.03.14:443][  2]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.02.27-05.03.14:447][  2]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.14:459][  2]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.14:470][  2]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.14:496][  2]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.14:503][  2]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.03.14:514][  2]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.15:250][ 54]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.15:250][ 54]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.15:250][ 54]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.03.15:896][102]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.02.27-05.03.15:899][102]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.15:909][102]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.15:917][102]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.15:943][102]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.15:951][102]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.03.15:965][102]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.16:620][148]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.16:620][148]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.16:620][148]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.03.17:076][181]LogMaterialEditor: Saving and Compiling material Material__26
+[2017.02.27-05.03.17:518][181]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.17:534][181]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.17:547][181]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.17:564][181]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.17:582][181]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.19:206][181]LogSavePackage: Save=13.09ms
+[2017.02.27-05.03.19:206][181]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__26C8B8107C452A9CFDB6D6669B77D88DD8.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Material__26.uasset'
+[2017.02.27-05.03.19:208][181]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Material__26.uasset
+[2017.02.27-05.03.19:210][181]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.19:211][181]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.19:211][181]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.03.19:211][181]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2017.02.27-05.03.19:211][181]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.19:211][181]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.02.27-05.03.22:715][573]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2017.02.27-05.03.22:782][573]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2017.02.27-05.03.22:790][573]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.22:816][573]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.23:451][612]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.23:451][612]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.23:451][612]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.03.28:030][120]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2017.02.27-05.03.28:038][120]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.28:066][120]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.29:603][270]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2017.02.27-05.03.29:611][270]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.29:635][270]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.35:744][968]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2017.02.27-05.03.35:752][968]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.35:778][968]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.36:447][ 14]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.36:447][ 14]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.36:447][ 14]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.03.57:424][636]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.03.57:432][636]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.03.57:457][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.03.58:344][707]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.03.58:344][707]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.03.58:344][707]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.04.02:772][222]Cmd: TRANSACTION UNDO
+[2017.02.27-05.04.02:772][222]LogEditorTransaction: Undo Modify Color Picker Value
+[2017.02.27-05.04.02:774][222]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.04.02:789][222]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2017.02.27-05.04.02:797][222]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.02:804][222]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.04.02:817][222]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.02:841][222]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.04.02:848][222]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.04.02:858][222]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.03:596][268]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.04.03:596][268]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.04.03:596][268]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.04.04:122][305]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.04.04:122][305]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.04.04:122][305]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.04.06:003][332]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.04.06:018][332]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.06:034][332]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.04.06:055][332]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.04.06:070][332]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.06:197][332]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.04.06:197][332]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.04.06:197][332]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.04.09:023][437]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2017.02.27-05.04.09:038][437]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.09:051][437]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2017.02.27-05.04.09:069][437]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2017.02.27-05.04.09:085][437]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.13:281][854]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.04.13:289][854]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.13:320][854]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.04.13:948][901]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.04.13:948][901]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.04.13:948][901]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.04.24:461][822]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.04.24:469][822]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.24:500][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.04.25:102][866]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.04.25:102][866]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.04.25:102][866]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.04.26:135][987]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.04.26:143][987]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.26:170][987]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.04.26:801][ 34]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.04.26:801][ 34]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.04.26:801][ 34]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.04.35:344][725]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.04.35:352][725]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.35:377][725]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.04.36:008][772]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2017.02.27-05.04.36:008][772]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.04.36:008][772]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.04.39:440][163]LogSavePackage: Save=12.34ms
+[2017.02.27-05.04.39:440][163]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Apples67216E574347321B0F1D5CA7DACAFF69.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Apples.uasset'
+[2017.02.27-05.04.39:442][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Apples.uasset
+[2017.02.27-05.04.43:905][465]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.04.43:921][465]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.43:934][465]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.04.43:952][465]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.04.43:967][465]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.52:655][442]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.02.27-05.04.52:721][442]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.02.27-05.04.52:729][442]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.52:759][442]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.04.53:344][478]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2017.02.27-05.04.53:344][478]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.04.53:344][478]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.04.54:220][573]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.02.27-05.04.54:228][573]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.54:845][623]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.04.54:845][623]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.04.54:845][623]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.04.55:877][739]LogMaterialEditor: Saving and Compiling material Copper
+[2017.02.27-05.04.56:274][739]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.02.27-05.04.56:290][739]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.56:305][739]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.04.56:325][739]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.04.56:343][739]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.04.57:900][739]LogSavePackage: Save=11.85ms
+[2017.02.27-05.04.57:900][739]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Copper90CCB20A485393EDD9AFE28B8A662052.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Copper.uasset'
+[2017.02.27-05.04.57:902][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Copper.uasset
+[2017.02.27-05.04.57:906][739]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2017.02.27-05.04.57:906][739]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.04.57:906][739]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.02.27-05.05.05:039][528]LogSavePackage: Save=12.50ms
+[2017.02.27-05.05.05:039][528]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__2628851C6F480A895A4845AAA3537FB4F4.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Apple/Material__26.uasset'
+[2017.02.27-05.05.05:041][528]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Apple/Material__26.uasset
+[2017.02.27-05.05.05:066][528]LogSavePackage: Save=12.20ms
+[2017.02.27-05.05.05:066][528]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/ApplesD39B33FA423239D8202E41A0C606B6BA.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Apple/Apples.uasset'
+[2017.02.27-05.05.05:068][528]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Apple/Apples.uasset
+[2017.02.27-05.05.05:097][528]LogSavePackage: Save=11.83ms
+[2017.02.27-05.05.05:097][528]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Copper984314844552D831B70FD6B8F964577D.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Apple/Copper.uasset'
+[2017.02.27-05.05.05:099][528]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Apple/Copper.uasset
+[2017.02.27-05.05.05:126][528]LogSavePackage: Save=12.28ms
+[2017.02.27-05.05.05:126][528]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__259BDA3ED544AA483B8E01FEAC584F4BEB.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Apple/Material__25.uasset'
+[2017.02.27-05.05.05:128][528]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Apple/Material__25.uasset
+[2017.02.27-05.05.08:533][872]LogSavePackage: Save=12.38ms
+[2017.02.27-05.05.08:533][872]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__252AE6F0344FD6AE3CFEE7CCA4186E8D9C.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__25.uasset'
+[2017.02.27-05.05.08:535][872]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__25.uasset
+[2017.02.27-05.05.08:559][872]LogSavePackage: Save=12.18ms
+[2017.02.27-05.05.08:559][872]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__26D604068445290DD7D0184482F65111C7.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__26.uasset'
+[2017.02.27-05.05.08:561][872]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__26.uasset
+[2017.02.27-05.05.08:584][872]LogSavePackage: Save=11.44ms
+[2017.02.27-05.05.08:584][872]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Copper6C175B5F46724B598E156FB721A012A7.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Copper.uasset'
+[2017.02.27-05.05.08:586][872]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Copper.uasset
+[2017.02.27-05.05.08:611][872]LogSavePackage: Save=12.34ms
+[2017.02.27-05.05.08:611][872]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Apples10C0FE434A55841470C44B8BF60B7395.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Apples.uasset'
+[2017.02.27-05.05.08:613][872]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Apples.uasset
+[2017.02.27-05.05.14:794][532]LogDestructible:Warning: MainMesh Tris: 11238
+[2017.02.27-05.05.15:411][532]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2017.02.27-05.05.15:412][532]LogApexDestructibleAssetImport:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2017.02.27-05.05.15:450][532]LogSkeletalMesh: Section 0: 1291 vertices, 1 active bones
+[2017.02.27-05.05.15:450][532]LogSkeletalMesh: Section 1: 1400 vertices, 1 active bones
+[2017.02.27-05.05.15:451][532]LogSkeletalMesh: Section 2: 3976 vertices, 1 active bones
+[2017.02.27-05.05.15:459][532]LogSkeletalMesh: Section 0: Material=0, 2550 triangles
+[2017.02.27-05.05.15:459][532]LogSkeletalMesh: Section 1: Material=1, 1984 triangles
+[2017.02.27-05.05.15:459][532]LogSkeletalMesh: Section 2: Material=2, 6704 triangles
+[2017.02.27-05.05.15:473][532]LogMaterial:Warning: Material /Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Copper.Copper needed to have new flag set bUsedWithSkeletalMesh !
+[2017.02.27-05.05.15:473][532]LogMaterial:Warning: Material /Engine/Transient.PreviewMaterial_0 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.02.27-05.05.15:476][532]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.02.27-05.05.15:498][532]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.05.15:499][532]LogMaterial: Missing cached shader map for material Copper, compiling. 
+[2017.02.27-05.05.15:528][532]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.05.15:528][532]LogMaterial:Warning: Material /Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__26.Material__26 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.02.27-05.05.15:530][532]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.05.15:566][532]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.05.15:566][532]LogMaterial:Warning: Material /Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__25.Material__25 needed to have new flag set bUsedWithSkeletalMesh !
+[2017.02.27-05.05.15:568][532]LogMaterial: Missing cached shader map for material Material__25, compiling. 
+[2017.02.27-05.05.15:607][532]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.05.20:807][929]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2017.02.27-05.05.20:807][929]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.05.20:807][929]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.02.27-05.05.33:680][277]LogDestructible:Warning: MainMesh Tris: 11238
+[2017.02.27-05.06.02:229][277]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.14+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\ConvexHullBuilder.cpp 318) eINTERNAL_ERROR : Gu::ConvexMesh::checkHullPolygons: Some hull vertices seems to be too far from hull planes.
+[2017.02.27-05.06.02:229][277]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.14+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\ConvexMeshBuilder.cpp 304) eINTERNAL_ERROR : Gu::ConvexMesh::loadConvexHull: convex hull init failed!
+[2017.02.27-05.06.02:965][277]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.14+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\ConvexHullBuilder.cpp 318) eINTERNAL_ERROR : Gu::ConvexMesh::checkHullPolygons: Some hull vertices seems to be too far from hull planes.
+[2017.02.27-05.06.02:965][277]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.14+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\ConvexMeshBuilder.cpp 304) eINTERNAL_ERROR : Gu::ConvexMesh::loadConvexHull: convex hull init failed!
+[2017.02.27-05.06.07:036][277]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2017.02.27-05.06.07:049][277]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2017.02.27-05.06.07:367][277]LogSkeletalMesh: Section 0: 17265 vertices, 21 active bones
+[2017.02.27-05.06.07:367][277]LogSkeletalMesh: Section 1: 8104 vertices, 11 active bones
+[2017.02.27-05.06.07:370][277]LogSkeletalMesh: Section 2: 23224 vertices, 25 active bones
+[2017.02.27-05.06.07:371][277]LogSkeletalMesh: Section 3: 15845 vertices, 25 active bones
+[2017.02.27-05.06.07:475][277]LogSkeletalMesh: Section 0: Material=0, 20067 triangles
+[2017.02.27-05.06.07:475][277]LogSkeletalMesh: Section 1: Material=1, 10183 triangles
+[2017.02.27-05.06.07:475][277]LogSkeletalMesh: Section 2: Material=2, 29989 triangles
+[2017.02.27-05.06.07:475][277]LogSkeletalMesh: Section 3: Material=3, 13749 triangles
+[2017.02.27-05.06.17:532][331]LogSavePackage: Save=389.14ms
+[2017.02.27-05.06.17:532][331]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Apples_DM31114FB94278C03D1B934E9C538F4D29.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Apples_DM.uasset'
+[2017.02.27-05.06.17:534][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Apples_DM.uasset
+[2017.02.27-05.06.32:192][  0]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/ApllePlateBP1.SKEL_ApllePlateBP1_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/BoxBP1.PackageMetaData'
+[2017.02.27-05.06.32:192][  0]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/ApllePlateBP1.ApllePlateBP1_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/BoxBP1.PackageMetaData'
+[2017.02.27-05.06.32:220][  0]LogSavePackage: Save=14.05ms
+[2017.02.27-05.06.32:220][  0]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/ApllePlateBP110E0990B48BC774A0344779EFB686F30.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/ApllePlateBP1.uasset'
+[2017.02.27-05.06.32:222][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/ApllePlateBP1.uasset
+[2017.02.27-05.06.57:477][596]LogSavePackage: Save=373.09ms
+[2017.02.27-05.06.57:477][596]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Apples_DM032A5B624D37230DAFF36EB8CB85F19B.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Apples_DM.uasset'
+[2017.02.27-05.06.57:480][596]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Apples_DM.uasset
+[2017.02.27-05.15.27:970][969]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/Lobby' took 0.017
+[2017.02.27-05.15.27:971][969]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/Assets/stall/stall1BP1] ([1] browsable assets)...
+[2017.02.27-05.15.27:971][969]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Assets/stall/stall1BP1]
+[2017.02.27-05.15.27:992][969]LogSavePackage: Save=13.82ms
+[2017.02.27-05.15.27:992][969]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/stall1BP1_Auto1955F06364A89AB266FDE39A844F17748.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/stall/stall1BP1_Auto1.uasset'
+[2017.02.27-05.15.27:993][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/stall/stall1BP1_Auto1.uasset
+[2017.02.27-05.15.27:994][969]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/Assets/stall/city_stall_M_INST] ([1] browsable assets)...
+[2017.02.27-05.15.28:009][969]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FirstPersonBP/Blueprints/Assets/stall/city_stall_M_INST.city_stall_M_INST]
+[2017.02.27-05.15.28:009][969]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Assets/stall/city_stall_M_INST]
+[2017.02.27-05.15.28:029][969]LogSavePackage: Save=13.78ms
+[2017.02.27-05.15.28:029][969]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/city_stall_M_INST_Auto11FA07CD041183F4424862184E21F4E5C.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/stall/city_stall_M_INST_Auto1.uasset'
+[2017.02.27-05.15.28:029][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/stall/city_stall_M_INST_Auto1.uasset
+[2017.02.27-05.15.28:034][969]LogSavePackage: Save=2.85ms
+[2017.02.27-05.15.28:034][969]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__25_Auto138BAEBBD4BC6D684BAFFF5BB2D10A1F9.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/Material__25_Auto1.uasset'
+[2017.02.27-05.15.28:035][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/Material__25_Auto1.uasset
+[2017.02.27-05.15.28:035][969]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Copper] ([1] browsable assets)...
+[2017.02.27-05.15.28:035][969]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Copper]
+[2017.02.27-05.15.28:046][969]LogSavePackage: Save=4.34ms
+[2017.02.27-05.15.28:046][969]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Copper_Auto17B13CDDF49A4BBDB3E364E8B31BF527F.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Copper_Auto1.uasset'
+[2017.02.27-05.15.28:047][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Copper_Auto1.uasset
+[2017.02.27-05.15.28:047][969]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__25] ([1] browsable assets)...
+[2017.02.27-05.15.28:047][969]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__25]
+[2017.02.27-05.15.28:058][969]LogSavePackage: Save=4.41ms
+[2017.02.27-05.15.28:058][969]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__25_Auto116041D4F42FF209BFD496BA510A0FFD3.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__25_Auto1.uasset'
+[2017.02.27-05.15.28:059][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__25_Auto1.uasset
+[2017.02.27-05.15.28:059][969]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__26] ([1] browsable assets)...
+[2017.02.27-05.15.28:059][969]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__26]
+[2017.02.27-05.15.28:070][969]LogSavePackage: Save=4.11ms
+[2017.02.27-05.15.28:070][969]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__26_Auto1231886984EF02D19702AC4A6A6AD82D1.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__26_Auto1.uasset'
+[2017.02.27-05.15.28:071][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__26_Auto1.uasset
+[2017.02.27-05.15.28:076][969]LogSavePackage: Save=2.77ms
+[2017.02.27-05.15.28:076][969]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/BoxBP1_Auto1CADDC00E497D2DE5469C4597171E31B7.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/BoxBP1_Auto1.uasset'
+[2017.02.27-05.15.28:077][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/BoxBP1_Auto1.uasset
+[2017.02.27-05.15.28:077][969]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/ApllePlateBP1] ([1] browsable assets)...
+[2017.02.27-05.15.28:077][969]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/ApllePlateBP1]
+[2017.02.27-05.15.28:097][969]LogSavePackage: Save=12.61ms
+[2017.02.27-05.15.28:097][969]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/ApllePlateBP1_Auto11F78D9A346A5E7C03F12EF85F93D5D05.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/ApllePlateBP1_Auto1.uasset'
+[2017.02.27-05.15.28:098][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Assets/ApplePlate/ApllePlateBP1_Auto1.uasset
+[2017.02.27-05.15.28:098][969]LogFileHelpers: Auto-saving content packages took 0.128
+[2017.02.27-05.15.52:994][222]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\SIG\Desktop\New folder (2)\Apples\Outdoor Furniture_02_fbx.FBX)
+[2017.02.27-05.15.53:026][222]LogFbx: ItemName: Model, ItemCount : 80
+[2017.02.27-05.15.53:026][222]LogFbx: ItemName: Material, ItemCount : 2
+[2017.02.27-05.15.53:026][222]LogFbx: ItemName: Texture, ItemCount : 3
+[2017.02.27-05.15.53:026][222]LogFbx: ItemName: Video, ItemCount : 1
+[2017.02.27-05.15.53:026][222]LogFbx: ItemName: SceneInfo, ItemCount : 1
+[2017.02.27-05.15.53:026][222]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.02.27-05.15.53:030][222]LogFbx: Loading FBX Scene from C:\Users\SIG\Desktop\New folder (2)\Apples\Outdoor Furniture_02_fbx.FBX
+[2017.02.27-05.15.53:092][222]LogFbx: FBX Scene Loaded Succesfully
+[2017.02.27-05.15.54:354][222]LogFbx: Loading FBX Scene from C:\Users\SIG\Desktop\New folder (2)\Apples\Outdoor Furniture_02_fbx.FBX
+[2017.02.27-05.15.54:417][222]LogFbx: FBX Scene Loaded Succesfully
+[2017.02.27-05.15.54:423][222]LogFbx:Warning: Triangulating static mesh Arch_Object_04
+[2017.02.27-05.15.54:466][222]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2017.02.27-05.15.54:478][222]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/Material__26'
+[2017.02.27-05.15.54:478][222]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/Assets/Material__26'
+[2017.02.27-05.15.54:480][222]LogMaterial: Missing cached shader map for material Material__26, compiling. 
+[2017.02.27-05.15.54:492][222]LogFbx:Warning: Triangulating static mesh Arch_Object_09
+[2017.02.27-05.15.54:543][222]LogFbx:Warning: Triangulating static mesh Arch_Object_18
+[2017.02.27-05.15.54:629][222]LogFbx:Warning: Triangulating static mesh Arch_Object_13
+[2017.02.27-05.15.54:679][222]LogFbx:Warning: Triangulating static mesh Arch_Object_17
+[2017.02.27-05.15.54:774][222]LogFbx:Warning: Triangulating static mesh Arch_Object_15
+[2017.02.27-05.15.54:829][222]LogFbx:Warning: Triangulating static mesh Arch_Object_19
+[2017.02.27-05.15.54:927][222]LogFbx:Warning: Triangulating static mesh Arch_Object_06
+[2017.02.27-05.15.54:937][222]LogFbx:Warning: Triangulating static mesh Arch_Object_03
+[2017.02.27-05.15.55:036][222]LogFbx:Warning: Triangulating static mesh Arch_Object_02
+[2017.02.27-05.15.55:064][222]LogFbx:Warning: Triangulating static mesh Arch_Object_16
+[2017.02.27-05.15.55:091][222]LogFbx:Warning: Triangulating static mesh Arch_Object_14
+[2017.02.27-05.15.55:120][222]LogFbx:Warning: Triangulating static mesh Arch_Object_35
+[2017.02.27-05.15.55:226][222]LogFbx:Warning: Triangulating static mesh Arch_Object_36
+[2017.02.27-05.15.55:280][222]LogFbx:Warning: Triangulating static mesh Arch_Object_37
+[2017.02.27-05.15.55:379][222]LogFbx:Warning: Triangulating static mesh Arch_Object_38
+[2017.02.27-05.15.55:435][222]LogFbx:Warning: Triangulating static mesh Arch_Object_39
+[2017.02.27-05.15.55:534][222]LogFbx:Warning: Triangulating static mesh Arch_Object_40
+[2017.02.27-05.15.55:587][222]LogFbx:Warning: Triangulating static mesh Arch_Object_41
+[2017.02.27-05.15.55:687][222]LogFbx:Warning: Triangulating static mesh Arch_Object_42
+[2017.02.27-05.15.55:695][222]LogFbx:Warning: Triangulating static mesh Arch_Object_43
+[2017.02.27-05.15.55:723][222]LogFbx:Warning: Triangulating static mesh Arch_Object_44
+[2017.02.27-05.15.55:750][222]LogFbx:Warning: Triangulating static mesh Arch_Object_45
+[2017.02.27-05.15.55:779][222]LogFbx:Warning: Triangulating static mesh Arch_Object_20
+[2017.02.27-05.15.55:879][222]LogFbx:Warning: Triangulating static mesh Arch_Object_21
+[2017.02.27-05.15.55:983][222]LogFbx:Warning: Triangulating static mesh Arch_Object_22
+[2017.02.27-05.15.56:083][222]LogFbx:Warning: Triangulating static mesh Arch_Object_23
+[2017.02.27-05.15.56:176][222]LogFbx:Warning: Triangulating static mesh Arch_Object_24
+[2017.02.27-05.15.56:262][222]LogFbx:Warning: Triangulating static mesh Arch_Object_25
+[2017.02.27-05.15.56:346][222]LogFbx:Warning: Triangulating static mesh Arch_Object_26
+[2017.02.27-05.15.56:428][222]LogFbx:Warning: Triangulating static mesh Arch_Object_27
+[2017.02.27-05.15.56:511][222]LogFbx:Warning: Triangulating static mesh Arch_Object_28
+[2017.02.27-05.15.56:594][222]LogFbx:Warning: Triangulating static mesh Arch_Object_29
+[2017.02.27-05.15.56:676][222]LogFbx:Warning: Triangulating static mesh Arch_Object_30
+[2017.02.27-05.15.56:722][222]LogFbx:Warning: Triangulating static mesh Arch_Object_33
+[2017.02.27-05.15.56:766][222]LogFbx:Warning: Triangulating static mesh Arch_Object_34
+[2017.02.27-05.15.56:778][222]LogFbx:Warning: Triangulating static mesh Arch_Object_31
+[2017.02.27-05.15.56:800][222]LogFbx:Warning: Triangulating static mesh Arch_Object_32
+[2017.02.27-05.15.56:824][222]LogFbx:Warning: Triangulating static mesh Arch_Object_48
+[2017.02.27-05.15.56:867][222]LogFbx:Warning: Triangulating static mesh Arch_Object_54
+[2017.02.27-05.15.56:871][222]LogFbx:Warning: Triangulating static mesh Arch_Object_57
+[2017.02.27-05.15.56:894][222]LogFbx:Warning: Triangulating static mesh Arch_Object_60
+[2017.02.27-05.15.56:938][222]LogFbx:Warning: Triangulating static mesh Arch_Object_59
+[2017.02.27-05.15.56:961][222]LogFbx:Warning: Triangulating static mesh Arch_Object_46
+[2017.02.27-05.15.57:012][222]LogFbx:Warning: Triangulating static mesh Arch_Object_61
+[2017.02.27-05.15.57:064][222]LogFbx:Warning: Triangulating static mesh Arch_Object_62
+[2017.02.27-05.15.57:116][222]LogFbx:Warning: Triangulating static mesh Arch_Object_63
+[2017.02.27-05.15.57:167][222]LogFbx:Warning: Triangulating static mesh Arch_Object_64
+[2017.02.27-05.15.57:219][222]LogFbx:Warning: Triangulating static mesh Arch_Object_65
+[2017.02.27-05.15.57:262][222]LogFbx:Warning: Triangulating static mesh Arch_Object_66
+[2017.02.27-05.15.57:267][222]LogFbx:Warning: Triangulating static mesh Arch_Object_67
+[2017.02.27-05.15.57:290][222]LogFbx:Warning: Triangulating static mesh Arch_Object_68
+[2017.02.27-05.15.57:334][222]LogFbx:Warning: Triangulating static mesh Arch_Object_69
+[2017.02.27-05.15.57:357][222]LogFbx:Warning: Triangulating static mesh Arch_Object_70
+[2017.02.27-05.15.57:408][222]LogFbx:Warning: Triangulating static mesh Arch_Object_71
+[2017.02.27-05.15.57:460][222]LogFbx:Warning: Triangulating static mesh Arch_Object_72
+[2017.02.27-05.15.57:511][222]LogFbx:Warning: Triangulating static mesh Arch_Object_77
+[2017.02.27-05.15.57:555][222]LogFbx:Warning: Triangulating static mesh Arch_Object_79
+[2017.02.27-05.15.57:578][222]LogFbx:Warning: Triangulating static mesh Arch_Object_82
+[2017.02.27-05.15.57:601][222]LogFbx:Warning: Triangulating static mesh Arch_Object_83
+[2017.02.27-05.15.57:645][222]LogFbx:Warning: Triangulating static mesh Arch_Object_84
+[2017.02.27-05.15.57:680][222]LogFbx:Warning: Triangulating static mesh Arch_Object_85
+[2017.02.27-05.15.57:715][222]LogFbx:Warning: Triangulating static mesh Arch_Object_86
+[2017.02.27-05.15.57:750][222]LogFbx:Warning: Triangulating static mesh Arch_Object_73
+[2017.02.27-05.15.57:786][222]LogFbx:Warning: Triangulating static mesh Arch_Object_87
+[2017.02.27-05.15.57:821][222]LogFbx:Warning: Triangulating static mesh Arch_Object_88
+[2017.02.27-05.15.57:865][222]LogFbx:Warning: Triangulating static mesh Arch_Object_89
+[2017.02.27-05.15.57:888][222]LogFbx:Warning: Triangulating static mesh Arch_Object_90
+[2017.02.27-05.15.57:911][222]LogFbx:Warning: Triangulating static mesh Arch_Object_91
+[2017.02.27-05.15.57:955][222]LogFbx:Warning: Triangulating static mesh Arch_Object_92
+[2017.02.27-05.15.57:990][222]LogFbx:Warning: Triangulating static mesh Arch_Object_93
+[2017.02.27-05.15.58:025][222]LogFbx:Warning: Triangulating static mesh Arch_Object_94
+[2017.02.27-05.15.58:095][222]LogStaticMesh: Building static mesh Outdoor_Furniture_02_fbx...
+[2017.02.27-05.15.58:863][222]LogStaticMesh: Built static mesh [0.77s] /Game/FirstPersonBP/Blueprints/Assets/Outdoor_Furniture_02_fbx.Outdoor_Furniture_02_fbx
+[2017.02.27-05.15.58:942][222]LogStaticMesh:Warning: Outdoor_Furniture_02_fbx has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.02.27-05.15.58:963][222]FBXImport:Warning: Warning Outdoor_Furniture_02_fbx has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.02.27-05.15.59:065][222]LogAssetTools:Warning: Failed to import 'C:\Users\SIG\Desktop\New folder (2)\Apples\Outdoor Furniture_02_obj.mtl'. Unknown extension 'mtl'.
+[2017.02.27-05.16.12:022][591]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2017.02.27-05.16.12:090][591]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2017.02.27-05.16.12:098][591]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.16.12:125][591]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.16.12:745][629]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.16.12:745][629]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.16.12:745][629]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.16.18:081][239]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2017.02.27-05.16.18:089][239]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.16.18:114][239]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.16.20:146][455]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2017.02.27-05.16.20:154][455]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.16.20:183][455]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.16.20:781][497]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.16.20:781][497]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.16.20:781][497]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.16.37:794][465]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2017.02.27-05.16.37:802][465]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.16.37:826][465]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.02.27-05.16.38:430][509]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.02.27-05.16.38:430][509]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.02.27-05.16.38:430][509]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.02.27-05.17.01:406][994]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2017.02.27-05.17.01:423][994]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.17.01:436][994]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2017.02.27-05.17.01:453][994]LogMaterial: Missing cached shader map for material Wood, compiling. 
+[2017.02.27-05.17.01:470][994]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.27-05.17.12:599][123]LogSavePackage: Save=11.10ms
+[2017.02.27-05.17.12:599][123]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__26DC8CF7094528D0E319C3759D6BCBD6C3.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Table1/Material__26.uasset'
+[2017.02.27-05.17.12:601][123]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Table1/Material__26.uasset
+[2017.02.27-05.17.12:627][123]LogSavePackage: Save=12.18ms
+[2017.02.27-05.17.12:627][123]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Outdoor_Furniture_02_fbx31FDFEF44162A7D169814CAECC4D685A.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Table1/Outdoor_Furniture_02_fbx.uasset'
+[2017.02.27-05.17.12:630][123]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Table1/Outdoor_Furniture_02_fbx.uasset
+[2017.02.27-05.17.12:656][123]LogSavePackage: Save=11.92ms
+[2017.02.27-05.17.12:656][123]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/WoodFA8C005C4B5D5FDD2AA9DF8CBAEA6EED.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Table1/Wood.uasset'
+[2017.02.27-05.17.12:658][123]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Table1/Wood.uasset
+[2017.02.27-05.17.23:260][285]LogEditorTransaction: Undo Modify Component(s)
+[2017.02.27-05.18.27:004][630]LogActorFactory: Actor Factory created Cylinder
+[2017.02.27-05.18.27:229][656]LogActorFactory: Actor Factory created Cylinder
+[2017.02.27-05.18.27:383][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2017.02.27-05.18.29:503][919]Cmd: TRANSACTION UNDO
+[2017.02.27-05.18.29:503][919]LogEditorTransaction: Undo Clicking on Actors
+[2017.02.27-05.18.30:204][990]Cmd: TRANSACTION UNDO
+[2017.02.27-05.18.30:204][990]LogEditorTransaction: Undo Create Actors
+[2017.02.27-05.19.10:296][362]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SIG\Desktop\New folder (2)\Apples\orange\fruit animation\kati.jpg)
+[2017.02.27-05.19.10:387][362]LogTexture:Display: Building textures: kati (AutoDXT)
+[2017.02.27-05.19.12:329][362]LogAssetTools:Warning: Failed to import 'C:\Users\SIG\Desktop\New folder (2)\Apples\orange\fruit animation\orange.c4d'. Unknown extension 'c4d'.
+[2017.02.27-05.19.12:333][362]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SIG\Desktop\New folder (2)\Apples\orange\fruit animation\rex.jpg)
+[2017.02.27-05.19.12:416][362]LogTexture:Display: Building textures: rex (AutoDXT)
+[2017.02.27-05.19.14:212][362]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SIG\Desktop\New folder (2)\Apples\orange\fruit animation\texture orange.jpg)
+[2017.02.27-05.19.14:325][362]LogTexture:Display: Building textures: texture_orange (AutoDXT)
+[2017.02.27-05.20.39:452][100]LogAssetTools:Warning: Failed to import 'C:\Users\SIG\Desktop\New folder\WindowsNoEditor\Raspberries\Rapsberry.3ds'. Unknown extension '3ds'.
+[2017.02.27-05.22.55:182][508]LogSavePackage: Save=14.30ms
+[2017.02.27-05.22.55:182][508]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/ApllePlateBP1CFE324F441DF09CDFF1811AA3EF0BBFF.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/ApllePlateBP1.uasset'
+[2017.02.27-05.22.55:188][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/ApllePlateBP1.uasset
+[2017.02.27-05.22.55:195][508]LogSavePackage: Save=3.41ms
+[2017.02.27-05.22.55:195][508]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/BoxBP1EE36AC714D9EB1A3065C01AB63B17D17.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/BoxBP1.uasset'
+[2017.02.27-05.22.55:201][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/BoxBP1.uasset
+[2017.02.27-05.22.55:215][508]LogSavePackage: Save=4.37ms
+[2017.02.27-05.22.55:215][508]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Copper76BFAA314B593DD4F37934903CD94424.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Copper.uasset'
+[2017.02.27-05.22.55:220][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Copper.uasset
+[2017.02.27-05.22.55:234][508]LogSavePackage: Save=4.12ms
+[2017.02.27-05.22.55:234][508]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__25F68D226147B489C42CD922B1DBC587FE.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__25.uasset'
+[2017.02.27-05.22.55:239][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__25.uasset
+[2017.02.27-05.22.55:252][508]LogSavePackage: Save=4.31ms
+[2017.02.27-05.22.55:252][508]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__2625EF7C5441348D6B070B5CAE9DA284A6.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__26.uasset'
+[2017.02.27-05.22.55:257][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/ApplePlate/Material__26.uasset
+[2017.02.27-05.22.55:264][508]LogSavePackage: Save=3.15ms
+[2017.02.27-05.22.55:264][508]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__25460D447C4F788E0F7D56C8B19F45A8FA.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Material__25.uasset'
+[2017.02.27-05.22.55:269][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Material__25.uasset
+[2017.02.27-05.22.55:275][508]LogSavePackage: Save=3.03ms
+[2017.02.27-05.22.55:275][508]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Material__262060EBF34FD720EBDD566982E535CFF3.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Material__26.uasset'
+[2017.02.27-05.22.55:277][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Material__26.uasset
+[2017.02.27-05.22.55:284][508]LogSavePackage: Save=3.06ms
+[2017.02.27-05.22.55:284][508]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Outdoor_Furniture_02_fbxBF073579421ADE32333460A18235C6E3.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Outdoor_Furniture_02_fbx.uasset'
+[2017.02.27-05.22.55:286][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/Outdoor_Furniture_02_fbx.uasset
+[2017.02.27-05.22.55:300][508]LogSavePackage: Save=4.68ms
+[2017.02.27-05.22.55:300][508]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/city_stall_M_INST93EABB7D40D5924C21F60FB83542892C.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall/city_stall_M_INST.uasset'
+[2017.02.27-05.22.55:304][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall/city_stall_M_INST.uasset
+[2017.02.27-05.22.55:327][508]LogSavePackage: Save=13.57ms
+[2017.02.27-05.22.55:327][508]LogSavePackage: Moving '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/stall1BP19391A6D149E37753C9B88CB7FCEBB5BB.tmp' to '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall/stall1BP1.uasset'
+[2017.02.27-05.22.55:331][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/FirstPersonBP/Blueprints/Assets/stall/stall1BP1.uasset
+[2017.02.27-05.22.55:514][508]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.27-05.22.55:714][509]Cmd: QUIT_EDITOR
+[2017.02.27-05.22.55:771][509]LogExit: Preparing to exit.
+[2017.02.27-05.22.56:073][509]LogDirectoryWatcher: A directory notification for 'C:/Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/' was aborted.
+[2017.02.27-05.22.56:100][509]LogExit: Editor shut down
+[2017.02.27-05.22.56:101][509]LogExit: Transaction tracking system shut down
+[2017.02.27-05.22.56:286][509]LogObj: Freed 0b from 0 cluster array pools.
+[2017.02.27-05.22.56:286][509]LogExit: Object subsystem successfully closed.
+[2017.02.27-05.22.56:307][509]LogD3D11RHI: Shutdown
+[2017.02.27-05.22.56:307][509]LogD3D11RHI: CleanupD3DDevice
+[2017.02.27-05.22.56:412][509]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.02.27-05.22.56:422][509]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.02.27-05.22.56:422][509]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B179AE79D-4607-487D-EA9E-12BC8D6DAC48%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=7e93ef12497a2351dc5eed8d87531828%7Cb2d0766a672e4947b2b9fe909f7f5253%7C88a06740-65ed-4850-9d98-4b8996ea80b4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.02.27-05.22.56:439][509]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (250)
+[2017.02.27-05.22.56:439][509]LogModuleManager: Shutting down and abandoning module MaterialEditor (249)
+[2017.02.27-05.22.56:439][509]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (248)
+[2017.02.27-05.22.56:439][509]LogModuleManager: Shutting down and abandoning module BlueprintGraph (247)
+[2017.02.27-05.22.56:439][509]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (246)
+[2017.02.27-05.22.56:439][509]LogModuleManager: Shutting down and abandoning module DestructibleMeshEditor (245)
+[2017.02.27-05.22.56:439][509]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (244)
+[2017.02.27-05.22.56:439][509]LogModuleManager: Shutting down and abandoning module CrashTracker (243)
+[2017.02.27-05.22.56:439][509]LogModuleManager: Shutting down and abandoning module SceneOutliner (242)
+[2017.02.27-05.22.56:439][509]LogModuleManager: Shutting down and abandoning module WidgetCarousel (241)
+[2017.02.27-05.22.56:439][509]LogModuleManager: Shutting down and abandoning module AddContentDialog (240)
+[2017.02.27-05.22.56:439][509]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module GameplayTags (239)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module EditorWidgets (238)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module CollectionManager (237)
+[2017.02.27-05.22.56:440][509]LogDirectoryWatcher: A directory notification for 'C:/Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/Collections/' was aborted.
+[2017.02.27-05.22.56:440][509]LogDirectoryWatcher: A directory notification for 'C:/Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/Developers/SIG/Collections/' was aborted.
+[2017.02.27-05.22.56:440][509]LogDirectoryWatcher: A directory notification for 'C:/Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Saved/Collections/' was aborted.
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module StatsViewer (236)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module FoliageEdit (235)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module LandscapeEditor (234)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (233)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module ActorPickerMode (232)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module GeometryMode (231)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module TextureAlignMode (230)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module BspMode (229)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module HardwareSurvey (228)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (227)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module AutomationWorker (226)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (225)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module PlacementMode (224)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (223)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (222)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (221)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (220)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (219)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module Media (218)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (217)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (216)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module CharacterAI (215)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module SequenceRecorder (214)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module AudioCapture (213)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module SmartSnapping (212)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module SessionServices (211)
+[2017.02.27-05.22.56:440][509]LogModuleManager: Shutting down and abandoning module ViewportSnapping (210)
+[2017.02.27-05.22.56:441][509]LogModuleManager: Shutting down and abandoning module ViewportInteraction (209)
+[2017.02.27-05.22.56:441][509]LogModuleManager: Shutting down and abandoning module LogVisualizer (208)
+[2017.02.27-05.22.56:441][509]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (207)
+[2017.02.27-05.22.56:441][509]LogModuleManager: Shutting down and abandoning module IntroTutorials (206)
+[2017.02.27-05.22.56:441][509]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (205)
+[2017.02.27-05.22.56:441][509]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (204)
+[2017.02.27-05.22.56:441][509]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (203)
+[2017.02.27-05.22.56:441][509]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (202)
+[2017.02.27-05.22.57:174][509]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (201)
+[2017.02.27-05.22.57:174][509]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (200)
+[2017.02.27-05.22.57:174][509]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (199)
+[2017.02.27-05.22.57:174][509]LogModuleManager: Shutting down and abandoning module InputBindingEditor (198)
+[2017.02.27-05.22.57:174][509]LogModuleManager: Shutting down and abandoning module NiagaraEditor (197)
+[2017.02.27-05.22.57:174][509]LogModuleManager: Shutting down and abandoning module MergeActors (196)
+[2017.02.27-05.22.57:174][509]LogModuleManager: Shutting down and abandoning module SizeMap (195)
+[2017.02.27-05.22.57:174][509]LogModuleManager: Shutting down and abandoning module TreeMap (194)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module ReferenceViewer (193)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module LocalizationService (192)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (191)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module HardwareTargeting (190)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (189)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module UndoHistory (188)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module UserFeedback (187)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module XmlParser (186)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module Blutility (185)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (184)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (183)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (182)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module SettingsEditor (181)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module ProjectLauncher (180)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module SessionFrontend (179)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module ProfilerClient (178)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (177)
+[2017.02.27-05.22.57:175][509]LogModuleManager: Shutting down and abandoning module DeviceManager (176)
+[2017.02.27-05.22.57:229][509]LogModuleManager: Shutting down and abandoning module AutomationController (175)
+[2017.02.27-05.22.57:229][509]LogModuleManager: Shutting down and abandoning module AutomationWindow (174)
+[2017.02.27-05.22.57:229][509]LogModuleManager: Shutting down and abandoning module Layers (173)
+[2017.02.27-05.22.57:229][509]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (172)
+[2017.02.27-05.22.57:229][509]LogModuleManager: Shutting down and abandoning module DetailCustomizations (171)
+[2017.02.27-05.22.57:229][509]LogModuleManager: Shutting down and abandoning module PackagesDialog (170)
+[2017.02.27-05.22.57:229][509]LogModuleManager: Shutting down and abandoning module AnimGraph (169)
+[2017.02.27-05.22.57:229][509]LogModuleManager: Shutting down and abandoning module Persona (168)
+[2017.02.27-05.22.57:229][509]LogModuleManager: Shutting down and abandoning module Kismet (167)
+[2017.02.27-05.22.57:235][509]LogModuleManager: Shutting down and abandoning module GraphEditor (166)
+[2017.02.27-05.22.57:235][509]LogModuleManager: Shutting down and abandoning module ClassViewer (165)
+[2017.02.27-05.22.57:235][509]LogModuleManager: Shutting down and abandoning module Toolbox (164)
+[2017.02.27-05.22.57:235][509]LogModuleManager: Shutting down and abandoning module ModuleUI (163)
+[2017.02.27-05.22.57:235][509]LogModuleManager: Shutting down and abandoning module MovieSceneTools (162)
+[2017.02.27-05.22.57:235][509]LogModuleManager: Shutting down and abandoning module OutputLog (161)
+[2017.02.27-05.22.57:235][509]LogModuleManager: Shutting down and abandoning module GammaUI (160)
+[2017.02.27-05.22.57:235][509]LogModuleManager: Shutting down and abandoning module Documentation (159)
+[2017.02.27-05.22.57:236][509]LogModuleManager: Shutting down and abandoning module Niagara (158)
+[2017.02.27-05.22.57:236][509]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (157)
+[2017.02.27-05.22.57:236][509]LogModuleManager: Shutting down and abandoning module AnalyticsET (156)
+[2017.02.27-05.22.57:236][509]LogModuleManager: Shutting down and abandoning module PortalServices (155)
+[2017.02.27-05.22.57:236][509]LogModuleManager: Shutting down and abandoning module PortalRpc (154)
+[2017.02.27-05.22.57:236][509]LogModuleManager: Shutting down and abandoning module MessagingRpc (153)
+[2017.02.27-05.22.57:236][509]LogModuleManager: Shutting down and abandoning module GameplayDebugger (152)
+[2017.02.27-05.22.57:236][509]LogModuleManager: Shutting down and abandoning module AITestSuite (151)
+[2017.02.27-05.22.57:236][509]LogModuleManager: Shutting down and abandoning module AIModule (150)
+[2017.02.27-05.22.57:236][509]LogModuleManager: Shutting down and abandoning module ProfilerService (149)
+[2017.02.27-05.22.57:343][509]LogModuleManager: Shutting down and abandoning module TaskGraph (148)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module SubstanceEditor (147)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module SlateRemote (146)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module SteamVRController (145)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module SteamVR (144)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (143)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (142)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module OculusLibrary (141)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module OculusInput (140)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (139)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (138)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module CableComponent (137)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (136)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (135)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module HTML5Networking (134)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (133)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module GeometryCache (132)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module AlembicLibrary (131)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module AlembicImporter (130)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module SuperSearch (129)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (128)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (127)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module PluginBrowser (126)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (125)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module EpicSurvey (124)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module DesktopPlatform (123)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (122)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module UObjectPlugin (121)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (120)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (119)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module SourceControl (118)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module GitSourceControl (117)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (116)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (115)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (114)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module MeshPaint (113)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (112)
+[2017.02.27-05.22.57:344][509]LogModuleManager: Shutting down and abandoning module HotReload (111)
+[2017.02.27-05.22.57:344][509]LogDirectoryWatcher: A directory notification for 'C:/Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Binaries/Win64' was aborted.
+[2017.02.27-05.22.57:345][509]LogModuleManager: Shutting down and abandoning module MainFrame (110)
+[2017.02.27-05.22.57:345][509]LogModuleManager: Shutting down and abandoning module LevelEditor (109)
+[2017.02.27-05.22.57:345][509]LogModuleManager: Shutting down and abandoning module ContentBrowser (108)
+[2017.02.27-05.22.57:346][509]LogModuleManager: Shutting down and abandoning module Paper2DEditor (107)
+[2017.02.27-05.22.57:347][509]LogModuleManager: Shutting down and abandoning module UdpMessaging (106)
+[2017.02.27-05.22.57:448][509]LogModuleManager: Shutting down and abandoning module TcpMessaging (105)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module SubstanceCore (104)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (103)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module Paper2D (102)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (101)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module WmfMedia (100)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module MediaAssets (99)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (98)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (97)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module VREditor (96)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (95)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (94)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module FunctionalTesting (93)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (92)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module Sequencer (91)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (90)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module MessageLog (89)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module AssetTools (88)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module UMGEditor (87)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module UMG (86)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module SlateReflector (85)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module Slate (84)
+[2017.02.27-05.22.57:548][509]LogModuleManager: Shutting down and abandoning module EditorStyle (83)
+[2017.02.27-05.22.57:551][509]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (82)
+[2017.02.27-05.22.57:551][509]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (81)
+[2017.02.27-05.22.57:551][509]LogModuleManager: Shutting down and abandoning module XAudio2 (80)
+[2017.02.27-05.22.57:551][509]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2017.02.27-05.22.57:551][509]LogModuleManager: Shutting down and abandoning module Core (78)
+[2017.02.27-05.22.57:551][509]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (77)
+[2017.02.27-05.22.57:551][509]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.02.27-05.22.57:551][509]LogDirectoryWatcher: A directory notification for '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-multiplayerHenry/Content/' was aborted.
+[2017.02.27-05.22.57:551][509]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.02.27-05.22.57:551][509]LogModuleManager: Shutting down and abandoning module AssetRegistry (76)
+[2017.02.27-05.22.57:702][509]LogModuleManager: Shutting down and abandoning module KismetCompiler (75)
+[2017.02.27-05.22.57:702][509]LogModuleManager: Shutting down and abandoning module PhysXFormats (74)
+[2017.02.27-05.22.57:702][509]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (73)
+[2017.02.27-05.22.57:702][509]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (72)
+[2017.02.27-05.22.57:702][509]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (71)
+[2017.02.27-05.22.57:702][509]LogModuleManager: Shutting down and abandoning module PropertyEditor (70)
+[2017.02.27-05.22.57:702][509]LogModuleManager: Shutting down and abandoning module MeshUtilities (69)
+[2017.02.27-05.22.57:702][509]LogModuleManager: Shutting down and abandoning module DerivedDataCache (68)
+[2017.02.27-05.22.57:711][509]LogDerivedDataCache: Shutdown
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (67)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (66)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (65)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (64)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (63)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (62)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (61)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (60)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module ImageWrapper (59)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (58)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (57)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (56)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (55)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (54)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (53)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (52)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (51)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (50)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (49)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module Messaging (48)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (47)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (46)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (45)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (44)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (43)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (42)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (41)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (40)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (39)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (38)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (37)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (36)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (35)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (34)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (33)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (32)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (31)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (30)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (29)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module TargetPlatform (28)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module InputCore (27)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module Settings (26)
+[2017.02.27-05.22.57:711][509]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2017.02.27-05.22.57:712][509]LogHMD: Oculus shutdown.
+[2017.02.27-05.22.57:712][509]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
+[2017.02.27-05.22.57:712][509]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
+[2017.02.27-05.22.57:712][509]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.02.27-05.22.57:712][509]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.02.27-05.22.57:712][509]LogOnline:Display: Unloading online subsystem: STEAM
+[2017.02.27-05.22.57:713][509]LogOnline:Display: Unloading online subsystem: NULL
+[2017.02.27-05.22.57:713][509]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.02.27-05.22.57:714][509]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.02.27-05.22.57:714][509]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.02.27-05.22.57:714][509]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.02.27-05.22.57:714][509]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.02.27-05.22.57:714][509]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.02.27-05.22.57:714][509]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.02.27-05.22.57:716][509]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.02.27-05.22.57:716][509]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.02.27-05.22.57:716][509]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.02.27-05.22.57:716][509]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.02.27-05.22.57:716][509]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.02.27-05.22.57:716][509]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.02.27-05.22.57:716][509]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.02.27-05.22.57:716][509]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.02.27-05.22.57:716][509]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.02.27-05.22.57:716][509]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.02.27-05.22.57:718][509]LogExit: Exiting.
+[2017.02.27-05.22.57:720][509]Log file closed, 02/27/17 00:22:57
