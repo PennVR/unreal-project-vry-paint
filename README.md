@@ -7,16 +7,16 @@ MinJae Cho, Kunal Garg, Ray Kim, Kelly Tan, Henry Zhu
 - [Demo Video] (https://youtu.be/UEPmKm9dm_0)
 
 ## How to play
-### Pick a game mode in the lobby
+#### Pick a game mode in the lobby
 - Shoot an arrow at a box indicating the game mode of your choice.
 - You can choose between _single player_, _host game_, and _join game_.
 - The box for _join game_ will only appear if the game detects a host in the local network. This box can several seconds to appear.
 
-### Paint the most area to win
+#### Paint the most area to win
 - In order to win, you have to paint the most area in your map within the time limit.
 - Destroy objects in the map to paint more area.
 
-### Shoot arrows
+#### Shoot arrows
 - **Vive VR** 
  - Hold both controllers up in front of you.
  - Hold down the **right trigger** and **pull back** to adjust strength.
@@ -27,7 +27,7 @@ MinJae Cho, Kunal Garg, Ray Kim, Kelly Tan, Henry Zhu
  - Press **1** to toggle normal arrow, and **2** for teleport arrow.
  - **F** to shoot, and **WASD** to move around. 
 
-### What arrows do
+#### What arrows do
 - The non-teleport arrow will paint the ground with your color.
 - When an arrow hits objects in the map, like fruit stands and trees, it will destroy them.
 - When an arrow hits your opponent, they will be sent back to their original spawn area.
@@ -37,13 +37,13 @@ MinJae Cho, Kunal Garg, Ray Kim, Kelly Tan, Henry Zhu
  
 ## Techniques used
 
-### Controls
+#### Controls
 - **Motion controls**
  - Motion controls provide an intuitive way to shoot arrows. As if with a real bow, the distance pulled back determines the initial speed of the arrow, and the release of the finger on the bowstring (R trigger) releases the arrow.
 - **Haptic feedback**
  - The controller gently vibrates to let the player know that they’ve released an arrow.
 
-### Gameplay
+#### Gameplay
 - **Painting**
  - The ground in VRy Paint is generated using cubes. When an arrow hits the ground, we set the material of the cubes in the hit region to paint material depending on the shooter.
 - **Minimap**
@@ -56,14 +56,14 @@ MinJae Cho, Kunal Garg, Ray Kim, Kelly Tan, Henry Zhu
 
 
 ## Answers to questions
-### When in VR mode, did you feel any motion sickness? Why and why not?
+#### When in VR mode, did you feel any motion sickness? Why and why not?
 - We felt motion sickness when motion tracking was not working properly. However, because we limited movement in VR to teleportation with a fade, there is little motion other than the motion that corresponds to head movement. We did not experience motion sickness under normal circumstances.
 
-### What was the hardest part of the assignment?
+#### What was the hardest part of the assignment?
 - The hardest part was getting getting multiplayer to work with our previous implementations. Because we started without any knowledge on designing a multiplayer game, fixing bugs in the game sometimes broke multiplayer functionality, and vice versa.
 
-### What do you wish you’d done differently?
+#### What do you wish you’d done differently?
 - We wish that we focused more on simplifying our blueprints and ironing out bugs. Because we had to learn as we go, at times, we had had to resort to inelegant solutions. This led to more variables and problems down the road.
 
-### What do you wish we had done differently?
+#### What do you wish we had done differently?
 - It might have been useful to have had a vry simple individual “practice” Unreal assignment designed to get everyone familiar with Unreal before this assignment. Instead of learning on the go, we could have walked in with more realistic expectations and better workflow.
