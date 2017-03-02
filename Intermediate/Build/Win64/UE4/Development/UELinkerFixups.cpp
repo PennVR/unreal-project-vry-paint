@@ -90,7 +90,7 @@
 	#define USE_NEW_ASYNC_IO 0
 #endif
 #ifndef UE_ENGINE_DIRECTORY
-	#define UE_ENGINE_DIRECTORY ../../../../../../Program Files/Epic Games/UE_4.14/Engine/
+	#define UE_ENGINE_DIRECTORY ../../../../../../Program Files (x86)/Epic Games/4.14/Engine/
 #endif
 #ifndef UE_PROJECT_NAME
 	#define UE_PROJECT_NAME CIS568VRYPaint_mp
@@ -286,18 +286,6 @@
 #endif
 #ifndef ONLINESUBSYSTEMNULL_API
 	#define ONLINESUBSYSTEMNULL_API 
-#endif
-#ifndef STEAMSDK_FOUND
-	#define STEAMSDK_FOUND 1
-#endif
-#ifndef WITH_STEAMWORKS
-	#define WITH_STEAMWORKS 1
-#endif
-#ifndef ONLINESUBSYSTEMSTEAM_PACKAGE
-	#define ONLINESUBSYSTEMSTEAM_PACKAGE 1
-#endif
-#ifndef ONLINESUBSYSTEMSTEAM_API
-	#define ONLINESUBSYSTEMSTEAM_API 
 #endif
 #ifndef ONLINESUBSYSTEMUTILS_PACKAGE
 	#define ONLINESUBSYSTEMUTILS_PACKAGE 1
@@ -711,8 +699,6 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCode1OnlineSubsystem();
     extern void EmptyLinkFunctionForGeneratedCode1OnlineSubsystemUtils();
     EmptyLinkFunctionForGeneratedCode1OnlineSubsystemUtils();
-    extern void EmptyLinkFunctionForGeneratedCode1OnlineSubsystemSteam();
-    EmptyLinkFunctionForGeneratedCode1OnlineSubsystemSteam();
     extern void EmptyLinkFunctionForGeneratedCode1ArchVisCharacter();
     EmptyLinkFunctionForGeneratedCode1ArchVisCharacter();
     extern void EmptyLinkFunctionForGeneratedCode1CableComponent();
@@ -801,8 +787,6 @@ void UELinkerFixups()
     EmptyLinkFunctionForStaticInitializationOnlineSubsystem();
     extern void EmptyLinkFunctionForStaticInitializationOnlineSubsystemNull();
     EmptyLinkFunctionForStaticInitializationOnlineSubsystemNull();
-    extern void EmptyLinkFunctionForStaticInitializationOnlineSubsystemSteam();
-    EmptyLinkFunctionForStaticInitializationOnlineSubsystemSteam();
     extern void EmptyLinkFunctionForStaticInitializationOnlineSubsystemUtils();
     EmptyLinkFunctionForStaticInitializationOnlineSubsystemUtils();
     extern void EmptyLinkFunctionForStaticInitializationArchVisCharacter();

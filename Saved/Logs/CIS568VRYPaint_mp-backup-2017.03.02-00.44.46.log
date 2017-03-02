@@ -1,0 +1,781 @@
+﻿Log file open, 03/02/17 00:42:39
+LogInit:Display: Running engine for game: CIS568VRYPaint_mp
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1376717856) SRandInit(-1376717856).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.086284
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogModuleManager:Warning: No filename provided for module OnlineSubsystemSteam
+LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam' because the file 'C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/' was not found.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -nohmd -windowed 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.02-05.42.39:867][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.02-05.42.39:867][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.02-05.42.39:870][  0]LogInit: Computer: SIGLAB-VR5
+[2017.03.02-05.42.39:870][  0]LogInit: User: SIG
+[2017.03.02-05.42.39:870][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.02-05.42.39:870][  0]LogInit: High frequency timer resolution =3.604934 MHz
+[2017.03.02-05.42.39:870][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.03.02-05.42.39:870][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.02-05.42.39:870][  0]LogMemory: Process Physical Memory: 266.67 MB used, 266.67 MB peak
+[2017.03.02-05.42.39:870][  0]LogMemory: Process Virtual Memory: 262.98 MB used, 262.98 MB peak
+[2017.03.02-05.42.39:870][  0]LogMemory: Physical Memory: 8516.09 MB used,  24174.21 MB free, 32690.30 MB total
+[2017.03.02-05.42.39:870][  0]LogMemory: Virtual Memory: 678.35 MB used,  24174.21 MB free, 134217728.00 MB total
+[2017.03.02-05.42.39:896][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.02-05.42.40:296][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.02-05.42.40:323][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.03.02-05.42.40:323][  0]LogD3D11RHI:       8120/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.02-05.42.40:325][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.02-05.42.40:325][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.02-05.42.40:325][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.02-05.42.40:330][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.02-05.42.40:330][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.02-05.42.40:330][  0]LogWindows: EnumDisplayDevices:
+[2017.03.02-05.42.40:330][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.03.02-05.42.40:330][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.03.02-05.42.40:330][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.02-05.42.40:330][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.02-05.42.40:330][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.02-05.42.40:330][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.03.02-05.42.40:330][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.03.02-05.42.40:330][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.03.02-05.42.40:330][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.02-05.42.40:343][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.02-05.42.40:355][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.02-05.42.40:356][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../Users/SIG/Desktop/paintingpls/Intermediate/Shaders/WorkingDirectory/16800/).
+[2017.03.02-05.42.40:356][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SIG/AppData/Local/Temp/UnrealShaderWorkingDir/31474B1D40B604E3C23074AF491174C6/'.
+[2017.03.02-05.42.40:356][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.02-05.42.41:337][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.02-05.42.41:386][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.02-05.42.41:436][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.02-05.42.41:477][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.02-05.42.41:477][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.02-05.42.41:864][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.02-05.42.41:921][  0]LogDerivedDataCache: Loaded boot cache 0.06s 52MB C:/Users/SIG/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.02-05.42.41:921][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SIG/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.02-05.42.41:921][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SIG/Desktop/paintingpls/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.02-05.42.41:921][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.02-05.42.41:921][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SIG/Desktop/paintingpls/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.02-05.42.41:921][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.02-05.42.41:936][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.02-05.42.41:948][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SIG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.02-05.42.42:130][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.03.02-05.42.42:135][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.004860 seconds
+[2017.03.02-05.42.42:149][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.02-05.42.42:151][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.03.02-05.42.42:349][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.02-05.42.42:391][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.02-05.42.42:438][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.02-05.42.42:438][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.02-05.42.42:438][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.02-05.42.42:865][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: cis568vrypaint_mp, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3560575784
+[2017.03.02-05.42.43:630][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.02-05.42.43:630][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.02-05.42.43:630][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.02-05.42.43:740][  0]LogMoviePlayer: Initializing movie player
+[2017.03.02-05.42.43:790][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.02-05.42.43:802][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/SIG/Desktop/paintingpls/Content/Movies/Default_Startup.mp4
+[2017.03.02-05.42.43:985][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.03.02-05.42.44:012][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.02-05.42.44:051][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.02-05.42.44:184][  0]SourceControl: Info Source control is disabled
+[2017.03.02-05.42.44:184][  0]SourceControl: Info Source control is disabled
+[2017.03.02-05.42.44:229][  0]SourceControl: Info Source control is disabled
+[2017.03.02-05.42.44:858][  0]LogUObjectArray: 33658 objects as part of root set at end of initial load.
+[2017.03.02-05.42.44:858][  0]LogUObjectAllocator: 7446704 out of 0 bytes used by permanent object pool.
+[2017.03.02-05.42.44:858][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.02-05.42.44:955][  0]LogEngine: Initializing Engine...
+[2017.03.02-05.42.45:070][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.02-05.42.45:080][  0]LogInit: FAudioDevice initialized.
+[2017.03.02-05.42.45:097][  0]LogInit: Texture streaming: Enabled
+[2017.03.02-05.42.45:108][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.02-05.42.45:423][  0]LogInit:Display: Game Engine Initialized.
+[2017.03.02-05.42.45:569][  0]LogInit:Display: Starting Game.
+[2017.03.02-05.42.45:569][  0]LogNet: Browse: /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby?Name=Player
+[2017.03.02-05.42.45:569][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby?Name=Player
+[2017.03.02-05.42.45:586][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.02-05.42.45:586][  0]LogMemory: Process Physical Memory: 676.05 MB used, 684.44 MB peak
+[2017.03.02-05.42.45:586][  0]LogMemory: Process Virtual Memory: 743.67 MB used, 743.69 MB peak
+[2017.03.02-05.42.45:587][  0]LogMemory: Physical Memory: 8742.09 MB used,  23948.21 MB free, 32690.30 MB total
+[2017.03.02-05.42.45:587][  0]LogMemory: Virtual Memory: 1373.42 MB used,  23948.21 MB free, 134217728.00 MB total
+[2017.03.02-05.42.45:587][  0]LogMemory: 
+[2017.03.02-05.42.45:587][  0]Allocator Stats for TBB: (not implemented)
+[2017.03.02-05.42.45:859][  0]LogAIModule: Creating AISystem for world Lobby
+[2017.03.02-05.42.46:077][  0]LogLoad: Game class is 'LobbyGameMode_C'
+[2017.03.02-05.42.46:080][  0]LogWorld: Bringing World /Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby.Lobby up for play (max tick rate 0) at 2017.03.02-00.42.46
+[2017.03.02-05.42.46:081][  0]LogWorld: Bringing up level for play took: 0.002815
+[2017.03.02-05.42.46:105][  0]LogLoad: Took 0.535971 seconds to LoadMap(/Temp/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby)
+[2017.03.02-05.42.46:445][  0]LogLoad: (Engine Initialization) Total time: 8.17 seconds
+[2017.03.02-05.42.46:445][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
+[2017.03.02-05.42.46:445][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.02-05.42.46:445][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.02-05.42.46:461][  0]LogOcInput: OculusInput pre-init called
+[2017.03.02-05.42.46:513][  1]LogInit: WinSock: I am SIGLAB-VR5 (169.254.80.80:0)
+[2017.03.02-05.42.46:551][  2]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:2).
+[2017.03.02-05.42.46:578][  2]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:594][  3]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:610][  4]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:626][  5]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:642][  6]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:659][  7]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:675][  8]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:691][  9]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:707][ 10]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:723][ 11]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:739][ 12]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:755][ 13]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:772][ 14]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:789][ 15]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:804][ 16]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:820][ 17]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:836][ 18]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:852][ 19]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:868][ 20]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:884][ 21]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:901][ 22]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:917][ 23]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:933][ 24]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:949][ 25]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:965][ 26]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:981][ 27]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.46:997][ 28]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:014][ 29]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:030][ 30]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:046][ 31]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:062][ 32]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:078][ 33]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:094][ 34]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:110][ 35]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:126][ 36]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:142][ 37]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:159][ 38]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:175][ 39]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:191][ 40]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:207][ 41]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:223][ 42]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:239][ 43]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:255][ 44]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:271][ 45]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:288][ 46]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:304][ 47]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:320][ 48]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:336][ 49]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:352][ 50]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:368][ 51]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:384][ 52]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:400][ 53]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:417][ 54]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:433][ 55]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:449][ 56]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:465][ 57]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:481][ 58]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:497][ 59]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:514][ 60]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:530][ 61]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:546][ 62]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:562][ 63]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:578][ 64]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:594][ 65]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:610][ 66]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:626][ 67]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:643][ 68]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:659][ 69]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:675][ 70]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:691][ 71]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:707][ 72]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:723][ 73]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:739][ 74]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:755][ 75]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:771][ 76]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:788][ 77]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:804][ 78]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:820][ 79]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:836][ 80]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:852][ 81]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:868][ 82]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:884][ 83]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:901][ 84]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:917][ 85]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:933][ 86]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:949][ 87]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:965][ 88]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:981][ 89]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.47:997][ 90]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:013][ 91]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:030][ 92]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:046][ 93]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:062][ 94]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:078][ 95]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:094][ 96]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:110][ 97]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:126][ 98]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:142][ 99]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:158][100]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:175][101]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:191][102]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:207][103]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:223][104]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:239][105]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:255][106]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:272][107]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:287][108]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:304][109]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:320][110]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:336][111]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:352][112]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:368][113]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:384][114]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:400][115]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:417][116]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:433][117]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:449][118]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:465][119]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:481][120]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:497][121]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:513][122]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:529][123]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:546][124]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:562][125]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:578][126]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:594][127]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:610][128]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:626][129]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:642][130]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:658][131]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:675][132]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:691][133]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:707][134]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:723][135]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:739][136]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:755][137]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:771][138]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:788][139]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:804][140]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:820][141]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:836][142]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:852][143]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:868][144]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:884][145]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:900][146]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:917][147]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:933][148]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:949][149]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:965][150]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:981][151]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.48:997][152]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:013][153]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:029][154]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:046][155]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:062][156]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:078][157]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:094][158]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:110][159]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:126][160]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:142][161]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:158][162]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:175][163]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:191][164]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:207][165]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:223][166]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:239][167]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:256][168]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:272][169]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:288][170]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:304][171]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:320][172]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:336][173]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:352][174]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:368][175]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:385][176]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:401][177]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:417][178]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:433][179]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:449][180]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:465][181]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:481][182]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:497][183]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:513][184]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:530][185]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:546][186]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:562][187]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:578][188]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:594][189]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:610][190]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:626][191]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:643][192]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:659][193]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:675][194]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:691][195]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:707][196]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:723][197]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:739][198]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:755][199]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:772][200]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:788][201]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:804][202]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:820][203]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:836][204]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:852][205]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:868][206]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:884][207]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:900][208]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:917][209]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:933][210]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:949][211]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:965][212]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:981][213]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.49:997][214]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:013][215]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:030][216]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:046][217]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:062][218]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:078][219]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:094][220]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:110][221]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:126][222]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:142][223]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:159][224]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:175][225]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:191][226]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:207][227]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:223][228]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:239][229]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:255][230]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:271][231]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:288][232]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:304][233]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:320][234]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:336][235]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:352][236]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:368][237]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:384][238]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:400][239]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:417][240]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:433][241]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:449][242]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:465][243]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:481][244]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:497][245]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:513][246]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:530][247]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:546][248]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:562][249]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:578][250]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:594][251]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:610][252]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:626][253]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:642][254]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:659][255]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:675][256]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:691][257]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:707][258]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:723][259]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:739][260]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:756][261]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:772][262]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:788][263]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:804][264]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:820][265]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:836][266]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:852][267]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:868][268]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:884][269]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:901][270]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:917][271]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:933][272]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:949][273]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:965][274]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:981][275]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.50:997][276]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:013][277]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:030][278]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:046][279]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:062][280]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:078][281]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:094][282]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:110][283]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:126][284]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:142][285]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:159][286]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:175][287]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:191][288]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:207][289]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:223][290]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:239][291]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:255][292]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:271][293]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:287][294]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:304][295]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:320][296]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:336][297]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:352][298]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:368][299]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:384][300]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:400][301]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:417][302]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:433][303]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:449][304]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:465][305]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:497][307]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:513][308]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:529][309]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:546][310]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:562][311]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:578][312]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:594][313]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:610][314]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:626][315]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:642][316]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:659][317]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:675][318]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:691][319]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:707][320]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:723][321]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:739][322]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:755][323]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:771][324]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:788][325]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:804][326]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:820][327]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:836][328]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:852][329]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:868][330]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:884][331]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:901][332]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:917][333]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:933][334]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:949][335]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:965][336]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:981][337]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.51:997][338]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:013][339]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:030][340]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:046][341]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:062][342]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:078][343]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:094][344]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:110][345]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:126][346]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:142][347]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:159][348]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:175][349]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:191][350]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:207][351]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:223][352]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:239][353]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:255][354]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:272][355]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:288][356]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:304][357]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:320][358]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:336][359]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:352][360]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:368][361]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:384][362]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:401][363]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:417][364]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:433][365]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:449][366]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:465][367]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:481][368]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:497][369]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:513][370]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:530][371]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:546][372]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:562][373]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:578][374]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:594][375]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:610][376]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:626][377]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:642][378]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:659][379]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:675][380]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:691][381]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:707][382]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:723][383]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:739][384]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:755][385]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:772][386]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:788][387]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:804][388]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:820][389]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:836][390]LogOnline:Warning: NULL: Ignoring game search request while one is pending
+[2017.03.02-05.42.52:949][391]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.02-05.42.52:952][391]LogEngine: All Windows Closed
+[2017.03.02-05.42.52:952][391]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.03.02-05.42.52:952][392]LogMoviePlayer: Shutting down movie player
+[2017.03.02-05.42.52:960][392]LogExit: Preparing to exit.
+[2017.03.02-05.42.54:184][392]LogExit: Game engine shut down
+[2017.03.02-05.42.54:234][392]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.02-05.42.54:234][392]LogExit: Object subsystem successfully closed.
+[2017.03.02-05.42.54:253][392]LogD3D11RHI: Shutdown
+[2017.03.02-05.42.54:253][392]LogD3D11RHI: CleanupD3DDevice
+[2017.03.02-05.42.54:299][392]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (128)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module SequenceRecorder (127)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module AutomationWorker (125)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module Voice (124)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module GameplayDebugger (123)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module AITestSuite (122)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module AIModule (121)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (120)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (119)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module Media (118)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (117)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module CharacterAI (116)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module SessionServices (115)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (114)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (113)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module GeometryCache (112)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module Niagara (111)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (110)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module PortalServices (109)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module PortalRpc (108)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module MessagingRpc (107)
+[2017.03.02-05.42.54:326][392]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2017.03.02-05.42.54:436][392]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2017.03.02-05.42.54:436][392]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module SteamVRController (103)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module SteamVR (102)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (101)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module OculusLibrary (100)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module OculusInput (99)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (98)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (97)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module CableComponent (96)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (95)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module HTML5Networking (94)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module DesktopPlatform (93)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (92)
+[2017.03.02-05.42.54:437][392]LogDirectoryWatcher: A directory notification for 'C:/Users/SIG/Desktop/paintingpls/Binaries/Win64' was aborted.
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module HotReload (91)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (90)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module UObjectPlugin (89)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (88)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (86)
+[2017.03.02-05.42.54:437][392]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2017.03.02-05.42.54:537][392]LogModuleManager: Shutting down and abandoning module TcpMessaging (84)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module SubstanceCore (83)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (82)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module Paper2D (81)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (80)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module WmfMedia (79)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module MediaAssets (78)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (77)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (76)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module VREditor (75)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (74)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module Sequencer (70)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2017.03.02-05.42.55:018][392]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2017.03.02-05.42.55:019][392]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2017.03.02-05.42.55:019][392]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2017.03.02-05.42.55:019][392]LogModuleManager: Shutting down and abandoning module SlateReflector (64)
+[2017.03.02-05.42.55:019][392]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2017.03.02-05.42.55:019][392]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module Messaging (61)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module Core (56)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (53)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (52)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (51)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module PropertyEditor (50)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module MeshUtilities (49)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module AssetRegistry (48)
+[2017.03.02-05.42.55:020][392]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2017.03.02-05.42.55:450][392]LogDerivedDataCache: Shutdown
+[2017.03.02-05.42.55:450][392]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (46)
+[2017.03.02-05.42.55:450][392]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (45)
+[2017.03.02-05.42.55:450][392]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (44)
+[2017.03.02-05.42.55:450][392]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (43)
+[2017.03.02-05.42.55:450][392]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (42)
+[2017.03.02-05.42.55:450][392]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (41)
+[2017.03.02-05.42.55:450][392]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (40)
+[2017.03.02-05.42.55:450][392]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (39)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module ImageWrapper (38)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (37)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (32)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (31)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (30)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (29)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module TargetPlatform (28)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module InputCore (27)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module Settings (26)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.02-05.42.55:451][392]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.03.02-05.42.55:451][392]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.02-05.42.55:451][392]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.02-05.42.55:452][392]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.02-05.42.55:452][392]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.02-05.42.55:452][392]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.02-05.42.55:453][392]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.02-05.42.55:454][392]LogExit: Exiting.
+[2017.03.02-05.42.55:455][392]Log file closed, 03/02/17 00:42:55
