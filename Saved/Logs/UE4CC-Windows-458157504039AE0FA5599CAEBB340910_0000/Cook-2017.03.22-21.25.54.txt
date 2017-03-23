@@ -1,0 +1,796 @@
+﻿Log file open, 03/22/17 21:25:55
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Info: [HMDState] Requested to SetForegroundWindow(39053cll)
+OCULUS: Debug: Connected to the server running version (prod = 1).1.12.0(build = 347531) feature version = 0. Client runs version (prod = 1).1.12.0(build = 347531) feature version = 0
+LogInit: Build: ++UE4+Release-4.14-CL-3195953
+LogInit: Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Nov 12 2016 02:14:10
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: C:\Users\SIG\Desktop\unreal-project-vry-paint-Mar22\CIS568VRYPaint_mp.uproject -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -abslog="C:\Program Files (x86)\Epic Games\4.14\Engine\Programs\AutomationTool\Saved\Cook-2017.03.22-21.25.54.txt" -stdout -FORCELOGFLUSH -CrashForUAT -unattended  -UTF8Output
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.23-01.25.57:133][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.23-01.25.57:134][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.23-01.25.57:157][  0]LogInit: Computer: SIGLAB-VR6
+[2017.03.23-01.25.57:165][  0]LogInit: User: SIG
+[2017.03.23-01.25.57:176][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.23-01.25.57:186][  0]LogInit: High frequency timer resolution =3.604935 MHz
+[2017.03.23-01.25.57:197][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.03.23-01.25.57:208][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.23-01.25.57:218][  0]LogMemory: Process Physical Memory: 268.07 MB used, 268.07 MB peak
+[2017.03.23-01.25.57:229][  0]LogMemory: Process Virtual Memory: 264.48 MB used, 264.48 MB peak
+[2017.03.23-01.25.57:239][  0]LogMemory: Physical Memory: 5762.92 MB used,  26927.48 MB free, 32690.40 MB total
+[2017.03.23-01.25.57:250][  0]LogMemory: Virtual Memory: 710.15 MB used,  26927.48 MB free, 134217728.00 MB total
+[2017.03.23-01.25.57:285][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.23-01.25.57:888][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Intermediate/Shaders/WorkingDirectory/13700/).
+[2017.03.23-01.25.57:896][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SIG/AppData/Local/Temp/UnrealShaderWorkingDir/4E82FB2C4A105556AB5B45B5D5C1F316/'.
+[2017.03.23-01.25.57:907][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.23-01.25.58:491][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.23-01.25.58:532][  0]LogDerivedDataCache: Loaded boot cache 0.04s 52MB C:/Users/SIG/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.23-01.25.58:535][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SIG/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.23-01.25.58:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-Mar22/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.23-01.25.58:556][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.23-01.25.58:566][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-Mar22/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.23-01.25.58:577][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.23-01.25.58:607][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.23-01.25.58:620][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SIG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.23-01.25.59:291][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.23-01.25.59:360][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.23-01.25.59:430][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.23-01.25.59:495][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.23-01.25.59:560][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.23-01.25.59:634][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.23-01.25.59:701][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.23-01.25.59:772][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.23-01.25.59:829][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.23-01.25.59:897][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.23-01.25.59:969][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.23-01.26.00:039][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.23-01.26.00:103][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.23-01.26.00:177][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.23-01.26.00:250][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.23-01.26.00:388][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.23-01.26.00:397][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.23-01.26.00:453][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.23-01.26.00:567][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.23-01.26.00:621][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.23-01.26.00:689][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.23-01.26.00:755][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.23-01.26.00:821][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.23-01.26.00:885][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.23-01.26.00:893][  0]LogTargetPlatformManager:Display: Building Assets For WindowsNoEditor
+[2017.03.23-01.26.01:347][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.23-01.26.01:618][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.23-01.26.01:665][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.23-01.26.01:727][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.23-01.26.01:735][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.23-01.26.01:746][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.23-01.26.02:074][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: cis568vrypaint_mp, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3560575784
+[2017.03.23-01.26.02:130][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.03.23-01.26.02:166][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.028599 seconds
+[2017.03.23-01.26.03:414][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.03.23-01.26.03:849][  0]SourceControl: Info Source control is disabled
+[2017.03.23-01.26.03:892][  0]SourceControl: Info Source control is disabled
+[2017.03.23-01.26.03:948][  0]SourceControl: Info Source control is disabled
+[2017.03.23-01.26.04:004][  0]SourceControl: Info Source control is disabled
+[2017.03.23-01.26.05:469][  0]LogUObjectArray: 34044 objects as part of root set at end of initial load.
+[2017.03.23-01.26.05:476][  0]LogUObjectAllocator: 7798008 out of 0 bytes used by permanent object pool.
+[2017.03.23-01.26.05:487][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.23-01.26.05:497][  0]LogInit: Executing Class /Script/UnrealEd.CookCommandlet
+[2017.03.23-01.26.05:508][  0]LogInit: Initializing Editor Engine...
+[2017.03.23-01.26.05:519][  0]LogEngine: Initializing Engine...
+[2017.03.23-01.26.05:707][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.23-01.26.05:722][  0]LogDerivedDataCache: Saved boot cache 0.01s 7MB C:/Users/SIG/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.23-01.26.05:735][  0]LogInit: Texture streaming: Disabled
+[2017.03.23-01.26.05:845][  0]LogInit: Initializing Editor Engine Completed
+[2017.03.23-01.26.06:559][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.23-01.26.06:569][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.23-01.26.06:747][  0]LogCook:Display: Done creating registry. It took  0.17s.
+[2017.03.23-01.26.06:852][  0]LogCook:Display: Sandbox cleanup took 0.096 seconds
+[2017.03.23-01.26.06:911][  0]LogCook:Warning: Found unparsable ini setting Windows.EditorPerProjectUserSettings:DetailCategories:FirstPersonCharacter_C.Character Movement: Walking:0 for platform WindowsNoEditor, invalidating cook.
+[2017.03.23-01.26.08:018][  0]LogCook:Display: Sandbox cleanup took 1.165 seconds
+[2017.03.23-01.26.08:028][  0]LogChunkManifestGenerator: bChunkHardReferencesOnly: 0
+[2017.03.23-01.26.08:874][  0]LogPackageUtilities: Searching using wildcard: '../../../Engine/Content/*.uasset'
+[2017.03.23-01.26.08:940][  0]LogPackageUtilities: Searching using wildcard: '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Content/*.uasset'
+[2017.03.23-01.26.08:953][  0]LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/2D/Paper2D/Content/*.uasset'
+[2017.03.23-01.26.08:983][  0]LogPackageUtilities: Searching using wildcard: '../../../Engine/Content/*.umap'
+[2017.03.23-01.26.09:067][  0]LogPackageUtilities: Searching using wildcard: '../../../../../../Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Content/*.umap'
+[2017.03.23-01.26.09:082][  0]LogPackageUtilities: Searching using wildcard: '../../../Engine/Plugins/2D/Paper2D/Content/*.umap'
+[2017.03.23-01.26.09:449][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:451][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:462][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:472][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:484][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:493][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:505][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:515][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:527][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:536][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:558][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:569][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:579][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:589][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:602][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:610][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:621][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:633][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:645][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:653][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:682][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:684][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:695][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:706][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:717][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:727][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:738][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:748][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:761][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:769][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:790][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:790][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:801][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:811][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:823][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:832][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:843][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:854][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:866][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.09:875][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.10:017][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.10:024][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.10:041][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.10:045][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.10:057][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.10:067][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.10:077][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.10:088][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.10:099][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.10:110][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.10:522][  0]LogMaterial: Missing cached shader map for material Player1Paint, compiling. 
+[2017.03.23-01.26.10:568][  0]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2017.03.23-01.26.10:615][  0]LogMaterial: Missing cached shader map for material MinimapMaterial, compiling. 
+[2017.03.23-01.26.10:658][  0]LogMaterial: Missing cached shader map for material MinimapMaterial, compiling. 
+[2017.03.23-01.26.10:675][  0]LogMaterial: Missing cached shader map for material Player0Paint, compiling. 
+[2017.03.23-01.26.10:720][  0]LogMaterial: Missing cached shader map for material Player0Paint, compiling. 
+[2017.03.23-01.26.10:971][  0]LogCook:Display: Cooking /Engine/MobileResources/HUD/VirtualJoystick_Thumb -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset
+[2017.03.23-01.26.10:975][  0]LogSavePackage: Save=1.04ms
+[2017.03.23-01.26.10:985][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset'
+[2017.03.23-01.26.10:996][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset
+[2017.03.23-01.26.11:083][  0]LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Translucent -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset
+[2017.03.23-01.26.11:094][  0]LogSavePackage: Save=2.42ms
+[2017.03.23-01.26.11:102][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset'
+[2017.03.23-01.26.11:113][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset
+[2017.03.23-01.26.11:123][  0]LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough.uasset
+[2017.03.23-01.26.11:136][  0]LogSavePackage: Save=2.91ms
+[2017.03.23-01.26.11:144][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough.uasset'
+[2017.03.23-01.26.11:155][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough.uasset
+[2017.03.23-01.26.11:165][  0]LogCook:Display: Cooking /Engine/EngineResources/WhiteSquareTexture -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/WhiteSquareTexture.uasset
+[2017.03.23-01.26.11:176][  0]LogSavePackage: Save=0.73ms
+[2017.03.23-01.26.11:186][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/WhiteSquareTexture.uasset'
+[2017.03.23-01.26.11:197][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/WhiteSquareTexture.uasset
+[2017.03.23-01.26.11:208][  0]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset
+[2017.03.23-01.26.11:221][  0]LogSavePackage: Save=0.93ms
+[2017.03.23-01.26.11:230][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset'
+[2017.03.23-01.26.11:242][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset
+[2017.03.23-01.26.11:253][  0]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset
+[2017.03.23-01.26.11:264][  0]LogSavePackage: Save=1.31ms
+[2017.03.23-01.26.11:273][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset'
+[2017.03.23-01.26.11:284][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset
+[2017.03.23-01.26.11:295][  0]LogCook:Display: Cooking /Engine/EngineMaterials/WorldGridMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset
+[2017.03.23-01.26.11:362][  0]LogSavePackage: Save=57.47ms
+[2017.03.23-01.26.11:369][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset'
+[2017.03.23-01.26.11:380][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WorldGridMaterial.uasset
+[2017.03.23-01.26.11:391][  0]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset
+[2017.03.23-01.26.11:402][  0]LogSavePackage: Save=1.19ms
+[2017.03.23-01.26.11:412][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset'
+[2017.03.23-01.26.11:423][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset
+[2017.03.23-01.26.11:434][  0]LogCook:Display: Cooking /Engine/EngineMaterials/T_Default_Material_Grid_M -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset
+[2017.03.23-01.26.11:445][  0]LogSavePackage: Save=0.80ms
+[2017.03.23-01.26.11:455][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset'
+[2017.03.23-01.26.11:466][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset
+[2017.03.23-01.26.11:477][  0]LogCook:Display: Cooking /Engine/EngineMaterials/T_Default_Material_Grid_N -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset
+[2017.03.23-01.26.11:488][  0]LogSavePackage: Save=0.81ms
+[2017.03.23-01.26.11:498][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset'
+[2017.03.23-01.26.11:509][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset
+[2017.03.23-01.26.11:520][  0]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultDeferredDecalMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset
+[2017.03.23-01.26.11:539][  0]LogSavePackage: Save=9.05ms
+[2017.03.23-01.26.11:541][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset'
+[2017.03.23-01.26.11:553][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset
+[2017.03.23-01.26.11:564][  0]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultDiffuse -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset
+[2017.03.23-01.26.11:574][  0]LogSavePackage: Save=1.36ms
+[2017.03.23-01.26.11:584][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset'
+[2017.03.23-01.26.11:595][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultDiffuse.uasset
+[2017.03.23-01.26.11:607][  0]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultLightFunctionMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset
+[2017.03.23-01.26.11:620][  0]LogSavePackage: Save=4.19ms
+[2017.03.23-01.26.11:626][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset'
+[2017.03.23-01.26.11:638][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset
+[2017.03.23-01.26.11:648][  0]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultPostProcessMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset
+[2017.03.23-01.26.11:662][  0]LogSavePackage: Save=3.86ms
+[2017.03.23-01.26.11:669][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset'
+[2017.03.23-01.26.11:680][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset
+[2017.03.23-01.26.11:691][  0]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset
+[2017.03.23-01.26.11:702][  0]LogSavePackage: Save=0.76ms
+[2017.03.23-01.26.11:712][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset'
+[2017.03.23-01.26.11:725][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset
+[2017.03.23-01.26.11:735][  0]LogCook:Display: Cooking /Engine/EngineResources/DefaultTexture -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTexture.uasset
+[2017.03.23-01.26.11:746][  0]LogSavePackage: Save=0.73ms
+[2017.03.23-01.26.11:755][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTexture.uasset'
+[2017.03.23-01.26.11:766][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTexture.uasset
+[2017.03.23-01.26.11:777][  0]LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset
+[2017.03.23-01.26.11:790][  0]LogSavePackage: Save=2.75ms
+[2017.03.23-01.26.11:798][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset'
+[2017.03.23-01.26.11:809][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset
+[2017.03.23-01.26.11:820][  0]LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Opaque -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset
+[2017.03.23-01.26.11:832][  0]LogSavePackage: Save=1.91ms
+[2017.03.23-01.26.11:840][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset'
+[2017.03.23-01.26.11:851][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset
+[2017.03.23-01.26.11:862][  0]LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Opaque_OneSided -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset
+[2017.03.23-01.26.11:873][  0]LogSavePackage: Save=1.35ms
+[2017.03.23-01.26.11:883][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset'
+[2017.03.23-01.26.11:895][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset
+[2017.03.23-01.26.11:908][  0]LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Masked -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset
+[2017.03.23-01.26.11:920][  0]LogSavePackage: Save=2.75ms
+[2017.03.23-01.26.11:928][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset'
+[2017.03.23-01.26.11:940][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset
+[2017.03.23-01.26.11:950][  0]LogCook:Display: Cooking /Engine/EngineMaterials/Widget3DPassThrough_Masked_OneSided -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset
+[2017.03.23-01.26.11:963][  0]LogSavePackage: Save=1.90ms
+[2017.03.23-01.26.11:972][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset'
+[2017.03.23-01.26.11:984][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset
+[2017.03.23-01.26.11:995][  0]LogCook:Display: Cooking /Engine/VREditor/UI/SM_ContentWindow_01 -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_ContentWindow_01.uasset
+[2017.03.23-01.26.12:007][  0]LogSavePackage: Save=2.09ms
+[2017.03.23-01.26.12:015][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_ContentWindow_01.uasset'
+[2017.03.23-01.26.12:027][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SM_ContentWindow_01.uasset
+[2017.03.23-01.26.12:037][  0]LogCook:Display: Cooking /Engine/VREditor/UI/M_ContentWindow -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/M_ContentWindow.uasset
+[2017.03.23-01.26.12:052][  0]LogSavePackage: Save=5.39ms
+[2017.03.23-01.26.12:058][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/M_ContentWindow.uasset'
+[2017.03.23-01.26.12:069][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/M_ContentWindow.uasset
+[2017.03.23-01.26.12:079][  0]LogCook:Display: Cooking /Engine/VREditor/Devices/Vive/UE4_Logo -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/UE4_Logo.uasset
+[2017.03.23-01.26.12:092][  0]LogSavePackage: Save=1.14ms
+[2017.03.23-01.26.12:138][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/UE4_Logo.uasset'
+[2017.03.23-01.26.12:168][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Vive/UE4_Logo.uasset
+[2017.03.23-01.26.12:181][  0]LogCook:Display: Cooking /Engine/VREditor/UI/SelectionBarMesh -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SelectionBarMesh.uasset
+[2017.03.23-01.26.12:202][  0]LogSavePackage: Save=1.82ms
+[2017.03.23-01.26.12:211][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SelectionBarMesh.uasset'
+[2017.03.23-01.26.12:222][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/SelectionBarMesh.uasset
+[2017.03.23-01.26.12:233][  0]LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/TransformGizmoMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset
+[2017.03.23-01.26.12:245][  0]LogSavePackage: Save=2.67ms
+[2017.03.23-01.26.12:253][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset'
+[2017.03.23-01.26.12:264][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset
+[2017.03.23-01.26.12:275][  0]LogCook:Display: Cooking /Engine/VREditor/LaserPointer/VR_LaserPower_01 -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset
+[2017.03.23-01.26.12:286][  0]LogSavePackage: Save=1.04ms
+[2017.03.23-01.26.12:297][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset'
+[2017.03.23-01.26.12:307][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset
+[2017.03.23-01.26.12:318][  0]LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset
+[2017.03.23-01.26.12:330][  0]LogSavePackage: Save=2.79ms
+[2017.03.23-01.26.12:338][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset'
+[2017.03.23-01.26.12:350][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset
+[2017.03.23-01.26.12:360][  0]LogCook:Display: Cooking /Engine/VREditor/UI/CloseButtonMesh -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/CloseButtonMesh.uasset
+[2017.03.23-01.26.12:372][  0]LogSavePackage: Save=2.03ms
+[2017.03.23-01.26.12:381][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/CloseButtonMesh.uasset'
+[2017.03.23-01.26.12:392][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/UI/CloseButtonMesh.uasset
+[2017.03.23-01.26.12:403][  0]LogCook:Display: Cooking /Engine/VREditor/FloatingText/LineSegmentCylinder -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineSegmentCylinder.uasset
+[2017.03.23-01.26.12:415][  0]LogSavePackage: Save=1.88ms
+[2017.03.23-01.26.12:424][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineSegmentCylinder.uasset'
+[2017.03.23-01.26.12:436][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineSegmentCylinder.uasset
+[2017.03.23-01.26.12:446][  0]LogCook:Display: Cooking /Engine/VREditor/FloatingText/LineMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineMaterial.uasset
+[2017.03.23-01.26.12:457][  0]LogSavePackage: Save=1.79ms
+[2017.03.23-01.26.12:466][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineMaterial.uasset'
+[2017.03.23-01.26.12:478][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/LineMaterial.uasset
+[2017.03.23-01.26.12:489][  0]LogCook:Display: Cooking /Engine/VREditor/FloatingText/JointSphere -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/JointSphere.uasset
+[2017.03.23-01.26.12:500][  0]LogSavePackage: Save=1.92ms
+[2017.03.23-01.26.12:509][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/JointSphere.uasset'
+[2017.03.23-01.26.12:519][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/FloatingText/JointSphere.uasset
+[2017.03.23-01.26.12:531][  0]LogCook:Display: Cooking /Engine/VREditor/Fonts/VRTextMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRTextMaterial.uasset
+[2017.03.23-01.26.12:544][  0]LogSavePackage: Save=3.00ms
+[2017.03.23-01.26.12:552][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRTextMaterial.uasset'
+[2017.03.23-01.26.12:563][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRTextMaterial.uasset
+[2017.03.23-01.26.12:574][  0]LogCook:Display: Cooking /Engine/VREditor/Fonts/VRText_RobotoLarge -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRText_RobotoLarge.uasset
+[2017.03.23-01.26.12:585][  0]LogSavePackage: Save=1.39ms
+[2017.03.23-01.26.12:594][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRText_RobotoLarge.uasset'
+[2017.03.23-01.26.12:605][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/VRText_RobotoLarge.uasset
+[2017.03.23-01.26.12:616][  0]LogCook:Display: Cooking /Engine/VREditor/Fonts/TranslucentVRTextMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset
+[2017.03.23-01.26.12:628][  0]LogSavePackage: Save=2.04ms
+[2017.03.23-01.26.12:637][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset'
+[2017.03.23-01.26.12:648][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset
+[2017.03.23-01.26.12:659][  0]LogCook:Display: Cooking /Engine/EngineFonts/RobotoDistanceField -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset
+[2017.03.23-01.26.12:669][  0]LogSavePackage: Save=1.28ms
+[2017.03.23-01.26.12:679][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset'
+[2017.03.23-01.26.12:690][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoDistanceField.uasset
+[2017.03.23-01.26.12:702][  0]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultTextMaterialOpaque -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset
+[2017.03.23-01.26.12:716][  0]LogSavePackage: Save=4.95ms
+[2017.03.23-01.26.12:722][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset'
+[2017.03.23-01.26.12:733][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset
+[2017.03.23-01.26.12:744][  0]LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/TranslationHandle -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslationHandle.uasset
+[2017.03.23-01.26.12:756][  0]LogSavePackage: Save=1.94ms
+[2017.03.23-01.26.12:764][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslationHandle.uasset'
+[2017.03.23-01.26.12:775][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslationHandle.uasset
+[2017.03.23-01.26.12:786][  0]LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/PlaneTranslationHandle -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset
+[2017.03.23-01.26.12:797][  0]LogSavePackage: Save=1.86ms
+[2017.03.23-01.26.12:807][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset'
+[2017.03.23-01.26.12:818][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset
+[2017.03.23-01.26.12:829][  0]LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/RotationHandle -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandle.uasset
+[2017.03.23-01.26.12:841][  0]LogSavePackage: Save=1.94ms
+[2017.03.23-01.26.12:850][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandle.uasset'
+[2017.03.23-01.26.12:861][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandle.uasset
+[2017.03.23-01.26.12:871][  0]LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/StretchingHandle -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/StretchingHandle.uasset
+[2017.03.23-01.26.12:883][  0]LogSavePackage: Save=2.23ms
+[2017.03.23-01.26.12:892][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/StretchingHandle.uasset'
+[2017.03.23-01.26.12:903][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/StretchingHandle.uasset
+[2017.03.23-01.26.12:914][  0]LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/BoundingBoxCorner -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset
+[2017.03.23-01.26.12:925][  0]LogSavePackage: Save=1.86ms
+[2017.03.23-01.26.12:934][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset'
+[2017.03.23-01.26.12:945][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset
+[2017.03.23-01.26.12:957][  0]LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/BoundingBoxEdge -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset
+[2017.03.23-01.26.12:969][  0]LogSavePackage: Save=1.87ms
+[2017.03.23-01.26.12:978][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset'
+[2017.03.23-01.26.12:989][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset
+[2017.03.23-01.26.13:000][  0]LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/UniformScaleHandle -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/UniformScaleHandle.uasset
+[2017.03.23-01.26.13:012][  0]LogSavePackage: Save=1.86ms
+[2017.03.23-01.26.13:021][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/UniformScaleHandle.uasset'
+[2017.03.23-01.26.13:032][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/UniformScaleHandle.uasset
+[2017.03.23-01.26.13:043][  0]LogCook:Display: Cooking /Engine/VREditor/Sounds/VR_teleport_Cue -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport_Cue.uasset
+[2017.03.23-01.26.13:054][  0]LogSavePackage: Save=0.91ms
+[2017.03.23-01.26.13:064][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport_Cue.uasset'
+[2017.03.23-01.26.13:075][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport_Cue.uasset
+[2017.03.23-01.26.13:086][  0]LogCook:Display: Cooking /Engine/EngineSounds/Master -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Master.uasset
+[2017.03.23-01.26.13:096][  0]LogSavePackage: Save=0.61ms
+[2017.03.23-01.26.13:107][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Master.uasset'
+[2017.03.23-01.26.13:118][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/Master.uasset
+[2017.03.23-01.26.13:130][  0]LogCook:Display: Cooking /Engine/EngineSounds/MasterSubmix -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/MasterSubmix.uasset
+[2017.03.23-01.26.13:139][  0]LogSavePackage: Save=0.35ms
+[2017.03.23-01.26.13:149][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/MasterSubmix.uasset'
+[2017.03.23-01.26.13:160][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSounds/MasterSubmix.uasset
+[2017.03.23-01.26.13:171][  0]LogCook:Display: Cooking /Engine/VREditor/Sounds/VR_teleport -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport.uasset
+[2017.03.23-01.26.13:182][  0]LogSavePackage: Save=0.95ms
+[2017.03.23-01.26.13:192][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport.uasset'
+[2017.03.23-01.26.13:203][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_teleport.uasset
+[2017.03.23-01.26.13:214][  0]LogCook:Display: Cooking /Engine/VREditor/Devices/Generic/GenericHMD -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset
+[2017.03.23-01.26.13:226][  0]LogSavePackage: Save=2.24ms
+[2017.03.23-01.26.13:234][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset'
+[2017.03.23-01.26.13:245][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset
+[2017.03.23-01.26.13:256][  0]LogCook:Display: Cooking /Engine/VREditor/Devices/Generic/GenericHMDMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset
+[2017.03.23-01.26.13:268][  0]LogSavePackage: Save=2.68ms
+[2017.03.23-01.26.13:276][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset'
+[2017.03.23-01.26.13:287][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset
+[2017.03.23-01.26.13:299][  0]LogCook:Display: Cooking /Engine/VREditor/WorldMovementGrid/PlaneMesh -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/PlaneMesh.uasset
+[2017.03.23-01.26.13:310][  0]LogSavePackage: Save=1.98ms
+[2017.03.23-01.26.13:318][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/PlaneMesh.uasset'
+[2017.03.23-01.26.13:329][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/PlaneMesh.uasset
+[2017.03.23-01.26.13:341][  0]LogCook:Display: Cooking /Engine/EditorLandscapeResources/FlattenHeightMat -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/FlattenHeightMat.uasset
+[2017.03.23-01.26.13:354][  0]LogSavePackage: Save=3.79ms
+[2017.03.23-01.26.13:361][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/FlattenHeightMat.uasset'
+[2017.03.23-01.26.13:373][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/FlattenHeightMat.uasset
+[2017.03.23-01.26.13:383][  0]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset
+[2017.03.23-01.26.13:394][  0]LogSavePackage: Save=0.88ms
+[2017.03.23-01.26.13:404][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset'
+[2017.03.23-01.26.13:415][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset
+[2017.03.23-01.26.13:426][  0]LogCook:Display: Cooking /Engine/VREditor/WorldMovementGrid/GridMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset
+[2017.03.23-01.26.13:439][  0]LogSavePackage: Save=3.17ms
+[2017.03.23-01.26.13:447][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset'
+[2017.03.23-01.26.13:458][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridMaterial.uasset
+[2017.03.23-01.26.13:469][  0]LogCook:Display: Cooking /Engine/VREditor/WorldMovementGrid/SimpleGrid -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/SimpleGrid.uasset
+[2017.03.23-01.26.13:480][  0]LogSavePackage: Save=1.01ms
+[2017.03.23-01.26.13:490][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/SimpleGrid.uasset'
+[2017.03.23-01.26.13:501][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/SimpleGrid.uasset
+[2017.03.23-01.26.13:512][  0]LogCook:Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMaterialInst -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset
+[2017.03.23-01.26.13:523][  0]LogSavePackage: Save=1.31ms
+[2017.03.23-01.26.13:532][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset'
+[2017.03.23-01.26.13:543][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterialInst.uasset
+[2017.03.23-01.26.13:554][  0]LogCook:Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset
+[2017.03.23-01.26.13:569][  0]LogSavePackage: Save=5.29ms
+[2017.03.23-01.26.13:574][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset'
+[2017.03.23-01.26.13:585][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial.uasset
+[2017.03.23-01.26.13:596][  0]LogCook:Display: Cooking /Engine/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset
+[2017.03.23-01.26.13:609][  0]LogSavePackage: Save=2.75ms
+[2017.03.23-01.26.13:617][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset'
+[2017.03.23-01.26.13:628][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset
+[2017.03.23-01.26.13:639][  0]LogCook:Display: Cooking /Engine/VREditor/LaserPointer/LaserPointerMesh -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh.uasset
+[2017.03.23-01.26.13:652][  0]LogSavePackage: Save=1.64ms
+[2017.03.23-01.26.13:661][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh.uasset'
+[2017.03.23-01.26.13:674][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/LaserPointer/LaserPointerMesh.uasset
+[2017.03.23-01.26.13:686][  0]LogCook:Display: Cooking /Engine/VREditor/WorldMovementGrid/GridPostProcess -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridPostProcess.uasset
+[2017.03.23-01.26.13:700][  0]LogSavePackage: Save=4.21ms
+[2017.03.23-01.26.13:707][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridPostProcess.uasset'
+[2017.03.23-01.26.13:718][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/WorldMovementGrid/GridPostProcess.uasset
+[2017.03.23-01.26.13:730][  0]LogCook:Display: Cooking /Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset
+[2017.03.23-01.26.13:740][  0]LogSavePackage: Save=1.17ms
+[2017.03.23-01.26.13:750][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset'
+[2017.03.23-01.26.13:761][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset
+[2017.03.23-01.26.13:774][  0]LogCook:Display: Cooking /Engine/VREditor/Sounds/VR_grab_Cue -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_grab_Cue.uasset
+[2017.03.23-01.26.13:784][  0]LogSavePackage: Save=0.87ms
+[2017.03.23-01.26.13:795][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_grab_Cue.uasset'
+[2017.03.23-01.26.13:806][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_grab_Cue.uasset
+[2017.03.23-01.26.13:818][  0]LogCook:Display: Cooking /Engine/VREditor/Sounds/VR_grab -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_grab.uasset
+[2017.03.23-01.26.13:828][  0]LogSavePackage: Save=0.91ms
+[2017.03.23-01.26.13:837][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_grab.uasset'
+[2017.03.23-01.26.13:849][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/Sounds/VR_grab.uasset
+[2017.03.23-01.26.13:860][  0]LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/TranslateHandleLong -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslateHandleLong.uasset
+[2017.03.23-01.26.13:872][  0]LogSavePackage: Save=2.42ms
+[2017.03.23-01.26.13:881][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslateHandleLong.uasset'
+[2017.03.23-01.26.13:892][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/TranslateHandleLong.uasset
+[2017.03.23-01.26.13:903][  0]LogCook:Display: Cooking /Engine/VREditor/TransformGizmo/RotationHandleFull -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleFull.uasset
+[2017.03.23-01.26.13:916][  0]LogSavePackage: Save=3.06ms
+[2017.03.23-01.26.13:924][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleFull.uasset'
+[2017.03.23-01.26.13:936][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/VREditor/TransformGizmo/RotationHandleFull.uasset
+[2017.03.23-01.26.13:947][  0]LogCook:Display: Cooking /Engine/EngineResources/AICON-Red -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/AICON-Red.uasset
+[2017.03.23-01.26.13:957][  0]LogSavePackage: Save=0.69ms
+[2017.03.23-01.26.13:967][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/AICON-Red.uasset'
+[2017.03.23-01.26.13:978][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/AICON-Red.uasset
+[2017.03.23-01.26.13:990][  0]LogCook:Display: Cooking /Engine/EngineResources/AICON-Green -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/AICON-Green.uasset
+[2017.03.23-01.26.14:001][  0]LogSavePackage: Save=0.70ms
+[2017.03.23-01.26.14:011][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/AICON-Green.uasset'
+[2017.03.23-01.26.14:023][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/AICON-Green.uasset
+[2017.03.23-01.26.14:034][  0]LogCook:Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Base -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset
+[2017.03.23-01.26.14:046][  0]LogSavePackage: Save=1.78ms
+[2017.03.23-01.26.14:056][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset'
+[2017.03.23-01.26.14:067][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset
+[2017.03.23-01.26.14:078][  0]LogCook:Display: Cooking /Engine/EditorMaterials/Camera/MI_CineMat_Rig -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset
+[2017.03.23-01.26.14:089][  0]LogSavePackage: Save=0.99ms
+[2017.03.23-01.26.14:099][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset'
+[2017.03.23-01.26.14:111][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset
+[2017.03.23-01.26.14:122][  0]LogCook:Display: Cooking /Engine/EditorMaterials/Camera/CineMat -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/CineMat.uasset
+[2017.03.23-01.26.14:135][  0]LogSavePackage: Save=4.40ms
+[2017.03.23-01.26.14:142][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/CineMat.uasset'
+[2017.03.23-01.26.14:155][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/Camera/CineMat.uasset
+[2017.03.23-01.26.14:164][  0]LogCook:Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Arm -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset
+[2017.03.23-01.26.14:176][  0]LogSavePackage: Save=1.72ms
+[2017.03.23-01.26.14:185][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset'
+[2017.03.23-01.26.14:196][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset
+[2017.03.23-01.26.14:208][  0]LogCook:Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Mount -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset
+[2017.03.23-01.26.14:221][  0]LogSavePackage: Save=1.69ms
+[2017.03.23-01.26.14:230][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset'
+[2017.03.23-01.26.14:242][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset
+[2017.03.23-01.26.14:253][  0]LogCook:Display: Cooking /Engine/EditorMeshes/Camera/SM_CraneRig_Body -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset
+[2017.03.23-01.26.14:264][  0]LogSavePackage: Save=1.85ms
+[2017.03.23-01.26.14:273][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset'
+[2017.03.23-01.26.14:285][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset
+[2017.03.23-01.26.14:295][  0]LogCook:Display: Cooking /Engine/EditorMeshes/Camera/SM_RailRig_Track -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset
+[2017.03.23-01.26.14:307][  0]LogSavePackage: Save=1.94ms
+[2017.03.23-01.26.14:316][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset'
+[2017.03.23-01.26.14:327][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset
+[2017.03.23-01.26.14:338][  0]LogCook:Display: Cooking /Engine/EditorMeshes/Camera/SM_RailRig_Mount -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset
+[2017.03.23-01.26.14:351][  0]LogSavePackage: Save=1.70ms
+[2017.03.23-01.26.14:361][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset'
+[2017.03.23-01.26.14:373][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset
+[2017.03.23-01.26.14:384][  0]LogCook:Display: Cooking /Engine/EngineFonts/Roboto -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset
+[2017.03.23-01.26.14:439][  0]LogSavePackage: Save=44.74ms
+[2017.03.23-01.26.14:447][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset'
+[2017.03.23-01.26.14:457][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/Roboto.uasset
+[2017.03.23-01.26.14:469][  0]LogCook:Display: Cooking /Engine/EditorResources/S_Actor -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Actor.uasset
+[2017.03.23-01.26.14:479][  0]LogSavePackage: Save=0.79ms
+[2017.03.23-01.26.14:489][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Actor.uasset'
+[2017.03.23-01.26.14:501][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Actor.uasset
+[2017.03.23-01.26.14:511][  0]LogCook:Display: Cooking /Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1 -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.uasset
+[2017.03.23-01.26.14:533][  0]LogSavePackage: Save=12.05ms
+[2017.03.23-01.26.14:542][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.uasset'
+[2017.03.23-01.26.14:557][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.uasset
+[2017.03.23-01.26.14:567][  0]LogCook:Display: Cooking /Engine/EditorResources/RGBTable16x1_AssetViewer -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/RGBTable16x1_AssetViewer.uasset
+[2017.03.23-01.26.14:576][  0]LogSavePackage: Save=0.73ms
+[2017.03.23-01.26.14:585][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/RGBTable16x1_AssetViewer.uasset'
+[2017.03.23-01.26.14:597][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/RGBTable16x1_AssetViewer.uasset
+[2017.03.23-01.26.14:608][  0]LogCook:Display: Cooking /Engine/Maps/Templates/Thumbnails/Default -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset
+[2017.03.23-01.26.14:618][  0]LogSavePackage: Save=0.93ms
+[2017.03.23-01.26.14:628][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset'
+[2017.03.23-01.26.14:639][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/Default.uasset
+[2017.03.23-01.26.14:650][  0]LogCook:Display: Cooking /Engine/Maps/Templates/Thumbnails/VR-Basic -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset
+[2017.03.23-01.26.14:660][  0]LogSavePackage: Save=0.96ms
+[2017.03.23-01.26.14:670][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset'
+[2017.03.23-01.26.14:681][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset
+[2017.03.23-01.26.14:692][  0]LogCook:Display: Cooking /Engine/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset
+[2017.03.23-01.26.14:702][  0]LogSavePackage: Save=0.72ms
+[2017.03.23-01.26.14:712][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset'
+[2017.03.23-01.26.14:724][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset
+[2017.03.23-01.26.14:734][  0]LogCook:Display: Cooking /Engine/EditorMaterials/ParticleSystems/PSysThumbnail_OOD -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset
+[2017.03.23-01.26.14:746][  0]LogSavePackage: Save=0.88ms
+[2017.03.23-01.26.14:755][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset'
+[2017.03.23-01.26.14:767][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset
+[2017.03.23-01.26.14:777][  0]LogCook:Display: Cooking /Engine/EditorLandscapeResources/DataLayer -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/DataLayer.uasset
+[2017.03.23-01.26.14:787][  0]LogSavePackage: Save=0.43ms
+[2017.03.23-01.26.14:797][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/DataLayer.uasset'
+[2017.03.23-01.26.14:809][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorLandscapeResources/DataLayer.uasset
+[2017.03.23-01.26.14:820][  0]LogCook:Display: Cooking /Engine/EngineDamageTypes/DmgTypeBP_Environmental -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset
+[2017.03.23-01.26.14:831][  0]LogSavePackage: Save=0.95ms
+[2017.03.23-01.26.14:840][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset'
+[2017.03.23-01.26.14:851][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset
+[2017.03.23-01.26.14:862][  0]LogCook:Display: Cooking /Engine/EngineMeshes/Sphere -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset
+[2017.03.23-01.26.14:873][  0]LogSavePackage: Save=1.41ms
+[2017.03.23-01.26.14:883][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset'
+[2017.03.23-01.26.14:894][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Sphere.uasset
+[2017.03.23-01.26.14:905][  0]LogCook:Display: Cooking /Engine/EditorResources/S_Trigger -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Trigger.uasset
+[2017.03.23-01.26.14:915][  0]LogSavePackage: Save=0.85ms
+[2017.03.23-01.26.14:925][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Trigger.uasset'
+[2017.03.23-01.26.14:936][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/S_Trigger.uasset
+[2017.03.23-01.26.14:947][  0]LogCook:Display: Cooking /Engine/EngineResources/GradientTexture0 -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/GradientTexture0.uasset
+[2017.03.23-01.26.14:957][  0]LogSavePackage: Save=0.83ms
+[2017.03.23-01.26.14:967][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/GradientTexture0.uasset'
+[2017.03.23-01.26.14:978][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/GradientTexture0.uasset
+[2017.03.23-01.26.14:990][  0]LogCook:Display: Cooking /Engine/EngineResources/Black -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset
+[2017.03.23-01.26.14:999][  0]LogSavePackage: Save=0.74ms
+[2017.03.23-01.26.15:009][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset'
+[2017.03.23-01.26.15:021][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/Black.uasset
+[2017.03.23-01.26.15:032][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Float -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset
+[2017.03.23-01.26.15:042][  0]LogSavePackage: Save=0.83ms
+[2017.03.23-01.26.15:053][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset'
+[2017.03.23-01.26.15:065][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset
+[2017.03.23-01.26.15:075][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Director -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset
+[2017.03.23-01.26.15:085][  0]LogSavePackage: Save=0.75ms
+[2017.03.23-01.26.15:095][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset'
+[2017.03.23-01.26.15:107][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset
+[2017.03.23-01.26.15:119][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Event -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset
+[2017.03.23-01.26.15:130][  0]LogSavePackage: Save=0.78ms
+[2017.03.23-01.26.15:140][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset'
+[2017.03.23-01.26.15:155][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset
+[2017.03.23-01.26.15:165][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Anim -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset
+[2017.03.23-01.26.15:180][  0]LogSavePackage: Save=0.70ms
+[2017.03.23-01.26.15:190][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset'
+[2017.03.23-01.26.15:207][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset
+[2017.03.23-01.26.15:218][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Fade -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset
+[2017.03.23-01.26.15:228][  0]LogSavePackage: Save=0.79ms
+[2017.03.23-01.26.15:238][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset'
+[2017.03.23-01.26.15:250][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset
+[2017.03.23-01.26.15:260][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Move -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset
+[2017.03.23-01.26.15:271][  0]LogSavePackage: Save=0.76ms
+[2017.03.23-01.26.15:281][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset'
+[2017.03.23-01.26.15:292][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset
+[2017.03.23-01.26.15:303][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Slomo -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset
+[2017.03.23-01.26.15:314][  0]LogSavePackage: Save=0.75ms
+[2017.03.23-01.26.15:324][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset'
+[2017.03.23-01.26.15:335][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset
+[2017.03.23-01.26.15:346][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset
+[2017.03.23-01.26.15:356][  0]LogSavePackage: Save=0.75ms
+[2017.03.23-01.26.15:366][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset'
+[2017.03.23-01.26.15:377][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset
+[2017.03.23-01.26.15:388][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MAT_Groups_Toggle -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset
+[2017.03.23-01.26.15:399][  0]LogSavePackage: Save=0.77ms
+[2017.03.23-01.26.15:409][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset'
+[2017.03.23-01.26.15:421][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset
+[2017.03.23-01.26.15:432][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset
+[2017.03.23-01.26.15:442][  0]LogSavePackage: Save=0.78ms
+[2017.03.23-01.26.15:452][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset'
+[2017.03.23-01.26.15:464][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset
+[2017.03.23-01.26.15:475][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Sound -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset
+[2017.03.23-01.26.15:485][  0]LogSavePackage: Save=0.87ms
+[2017.03.23-01.26.15:495][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset'
+[2017.03.23-01.26.15:506][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset
+[2017.03.23-01.26.15:528][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MatineeGroups/MAT_Groups_Vector -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset
+[2017.03.23-01.26.15:539][  0]LogSavePackage: Save=1.01ms
+[2017.03.23-01.26.15:548][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset'
+[2017.03.23-01.26.15:559][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset
+[2017.03.23-01.26.15:570][  0]LogCook:Display: Cooking /Engine/EditorMaterials/MAT_Groups_Visibility -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset
+[2017.03.23-01.26.15:581][  0]LogSavePackage: Save=0.72ms
+[2017.03.23-01.26.15:591][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset'
+[2017.03.23-01.26.15:602][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset
+[2017.03.23-01.26.15:613][  0]LogCook:Display: Cooking /Engine/EngineResources/DefaultTextureCube -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset
+[2017.03.23-01.26.15:624][  0]LogSavePackage: Save=0.74ms
+[2017.03.23-01.26.15:634][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset'
+[2017.03.23-01.26.15:645][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineResources/DefaultTextureCube.uasset
+[2017.03.23-01.26.15:657][  0]LogCook:Display: Cooking /Engine/EngineMeshes/Cylinder -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset
+[2017.03.23-01.26.15:668][  0]LogSavePackage: Save=1.83ms
+[2017.03.23-01.26.15:677][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset'
+[2017.03.23-01.26.15:690][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMeshes/Cylinder.uasset
+[2017.03.23-01.26.15:699][  0]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset
+[2017.03.23-01.26.15:720][  0]LogSavePackage: Save=10.82ms
+[2017.03.23-01.26.15:720][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset'
+[2017.03.23-01.26.15:731][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultMaterial.uasset
+[2017.03.23-01.26.15:742][  0]LogCook:Display: Cooking /Engine/EngineTireTypes/DefaultTireType -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineTireTypes/DefaultTireType.uasset
+[2017.03.23-01.26.15:752][  0]LogSavePackage: Save=0.39ms
+[2017.03.23-01.26.15:763][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineTireTypes/DefaultTireType.uasset'
+[2017.03.23-01.26.15:775][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineTireTypes/DefaultTireType.uasset
+[2017.03.23-01.26.15:785][  0]LogCook:Display: Cooking /Engine/Tutorial/Basics/LevelEditorAttract -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset
+[2017.03.23-01.26.15:796][  0]LogSavePackage:Display: No exports found (or all exports are editor-only) for LevelEditorAttract. Package will not be saved.
+[2017.03.23-01.26.15:806][  0]LogCook:Display: Cooking /Engine/Tutorial/ContentIntroCurve -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/ContentIntroCurve.uasset
+[2017.03.23-01.26.15:817][  0]LogSavePackage: Save=0.49ms
+[2017.03.23-01.26.15:827][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/ContentIntroCurve.uasset'
+[2017.03.23-01.26.15:838][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/Tutorial/ContentIntroCurve.uasset
+[2017.03.23-01.26.15:849][  0]LogCook:Display: Cooking /Paper2D/MaskedUnlitSpriteMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset
+[2017.03.23-01.26.15:860][  0]LogSavePackage: Save=0.93ms
+[2017.03.23-01.26.15:870][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset'
+[2017.03.23-01.26.15:881][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset
+[2017.03.23-01.26.15:892][  0]LogCook:Display: Cooking /Paper2D/DefaultSpriteMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset
+[2017.03.23-01.26.15:905][  0]LogSavePackage: Save=3.10ms
+[2017.03.23-01.26.15:913][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset'
+[2017.03.23-01.26.15:924][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset
+[2017.03.23-01.26.15:935][  0]LogCook:Display: Cooking /Paper2D/DummySpriteTexture -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset
+[2017.03.23-01.26.15:945][  0]LogSavePackage:Display: No exports found (or all exports are editor-only) for DummySpriteTexture. Package will not be saved.
+[2017.03.23-01.26.15:956][  0]LogCook:Display: Cooking /Paper2D/PlaceholderTextures/DummySpriteTexture -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset
+[2017.03.23-01.26.15:967][  0]LogSavePackage: Save=0.70ms
+[2017.03.23-01.26.15:978][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset'
+[2017.03.23-01.26.15:989][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset
+[2017.03.23-01.26.15:999][  0]LogCook:Display: Cooking /Paper2D/OpaqueUnlitSpriteMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset
+[2017.03.23-01.26.16:011][  0]LogSavePackage: Save=2.18ms
+[2017.03.23-01.26.16:020][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset'
+[2017.03.23-01.26.16:031][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset
+[2017.03.23-01.26.16:041][  0]LogCook:Display: Cooking /Paper2D/DefaultPaperTerrainMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset
+[2017.03.23-01.26.16:052][  0]LogSavePackage: Save=0.77ms
+[2017.03.23-01.26.16:062][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset'
+[2017.03.23-01.26.16:075][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset
+[2017.03.23-01.26.16:086][  0]LogCook:Display: Cooking /Paper2D/DummySprite -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset
+[2017.03.23-01.26.16:095][  0]LogSavePackage: Save=1.26ms
+[2017.03.23-01.26.16:105][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset'
+[2017.03.23-01.26.16:116][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset
+[2017.03.23-01.26.16:127][  0]LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileStart_Cue -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset
+[2017.03.23-01.26.16:139][  0]LogSavePackage: Save=1.92ms
+[2017.03.23-01.26.16:147][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset'
+[2017.03.23-01.26.16:158][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset
+[2017.03.23-01.26.16:169][  0]LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileSuccess -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset
+[2017.03.23-01.26.16:179][  0]LogSavePackage: Save=0.88ms
+[2017.03.23-01.26.16:189][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset'
+[2017.03.23-01.26.16:200][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset
+[2017.03.23-01.26.16:211][  0]LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileSuccess_Cue -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset
+[2017.03.23-01.26.16:224][  0]LogSavePackage: Save=0.81ms
+[2017.03.23-01.26.16:234][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset'
+[2017.03.23-01.26.16:246][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset
+[2017.03.23-01.26.16:256][  0]LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileFailed_Cue -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset
+[2017.03.23-01.26.16:267][  0]LogSavePackage: Save=0.84ms
+[2017.03.23-01.26.16:277][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset'
+[2017.03.23-01.26.16:288][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset
+[2017.03.23-01.26.16:299][  0]LogCook:Display: Cooking /Engine/EditorSounds/Notifications/CompileFailed -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset
+[2017.03.23-01.26.16:310][  0]LogSavePackage: Save=0.87ms
+[2017.03.23-01.26.16:320][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset'
+[2017.03.23-01.26.16:331][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset
+[2017.03.23-01.26.16:342][  0]LogCook:Display: Cooking /Engine/EngineMaterials/RemoveSurfaceMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset
+[2017.03.23-01.26.16:353][  0]LogSavePackage: Save=1.30ms
+[2017.03.23-01.26.16:363][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset'
+[2017.03.23-01.26.16:374][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset
+[2017.03.23-01.26.16:384][  0]LogCook:Display: Cooking /Engine/EngineDebugMaterials/DebugMeshMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset
+[2017.03.23-01.26.16:396][  0]LogSavePackage: Save=2.32ms
+[2017.03.23-01.26.16:405][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset'
+[2017.03.23-01.26.16:416][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset
+[2017.03.23-01.26.16:427][  0]LogCook:Display: Cooking /Engine/EngineMaterials/M_InvalidLightmapSettings -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset
+[2017.03.23-01.26.16:441][  0]LogSavePackage: Save=4.06ms
+[2017.03.23-01.26.16:448][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset'
+[2017.03.23-01.26.16:459][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset
+[2017.03.23-01.26.16:470][  0]LogCook:Display: Cooking /Engine/EngineMaterials/InvalidLightmapSettings -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset
+[2017.03.23-01.26.16:480][  0]LogSavePackage: Save=0.83ms
+[2017.03.23-01.26.16:490][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset'
+[2017.03.23-01.26.16:501][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset
+[2017.03.23-01.26.16:512][  0]LogCook:Display: Cooking /Engine/EditorMaterials/GizmoMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/GizmoMaterial.uasset
+[2017.03.23-01.26.16:524][  0]LogSavePackage: Save=2.35ms
+[2017.03.23-01.26.16:532][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/GizmoMaterial.uasset'
+[2017.03.23-01.26.16:543][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorMaterials/GizmoMaterial.uasset
+[2017.03.23-01.26.16:554][  0]LogCook:Display: Cooking /Engine/EngineMaterials/PhAT_JointLimitMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset
+[2017.03.23-01.26.16:567][  0]LogSavePackage: Save=2.43ms
+[2017.03.23-01.26.16:575][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset'
+[2017.03.23-01.26.16:586][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset
+[2017.03.23-01.26.16:596][  0]LogCook:Display: Cooking /Engine/EngineMaterials/Good64x64TilingNoiseHighFreq -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset
+[2017.03.23-01.26.16:607][  0]LogSavePackage: Save=0.86ms
+[2017.03.23-01.26.16:617][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset'
+[2017.03.23-01.26.16:628][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset
+[2017.03.23-01.26.16:639][  0]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultBokeh -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBokeh.uasset
+[2017.03.23-01.26.16:650][  0]LogSavePackage: Save=0.70ms
+[2017.03.23-01.26.16:660][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBokeh.uasset'
+[2017.03.23-01.26.16:672][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultBokeh.uasset
+[2017.03.23-01.26.16:682][  0]LogCook:Display: Cooking /Engine/EngineMaterials/PreintegratedSkinBRDF -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset
+[2017.03.23-01.26.16:692][  0]LogSavePackage: Save=0.92ms
+[2017.03.23-01.26.16:702][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset'
+[2017.03.23-01.26.16:713][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset
+[2017.03.23-01.26.16:724][  0]LogCook:Display: Cooking /Engine/EngineMaterials/MiniFont -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset
+[2017.03.23-01.26.16:734][  0]LogSavePackage: Save=0.74ms
+[2017.03.23-01.26.16:744][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset'
+[2017.03.23-01.26.16:756][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/MiniFont.uasset
+[2017.03.23-01.26.16:768][  0]LogCook:Display: Cooking /Engine/EngineMaterials/WeightMapPlaceholderTexture -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset
+[2017.03.23-01.26.16:778][  0]LogSavePackage: Save=0.89ms
+[2017.03.23-01.26.16:788][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset'
+[2017.03.23-01.26.16:800][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset
+[2017.03.23-01.26.16:811][  0]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultWhiteGrid -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset
+[2017.03.23-01.26.16:822][  0]LogSavePackage: Save=0.82ms
+[2017.03.23-01.26.16:832][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset'
+[2017.03.23-01.26.16:844][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset
+[2017.03.23-01.26.16:856][  0]LogCook:Display: Cooking /Engine/EngineMaterials/DefaultPhysicalMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset
+[2017.03.23-01.26.16:864][  0]LogSavePackage: Save=0.60ms
+[2017.03.23-01.26.16:874][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset'
+[2017.03.23-01.26.16:885][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset
+[2017.03.23-01.26.16:896][  0]LogCook:Display: Cooking /Engine/EngineFonts/RobotoTiny -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoTiny.uasset
+[2017.03.23-01.26.16:915][  0]LogSavePackage: Save=9.02ms
+[2017.03.23-01.26.16:917][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoTiny.uasset'
+[2017.03.23-01.26.16:927][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineFonts/RobotoTiny.uasset
+[2017.03.23-01.26.16:940][  0]LogCook:Display: Cooking /Engine/EditorResources/SequenceRecorder/Countdown -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset
+[2017.03.23-01.26.16:950][  0]LogSavePackage: Save=0.72ms
+[2017.03.23-01.26.16:960][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset'
+[2017.03.23-01.26.16:971][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset
+[2017.03.23-01.26.16:983][  0]LogCook:Display: Cooking /Engine/EditorResources/SequenceRecorder/RecordingIndicator -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset
+[2017.03.23-01.26.16:992][  0]LogSavePackage: Save=0.77ms
+[2017.03.23-01.26.17:002][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset'
+[2017.03.23-01.26.17:013][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset
+[2017.03.23-01.26.17:025][  0]LogCook:Display: Cooking /Engine/BasicShapes/Cube -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset
+[2017.03.23-01.26.17:036][  0]LogSavePackage: Save=2.06ms
+[2017.03.23-01.26.17:044][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset'
+[2017.03.23-01.26.17:055][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cube.uasset
+[2017.03.23-01.26.17:067][  0]LogCook:Display: Cooking /Engine/BasicShapes/Sphere -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Sphere.uasset
+[2017.03.23-01.26.17:078][  0]LogSavePackage: Save=2.02ms
+[2017.03.23-01.26.17:087][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Sphere.uasset'
+[2017.03.23-01.26.17:098][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Sphere.uasset
+[2017.03.23-01.26.17:108][  0]LogCook:Display: Cooking /Engine/BasicShapes/Cylinder -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cylinder.uasset
+[2017.03.23-01.26.17:120][  0]LogSavePackage: Save=2.28ms
+[2017.03.23-01.26.17:129][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cylinder.uasset'
+[2017.03.23-01.26.17:140][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cylinder.uasset
+[2017.03.23-01.26.17:153][  0]LogCook:Display: Cooking /Engine/BasicShapes/Cone -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cone.uasset
+[2017.03.23-01.26.17:164][  0]LogSavePackage: Save=2.06ms
+[2017.03.23-01.26.17:173][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cone.uasset'
+[2017.03.23-01.26.17:184][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/Cone.uasset
+[2017.03.23-01.26.17:195][  0]LogCook:Display: Cooking /Game/FirstPersonBP/Maps/Lobby -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/CIS568VRYPaint_mp/Content/FirstPersonBP/Maps/Lobby.umap
+[2017.03.23-01.26.17:206][  0]LogAIModule: Creating AISystem for world Lobby
+[2017.03.23-01.26.17:247][  0]LogSavePackage: Save=25.95ms
+[2017.03.23-01.26.17:249][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/CIS568VRYPaint_mp/Content/FirstPersonBP/Maps/Lobby.umap'
+[2017.03.23-01.26.17:261][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/CIS568VRYPaint_mp/Content/FirstPersonBP/Maps/Lobby.umap
+[2017.03.23-01.26.17:274][  0]LogCook:Display: Cooking /Engine/EngineSky/BP_Sky_Sphere -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/BP_Sky_Sphere.uasset
+[2017.03.23-01.26.17:343][  0]LogSavePackage: Save=61.26ms
+[2017.03.23-01.26.17:345][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/BP_Sky_Sphere.uasset'
+[2017.03.23-01.26.17:356][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/BP_Sky_Sphere.uasset
+[2017.03.23-01.26.17:367][  0]LogCook:Display: Cooking /Engine/EditorBlueprintResources/StandardMacros -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorBlueprintResources/StandardMacros.uasset
+[2017.03.23-01.26.17:423][  0]LogSavePackage: Save=46.59ms
+[2017.03.23-01.26.17:430][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorBlueprintResources/StandardMacros.uasset'
+[2017.03.23-01.26.17:441][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EditorBlueprintResources/StandardMacros.uasset
+[2017.03.23-01.26.17:452][  0]LogCook:Display: Cooking /Engine/EngineSky/C_Sky_Cloud_Color -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset
+[2017.03.23-01.26.17:462][  0]LogSavePackage: Save=0.47ms
+[2017.03.23-01.26.17:472][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset'
+[2017.03.23-01.26.17:483][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset
+[2017.03.23-01.26.17:495][  0]LogCook:Display: Cooking /Engine/EngineSky/C_Sky_Horizon_Color -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset
+[2017.03.23-01.26.17:505][  0]LogSavePackage: Save=0.49ms
+[2017.03.23-01.26.17:515][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset'
+[2017.03.23-01.26.17:526][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset
+[2017.03.23-01.26.17:538][  0]LogCook:Display: Cooking /Engine/EngineSky/C_Sky_Zenith_Color -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset
+[2017.03.23-01.26.17:547][  0]LogSavePackage: Save=0.49ms
+[2017.03.23-01.26.17:558][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset'
+[2017.03.23-01.26.17:569][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset
+[2017.03.23-01.26.17:579][  0]LogCook:Display: Cooking /Engine/EngineSky/M_Sky_Panning_Clouds2 -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset
+[2017.03.23-01.26.17:595][  0]LogSavePackage: Save=5.50ms
+[2017.03.23-01.26.17:600][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset'
+[2017.03.23-01.26.17:612][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset
+[2017.03.23-01.26.17:626][  0]LogCook:Display: Cooking /Engine/EngineSky/T_Sky_Blue -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Blue.uasset
+[2017.03.23-01.26.17:637][  0]LogSavePackage: Save=3.39ms
+[2017.03.23-01.26.17:643][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Blue.uasset'
+[2017.03.23-01.26.17:656][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Blue.uasset
+[2017.03.23-01.26.17:665][  0]LogCook:Display: Cooking /Engine/EngineSky/T_Sky_Clouds_M -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Clouds_M.uasset
+[2017.03.23-01.26.17:676][  0]LogSavePackage: Save=1.26ms
+[2017.03.23-01.26.17:685][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Clouds_M.uasset'
+[2017.03.23-01.26.17:698][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Clouds_M.uasset
+[2017.03.23-01.26.17:708][  0]LogCook:Display: Cooking /Engine/EngineSky/T_Sky_Stars -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Stars.uasset
+[2017.03.23-01.26.17:719][  0]LogSavePackage: Save=0.76ms
+[2017.03.23-01.26.17:729][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Stars.uasset'
+[2017.03.23-01.26.17:742][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/T_Sky_Stars.uasset
+[2017.03.23-01.26.17:779][  0]LogCook:Display: Cooking /Engine/MobileResources/HUD/MobileHUDDirectionPad3 -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset
+[2017.03.23-01.26.17:783][  0]LogSavePackage: Save=0.70ms
+[2017.03.23-01.26.17:794][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset'
+[2017.03.23-01.26.17:805][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset
+[2017.03.23-01.26.17:815][  0]LogCook:Display: Cooking /Engine/EngineSky/SM_SkySphere -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/SM_SkySphere.uasset
+[2017.03.23-01.26.17:827][  0]LogSavePackage: Save=1.78ms
+[2017.03.23-01.26.17:836][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/SM_SkySphere.uasset'
+[2017.03.23-01.26.17:848][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/EngineSky/SM_SkySphere.uasset
+[2017.03.23-01.26.17:858][  0]LogCook:Display: Cooking /Game/FirstPersonBP/Blueprints/Lobby/FindSessionCube -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/CIS568VRYPaint_mp/Content/FirstPersonBP/Blueprints/Lobby/FindSessionCube.uasset
+[2017.03.23-01.26.17:888][  0]LogSavePackage: Save=19.62ms
+[2017.03.23-01.26.17:889][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/CIS568VRYPaint_mp/Content/FirstPersonBP/Blueprints/Lobby/FindSessionCube.uasset'
+[2017.03.23-01.26.17:900][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/CIS568VRYPaint_mp/Content/FirstPersonBP/Blueprints/Lobby/FindSessionCube.uasset
+[2017.03.23-01.26.17:911][  0]LogCook:Display: Cooking /Game/FirstPersonBP/Blueprints/Lobby/JoinCube -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/CIS568VRYPaint_mp/Content/FirstPersonBP/Blueprints/Lobby/JoinCube.uasset
+[2017.03.23-01.26.17:938][  0]LogSavePackage: Save=17.82ms
+[2017.03.23-01.26.17:942][  0]LogSavePackage: Async saving from memory to 'C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/CIS568VRYPaint_mp/Content/FirstPersonBP/Blueprints/Lobby/JoinCube.uasset'
+[2017.03.23-01.26.17:953][  0]LogSavePackage:Display: Finished SavePackage C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/CIS568VRYPaint_mp/Content/FirstPersonBP/Blueprints/Lobby/JoinCube.uasset
+[2017.03.23-01.26.17:965][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.23-01.26.17:975][  0]CookResults:Warning: Warning Package /Engine/BasicShapes/BasicShapeMaterial supposed to be fully loaded but isn't. RF_WasLoaded is not set
+[2017.03.23-01.26.17:985][  0]LogCook:Warning: Package /Engine/BasicShapes/BasicShapeMaterial supposed to be fully loaded but isn't. RF_WasLoaded is not set
+[2017.03.23-01.26.17:996][  0]LogCook:Display: Cooking /Engine/BasicShapes/BasicShapeMaterial -> C:/Users/SIG/Desktop/unreal-project-vry-paint-Mar22/Saved/Cooked/WindowsNoEditor/Engine/Content/BasicShapes/BasicShapeMaterial.uasset
+[2017.03.23-01.26.18:006][  0]LogWindows: Windows GetLastError: The operation completed successfully. (0)
