@@ -1,0 +1,505 @@
+﻿Log file open, 03/30/17 13:53:46
+LogInit:Display: Running engine for game: CIS568VRYPaint_mp
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1881800934) SRandInit(1881800935).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.617755
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.30-17.53.47:503][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.30-17.53.47:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.30-17.53.47:527][  0]LogInit: Computer: SIGLAB-VR1
+[2017.03.30-17.53.47:527][  0]LogInit: User: SIGAdmin
+[2017.03.30-17.53.47:527][  0]LogInit: CPU Page size=65536, Cores=10
+[2017.03.30-17.53.47:527][  0]LogInit: High frequency timer resolution =3.020346 MHz
+[2017.03.30-17.53.47:527][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.03.30-17.53.47:527][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.30-17.53.47:527][  0]LogMemory: Process Physical Memory: 269.45 MB used, 269.45 MB peak
+[2017.03.30-17.53.47:527][  0]LogMemory: Process Virtual Memory: 265.97 MB used, 265.97 MB peak
+[2017.03.30-17.53.47:527][  0]LogMemory: Physical Memory: 5270.14 MB used,  27420.11 MB free, 32690.26 MB total
+[2017.03.30-17.53.47:527][  0]LogMemory: Virtual Memory: 689.82 MB used,  27420.11 MB free, 134217728.00 MB total
+[2017.03.30-17.53.47:799][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.30-17.53.50:103][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.30-17.53.50:137][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2017.03.30-17.53.50:137][  0]LogD3D11RHI:       4060/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.30-17.53.50:138][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.30-17.53.50:138][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.30-17.53.50:138][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.30-17.53.50:152][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.30-17.53.50:152][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.30-17.53.50:152][  0]LogWindows: EnumDisplayDevices:
+[2017.03.30-17.53.50:152][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2017.03.30-17.53.50:152][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:1)
+[2017.03.30-17.53.50:152][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.03.30-17.53.50:152][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.03.30-17.53.50:152][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.30-17.53.50:152][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2017.03.30-17.53.50:153][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.03.30-17.53.50:153][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.03.30-17.53.50:153][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.30-17.53.50:166][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.30-17.53.50:195][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.30-17.53.50:202][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Intermediate/Shaders/WorkingDirectory/54056/).
+[2017.03.30-17.53.50:202][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SIG Admin/AppData/Local/Temp/UnrealShaderWorkingDir/1FEBC08F4D9AA4D9B2D17B80393270D3/'.
+[2017.03.30-17.53.50:202][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.30-17.53.52:500][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.30-17.53.52:564][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.30-17.53.52:625][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.30-17.53.52:691][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.30-17.53.52:771][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.30-17.53.52:830][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.30-17.53.52:888][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.30-17.53.52:946][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.30-17.53.52:995][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.30-17.53.53:059][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.30-17.53.53:118][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.30-17.53.53:183][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.30-17.53.53:242][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.30-17.53.53:299][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.30-17.53.53:359][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.30-17.53.53:482][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.30-17.53.53:482][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.30-17.53.53:527][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.30-17.53.53:645][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.30-17.53.53:680][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.30-17.53.53:735][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.30-17.53.53:792][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.30-17.53.53:848][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.30-17.53.53:907][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.30-17.53.53:907][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.30-17.53.54:575][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.30-17.53.54:934][  0]LogDerivedDataCache: Loaded boot cache 0.36s 54MB C:/Users/SIG Admin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.30-17.53.54:934][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SIG Admin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.30-17.53.54:934][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.30-17.53.54:934][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.30-17.53.54:935][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.30-17.53.54:935][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.30-17.53.54:959][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.30-17.53.54:972][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SIG Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.30-17.53.57:246][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.30-17.53.57:254][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.30-17.53.57:531][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.30-17.53.57:586][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.30-17.53.57:641][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.30-17.53.57:641][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.30-17.53.57:641][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.30-17.53.58:873][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: cis568vrypaint_mp, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3560575784
+[2017.03.30-17.53.58:951][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2017.03.30-17.53.59:003][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025566 seconds
+[2017.03.30-17.53.59:008][  0]LogUObjectArray: 31953 objects as part of root set at end of initial load.
+[2017.03.30-17.53.59:008][  0]LogUObjectAllocator: 7149672 out of 0 bytes used by permanent object pool.
+[2017.03.30-17.53.59:008][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.30-17.54.00:001][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.30-17.54.00:014][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.30-17.54.00:014][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.30-17.54.02:429][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.03.30-17.54.02:466][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.30-17.54.02:511][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.30-17.54.02:922][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.30-17.54.03:380][  0]SourceControl: Info Source control is disabled
+[2017.03.30-17.54.03:477][  0]SourceControl: Info Source control is disabled
+[2017.03.30-17.54.03:538][  0]SourceControl: Info Source control is disabled
+[2017.03.30-17.54.03:592][  0]SourceControl: Info Source control is disabled
+[2017.03.30-17.54.05:127][  0]LogEngine: Initializing Engine...
+[2017.03.30-17.54.05:192][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.03.30-17.54.05:487][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.30-17.54.05:503][  0]LogInit: XAudio2 using 'DELL U2414H-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.30-17.54.05:542][  0]LogInit: FAudioDevice initialized.
+[2017.03.30-17.54.05:577][  0]LogDerivedDataCache: Saved boot cache 0.03s 52MB C:/Users/SIG Admin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.30-17.54.05:585][  0]LogInit: Texture streaming: Enabled
+[2017.03.30-17.54.05:818][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.30-17.54.05:875][  0]LogInit: Transaction tracking system initialized
+[2017.03.30-17.54.06:369][  0]BlueprintLog: New page: Editor Load
+[2017.03.30-17.54.07:487][  0]LocalizationService: Info Localization service is disabled
+[2017.03.30-17.54.08:313][  0]LogConsoleResponse:Display: 
+[2017.03.30-17.54.08:590][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.30-17.54.08:590][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.30-17.54.08:854][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Content/' took 0.02s
+[2017.03.30-17.54.09:792][  0]SourceControl: Info Source control is disabled
+[2017.03.30-17.54.09:793][  0]Cmd: MAP LOAD FILE="../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Content/FirstPersonBP/Maps/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.30-17.54.09:795][  0]LightingResults: New page: Lighting Build
+[2017.03.30-17.54.09:853][  0]MapCheck: New page: Map Check
+[2017.03.30-17.54.09:853][  0]LightingResults: New page: Lighting Build
+[2017.03.30-17.54.10:023][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.54.10:023][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.54.10:024][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.54.10:024][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.54.10:025][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.54.10:026][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.54.10:026][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.54.10:026][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.54.10:028][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.54.10:028][  0]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.54.10:340][  0]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_N (BC5)
+[2017.03.30-17.54.10:848][  0]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_M (AutoDXT)
+[2017.03.30-17.54.12:125][  0]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_D (AutoDXT)
+[2017.03.30-17.54.13:471][  0]LogTexture:Display: Building textures: T_Brick_Clay_New_N (BC5)
+[2017.03.30-17.54.13:986][  0]LogTexture:Display: Building textures: T_Brick_Clay_New_M (AutoDXT)
+[2017.03.30-17.54.15:333][  0]LogTexture:Display: Building textures: T_Brick_Clay_New_D (AutoDXT)
+[2017.03.30-17.54.16:393][  0]LogAIModule: Creating AISystem for world Lobby
+[2017.03.30-17.54.16:539][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.30-17.54.16:541][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.30-17.54.16:594][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.276ms to complete.
+[2017.03.30-17.54.16:594][  0]LogFileHelpers: Loading map 'Lobby' took 6.801
+[2017.03.30-17.54.16:816][  0]LogCollectionManager: Loaded 1 collections in 0.003365 seconds
+[2017.03.30-17.54.16:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/Collections/' took 0.01s
+[2017.03.30-17.54.16:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Content/Developers/SIGAdmin/Collections/' took 0.01s
+[2017.03.30-17.54.16:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Content/Collections/' took 0.01s
+[2017.03.30-17.54.16:922][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000004 seconds
+[2017.03.30-17.54.16:923][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.03.30-17.54.16:935][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2206 classes and 437 folders.
+[2017.03.30-17.54.16:984][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.30-17.54.16:984][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.30-17.54.16:985][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.03.30-17.54.17:053][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.30-17.54.17:346][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.30-17.54.17:402][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.30-17.54.17:590][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.30-17.54.17:604][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.30-17.54.17:682][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.30-17.54.17:682][  0]LogLoad: (Engine Initialization) Total time: 34.09 seconds
+[2017.03.30-17.54.17:682][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.21 seconds
+[2017.03.30-17.54.17:682][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.30-17.54.17:682][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.30-17.54.17:691][  0]LogOcInput: OculusInput pre-init called
+[2017.03.30-17.54.17:717][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.30-17.54.17:931][  0]LogRenderer: Reallocating scene render targets to support 1208x684 NumSamples 1 (Frame:2).
+[2017.03.30-17.54.18:033][  1]LogAssetRegistry: Asset discovery search completed in 19.1049 seconds
+[2017.03.30-17.54.18:033][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000006 seconds (found 0 objects)
+[2017.03.30-17.54.18:033][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000030 seconds (updated 0 objects)
+[2017.03.30-17.54.22:674][537]LogRenderer: Reallocating scene render targets to support 1264x684 NumSamples 1 (Frame:538).
+[2017.03.30-17.54.45:011][166]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2017.03.30-17.54.45:221][182]UATHelper: Packaging (Windows (64-bit)): Automation.ParseCommandLine: Parsing command line: -ScriptsForProject="C:/Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/CIS568VRYPaint_mp.uproject" BuildCookRun -nocompile -nocompileeditor -installed -nop4 -project="C:/Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/CIS568VRYPaint_mp.uproject" -cook -stage -archive -archivedirectory="C:/Users/SIG Admin/Desktop/New folder (2)" -package -clientconfig=Development -ue4exe=UE4Editor-Cmd.exe -pak -prereqs -nodebuginfo -targetplatform=Win64 -build -CrashReporter -utf8output
+[2017.03.30-17.54.45:221][182]UATHelper: Packaging (Windows (64-bit)): Automation.Process: Setting up command environment.
+[2017.03.30-17.54.45:746][245]UATHelper: Packaging (Windows (64-bit)): BuildCookRun.SetupParams: Setting up ProjectParams for C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2\CIS568VRYPaint_mp.uproject
+[2017.03.30-17.54.46:271][308]UATHelper: Packaging (Windows (64-bit)): Project.Build: ********** BUILD COMMAND STARTED **********
+[2017.03.30-17.54.46:299][311]UATHelper: Packaging (Windows (64-bit)): CommandUtils.Run: Run: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNET\UnrealBuildTool.exe CIS568VRYPaint_mp Win64 Development -Project="C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2\CIS568VRYPaint_mp.uproject"  "C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2\CIS568VRYPaint_mp.uproject"  -remoteini="C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2" -noxge -generatemanifest -NoHotReload
+[2017.03.30-17.54.46:555][342]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool: Performing full C++ include scan (building a new target)
+[2017.03.30-17.54.47:313][433]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool: steamworks SDK not found in ThirdParty/Steamworks/Steamv132/sdk
+[2017.03.30-17.54.47:338][436]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool: ERROR: Unable to instantiate instance of 'Steamworks' object type from compiled assembly 'UE4Rules, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.  Unreal Build Tool creates an instance of your module's 'Rules' object in order to find out about your module's requirements.  The CLR exception details may provide more information:  System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnrealBuildTool.BuildException: ERROR: steamworks SDK not found in ThirdParty/Steamworks/Steamv132/sdk
+[2017.03.30-17.54.47:338][436]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at Steamworks..ctor(TargetInfo Target) in c:\Program Files (x86)\Epic Games\4.14\Engine\Source\ThirdParty\Steamworks\Steamworks.build.cs:line 20
+[2017.03.30-17.54.47:338][436]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    --- End of inner exception stack trace ---
+[2017.03.30-17.54.47:338][436]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+[2017.03.30-17.54.47:338][436]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[2017.03.30-17.54.47:338][436]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes, StackCrawlMark& stackMark)
+[2017.03.30-17.54.47:338][436]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+[2017.03.30-17.54.47:338][436]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at System.Activator.CreateInstance(Type type, Object[] args)
+[2017.03.30-17.54.47:338][436]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at UnrealBuildTool.RulesAssembly.CreateModuleRules(String ModuleName, TargetInfo Target, FileReference& ModuleFileName)
+[2017.03.30-17.54.47:448][449]UATHelper: Packaging (Windows (64-bit)): CommandUtils.Run: Run: Took 1.1484793s to run UnrealBuildTool.exe, ExitCode=5
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)): Program.Main: ERROR: AutomationTool terminated with exception: AutomationTool.CommandUtils+CommandFailedException: Command failed (Result:5): C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNET\UnrealBuildTool.exe CIS568VRYPaint_mp Win64 Development -Project="C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2\CIS568VRYPaint_mp.uproject"  "C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2\CIS568VRYPaint_mp.uproject"  -remoteini="C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2" -noxge -generatemanifest -NoHotReload. See logfile for details: 'UnrealBuildTool-2017.03.30-13.54.46.txt' 
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.CommandUtils.RunAndLog(String App, String CommandLine, String Logfile, Int32 MaxSuccessCode, String Input, ERunOptions Options, Dictionary`2 EnvVars, SpewFilterCallbackType SpewFilterCallback)
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.CommandUtils.RunAndLog(CommandEnvironment Env, String App, String CommandLine, String LogName, Int32 MaxSuccessCode, String Input, ERunOptions Options, Dictionary`2 EnvVars, SpewFilterCallbackType SpewFilterCallback)
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.CommandUtils.RunUBT(CommandEnvironment Env, String UBTExecutable, String CommandLine, String LogName, Dictionary`2 EnvVars)
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.CommandUtils.RunUBT(CommandEnvironment Env, String UBTExecutable, FileReference Project, String Target, String Platform, String Config, String AdditionalArgs, String LogName, Dictionary`2 EnvVars)
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.UE4Build.BuildWithUBT(String TargetName, UnrealTargetPlatform TargetPlatform, String Config, FileReference UprojectPath, Boolean ForceMonolithic, Boolean ForceNonUnity, Boolean ForceDebugInfo, Boolean ForceFlushMac, Boolean DisableXGE, String InAddArgs, Boolean ForceUnity, Dictionary`2 EnvVars)
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.UE4Build.Build(BuildAgenda Agenda, Nullable`1 InDeleteBuildProducts, Boolean InUpdateVersionFiles, Boolean InForceNoXGE, Boolean InUseParallelExecutor, Boolean InForceNonUnity, Boolean InForceUnity, Boolean InShowProgress, Dictionary`2 PlatformEnvVars, Nullable`1 InChangelistNumberOverride, Dictionary`2 InTargetToManifest)
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at Project.Build(BuildCommand Command, ProjectParams Params, Int32 WorkingCL, ProjectBuildTargets TargetMask)
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at BuildCookRun.DoBuildCookRun(ProjectParams Params)
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at BuildCookRun.ExecuteBuild()
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.BuildCommand.Execute()
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.Automation.Execute(List`1 CommandsToExecute, CaselessDictionary`1 Commands)
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.Automation.Process(String[] Arguments)
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.Program.MainProc(Object Param)
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.InternalUtils.RunSingleInstance(Func`2 Main, Object Param)
+[2017.03.30-17.54.47:455][450]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.Program.Main()
+[2017.03.30-17.54.47:463][451]UATHelper: Packaging (Windows (64-bit)): Program.Main: AutomationTool exiting with ExitCode=5 (5)
+[2017.03.30-17.54.47:489][454]UATHelper: Packaging (Windows (64-bit)): BUILD FAILED
+[2017.03.30-17.54.47:489][454]PackagingResults:Error: Error Unknown Error
+[2017.03.30-17.55.22:374][622]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.30-17.55.22:396][622]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Lobby.Lobby:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Lobby.Lobby:PersistentLevel.Lobby' with GeneratedClass '/Game/FirstPersonBP/Maps/Lobby.Lobby_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Lobby.Lobby:PersistentLevel.Lobby'
+[2017.03.30-17.55.22:397][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.30-17.55.22:397][622]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.03.30-17.55.22:398][622]LogOnline:Warning: STEAM: Steam API disabled!
+[2017.03.30-17.55.22:399][622]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.03.30-17.55.22:417][622]PIE: New page: PIE session: Lobby (Mar 30, 2017, 9:55:22 AM)
+[2017.03.30-17.55.22:417][622]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_1_Lobby
+[2017.03.30-17.55.22:420][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003224s)
+[2017.03.30-17.55.22:421][622]LogAIModule: Creating AISystem for world Lobby
+[2017.03.30-17.55.22:421][622]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2017.03.30-17.55.22:422][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Lobby.Lobby to /Game/FirstPersonBP/Maps/UEDPIE_1_Lobby.Lobby (0.004844s)
+[2017.03.30-17.55.22:439][622]LogInit: XAudio2 using 'DELL U2414H-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.30-17.55.22:446][622]LogInit: FAudioDevice initialized.
+[2017.03.30-17.55.22:461][622]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_20f54_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_21184_0///####STATCAT_Advanced####
+[2017.03.30-17.55.22:588][622]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.55.22:589][622]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.55.22:594][622]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.55.22:594][622]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.55.22:595][622]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.55.22:595][622]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.55.22:595][622]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.55.22:596][622]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.55.22:596][622]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.55.22:597][622]LogLinker:Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2017.03.30-17.55.22:901][622]LogLoad: Game class is 'LobbyGameMode_C'
+[2017.03.30-17.55.22:905][622]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_1_Lobby.Lobby up for play (max tick rate 0) at 2017.03.30-13.55.22
+[2017.03.30-17.55.22:906][622]LogWorld: Bringing up level for play took: 0.001766
+[2017.03.30-17.55.22:991][622]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.03.30-17.55.23:001][622]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.03.30-17.55.23:001][622]LogInit: WinSock: I am SIGLAB-VR1 (158.130.2.229:0)
+[2017.03.30-17.55.23:001][622]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.30-17.55.23:002][622]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.03.30-17.55.23:003][622]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_1_Lobby 0.673
+[2017.03.30-17.55.23:008][622]PIE: New page: PIE session: Lobby (Mar 30, 2017, 9:55:23 AM)
+[2017.03.30-17.55.23:069][622]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/Lobby
+[2017.03.30-17.55.23:070][622]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.03.30-17.55.23:070][622]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.30-17.55.23:071][622]LogNet: Game client on port 7777, rate 10000
+[2017.03.30-17.55.23:071][622]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: cis568vrypaint_mp, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2701095029
+[2017.03.30-17.55.23:072][622]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.03.30-17.55.23:075][622]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/Lobby 0.745
+[2017.03.30-17.55.23:086][622]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/Lobby.Lobby:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Lobby.Lobby:PersistentLevel.Lobby' with GeneratedClass '/Game/FirstPersonBP/Maps/Lobby.Lobby_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Lobby.Lobby:PersistentLevel.Lobby'
+[2017.03.30-17.55.23:086][622]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 235237059091058153152066065029003167228114172130136159171095
+[2017.03.30-17.55.23:121][622]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 235237059091058153152066065029003167228114172130136159171095
+[2017.03.30-17.55.23:177][623]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63852
+[2017.03.30-17.55.23:177][623]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.30-17.55.23:177][623]LogNet: NotifyAcceptedConnection: Name: Lobby, TimeStamp: 03/30/17 13:55:23, [UNetConnection] RemoteAddr: 127.0.0.1:63852, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.30-17.55.23:177][623]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63852, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.30-17.55.23:249][625]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonBP/Maps/UEDPIE_1_Lobby.Lobby: Accepted
+[2017.03.30-17.55.23:250][625]LogNet: Remote platform little endian=1
+[2017.03.30-17.55.23:250][625]LogNet: This platform little endian=1
+[2017.03.30-17.55.23:337][626]LogNet: Login request: /Game/FirstPersonBP/Maps/Lobby?Name=SIGLAB-VR1-4AB9A0F0479F3B6993C204A7FB96BE2B userId: SIGLAB-VR1-4AB9A0F0479F3B6993C204A7FB96BE2B
+[2017.03.30-17.55.23:339][626]LogNet: Welcomed by server (Level: /Game/FirstPersonBP/Maps/UEDPIE_1_Lobby, Game: /Game/FirstPersonBP/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C)
+[2017.03.30-17.55.23:339][626]LogLoad: LoadMap: 127.0.0.1//Game/FirstPersonBP/Maps/UEDPIE_1_Lobby?game=/Game/FirstPersonBP/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C
+[2017.03.30-17.55.23:382][626]Cmd: MEM
+[2017.03.30-17.55.23:394][626]LogMemory: Platform Memory Stats for Windows
+[2017.03.30-17.55.23:394][626]LogMemory: Process Physical Memory: 1262.53 MB used, 1268.54 MB peak
+[2017.03.30-17.55.23:394][626]LogMemory: Process Virtual Memory: 1786.14 MB used, 1786.14 MB peak
+[2017.03.30-17.55.23:394][626]LogMemory: Physical Memory: 6582.79 MB used,  26107.46 MB free, 32690.26 MB total
+[2017.03.30-17.55.23:394][626]LogMemory: Virtual Memory: 2674.18 MB used,  26107.46 MB free, 134217728.00 MB total
+[2017.03.30-17.55.23:394][626]LogMemory: 
+[2017.03.30-17.55.23:394][626]Allocator Stats for TBB: (not implemented)
+[2017.03.30-17.55.23:398][626]LogAIModule: Creating AISystem for world Lobby
+[2017.03.30-17.55.23:401][626]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_2_Lobby.Lobby up for play (max tick rate 0) at 2017.03.30-13.55.23
+[2017.03.30-17.55.23:401][626]LogWorld: Bringing up level for play took: 0.001382
+[2017.03.30-17.55.23:401][626]LogLoad: Took 0.062108 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_1_Lobby)
+[2017.03.30-17.55.23:419][627]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:5071).
+[2017.03.30-17.55.23:425][627]LogNet: Client netspeed is 10000
+[2017.03.30-17.55.23:425][627]LogNet: Join request: /Game/FirstPersonBP/Maps/Lobby?Name=SIGLAB-VR1-4AB9A0F0479F3B6993C204A7FB96BE2B?SplitscreenCount=1
+[2017.03.30-17.55.23:426][627]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2017.03.30-17.55.23:430][627]LogNet: Join succeeded: SIGLAB-VR1-4AB9A0F04
+[2017.03.30-17.55.23:520][635]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2017.03.30-17.55.23:584][641]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2017.03.30-17.55.28:763][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Lobby.Lobby:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Lobby.Lobby:PersistentLevel.Lobby' with GeneratedClass '/Game/FirstPersonBP/Maps/Lobby.Lobby_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Lobby.Lobby:PersistentLevel.Lobby'
+[2017.03.30-17.55.28:818][261]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.03.30-17.55.28:818][261]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2017.03.30-17.55.28:855][261]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.03.30-17.55.28:856][261]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.30-17.55.28:856][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/Lobby.Lobby:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/Lobby.Lobby:PersistentLevel.Lobby' with GeneratedClass '/Game/FirstPersonBP/Maps/Lobby.Lobby_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/Lobby.Lobby:PersistentLevel.Lobby'
+[2017.03.30-17.55.28:871][261]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: None, Owner: None
+[2017.03.30-17.55.28:871][261]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: None, Owner: None, Channels: 1, Time: 2017.03.30-17.55.28
+[2017.03.30-17.55.28:871][261]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: None, Driver: GameNetDriver None, IsServer: NO, PC: None, Owner: None
+[2017.03.30-17.55.28:872][261]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63852, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
+[2017.03.30-17.55.28:872][261]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63852, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, Channels: 1, Time: 2017.03.30-17.55.28
+[2017.03.30-17.55.28:872][261]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63852, Name: None, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
+[2017.03.30-17.55.28:873][261]LogExit: GameNetDriver None shut down
+[2017.03.30-17.55.28:874][261]LogExit: GameNetDriver None shut down
+[2017.03.30-17.55.28:900][262]LogPlayLevel:Display: Destroying online subsystem :Context_2
+[2017.03.30-17.55.28:901][262]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.03.30-17.55.28:901][262]LogPlayLevel:Display: Destroying online subsystem :Context_1
+[2017.03.30-17.55.28:901][262]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.03.30-17.55.37:840][306]LogSavePackage: Save=65.45ms
+[2017.03.30-17.55.37:840][306]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/UEDPCLobby90B4AD88416B02749AA8E5802C780498.tmp' to '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby.umap'
+[2017.03.30-17.55.37:842][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby.umap
+[2017.03.30-17.55.37:884][306]LogSavePackage: Save=23.77ms
+[2017.03.30-17.55.37:885][306]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/Lobby_BuiltData17296CF3424B70CF66B3D88AF8E12DBB.tmp' to '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Content/FirstPersonBP/Maps/Lobby_BuiltData.uasset'
+[2017.03.30-17.55.37:886][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Content/FirstPersonBP/Maps/Lobby_BuiltData.uasset
+[2017.03.30-17.55.37:889][306]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.30-17.56.38:281][690]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2017.03.30-17.56.38:432][703]UATHelper: Packaging (Windows (64-bit)): Automation.ParseCommandLine: Parsing command line: -ScriptsForProject="C:/Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/CIS568VRYPaint_mp.uproject" BuildCookRun -nocompile -nocompileeditor -installed -nop4 -project="C:/Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/CIS568VRYPaint_mp.uproject" -cook -stage -archive -archivedirectory="C:/Users/SIG Admin/Desktop/New folder (2)" -package -clientconfig=Development -ue4exe=UE4Editor-Cmd.exe -pak -prereqs -nodebuginfo -targetplatform=Win64 -build -CrashReporter -utf8output
+[2017.03.30-17.56.38:440][704]UATHelper: Packaging (Windows (64-bit)): Automation.Process: Setting up command environment.
+[2017.03.30-17.56.38:598][723]UATHelper: Packaging (Windows (64-bit)): BuildCookRun.SetupParams: Setting up ProjectParams for C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2\CIS568VRYPaint_mp.uproject
+[2017.03.30-17.56.38:991][770]UATHelper: Packaging (Windows (64-bit)): Project.Build: ********** BUILD COMMAND STARTED **********
+[2017.03.30-17.56.39:015][773]UATHelper: Packaging (Windows (64-bit)): CommandUtils.Run: Run: C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNET\UnrealBuildTool.exe CIS568VRYPaint_mp Win64 Development -Project="C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2\CIS568VRYPaint_mp.uproject"  "C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2\CIS568VRYPaint_mp.uproject"  -remoteini="C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2" -noxge -generatemanifest -NoHotReload
+[2017.03.30-17.56.39:883][877]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool: steamworks SDK not found in ThirdParty/Steamworks/Steamv132/sdk
+[2017.03.30-17.56.39:891][878]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool: ERROR: Unable to instantiate instance of 'Steamworks' object type from compiled assembly 'UE4Rules, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.  Unreal Build Tool creates an instance of your module's 'Rules' object in order to find out about your module's requirements.  The CLR exception details may provide more information:  System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnrealBuildTool.BuildException: ERROR: steamworks SDK not found in ThirdParty/Steamworks/Steamv132/sdk
+[2017.03.30-17.56.39:891][878]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at Steamworks..ctor(TargetInfo Target) in c:\Program Files (x86)\Epic Games\4.14\Engine\Source\ThirdParty\Steamworks\Steamworks.build.cs:line 20
+[2017.03.30-17.56.39:892][878]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    --- End of inner exception stack trace ---
+[2017.03.30-17.56.39:892][878]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+[2017.03.30-17.56.39:892][878]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[2017.03.30-17.56.39:892][878]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes, StackCrawlMark& stackMark)
+[2017.03.30-17.56.39:892][878]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+[2017.03.30-17.56.39:892][878]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at System.Activator.CreateInstance(Type type, Object[] args)
+[2017.03.30-17.56.39:892][878]UATHelper: Packaging (Windows (64-bit)): UnrealBuildTool:    at UnrealBuildTool.RulesAssembly.CreateModuleRules(String ModuleName, TargetInfo Target, FileReference& ModuleFileName)
+[2017.03.30-17.56.39:991][890]UATHelper: Packaging (Windows (64-bit)): CommandUtils.Run: Run: Took 0.9769838s to run UnrealBuildTool.exe, ExitCode=5
+[2017.03.30-17.56.40:000][891]UATHelper: Packaging (Windows (64-bit)): Program.Main: ERROR: AutomationTool terminated with exception: AutomationTool.CommandUtils+CommandFailedException: Command failed (Result:5): C:\Program Files (x86)\Epic Games\4.14\Engine\Binaries\DotNET\UnrealBuildTool.exe CIS568VRYPaint_mp Win64 Development -Project="C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2\CIS568VRYPaint_mp.uproject"  "C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2\CIS568VRYPaint_mp.uproject"  -remoteini="C:\Users\SIG Admin\Desktop\unreal-project-vry-paint-Mar22.2" -noxge -generatemanifest -NoHotReload. See logfile for details: 'UnrealBuildTool-2017.03.30-13.56.39.txt' 
+[2017.03.30-17.56.40:001][891]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.CommandUtils.RunAndLog(String App, String CommandLine, String Logfile, Int32 MaxSuccessCode, String Input, ERunOptions Options, Dictionary`2 EnvVars, SpewFilterCallbackType SpewFilterCallback)
+[2017.03.30-17.56.40:001][891]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.CommandUtils.RunAndLog(CommandEnvironment Env, String App, String CommandLine, String LogName, Int32 MaxSuccessCode, String Input, ERunOptions Options, Dictionary`2 EnvVars, SpewFilterCallbackType SpewFilterCallback)
+[2017.03.30-17.56.40:001][891]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.CommandUtils.RunUBT(CommandEnvironment Env, String UBTExecutable, String CommandLine, String LogName, Dictionary`2 EnvVars)
+[2017.03.30-17.56.40:001][891]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.CommandUtils.RunUBT(CommandEnvironment Env, String UBTExecutable, FileReference Project, String Target, String Platform, String Config, String AdditionalArgs, String LogName, Dictionary`2 EnvVars)
+[2017.03.30-17.56.40:001][891]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.UE4Build.BuildWithUBT(String TargetName, UnrealTargetPlatform TargetPlatform, String Config, FileReference UprojectPath, Boolean ForceMonolithic, Boolean ForceNonUnity, Boolean ForceDebugInfo, Boolean ForceFlushMac, Boolean DisableXGE, String InAddArgs, Boolean ForceUnity, Dictionary`2 EnvVars)
+[2017.03.30-17.56.40:001][891]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.UE4Build.Build(BuildAgenda Agenda, Nullable`1 InDeleteBuildProducts, Boolean InUpdateVersionFiles, Boolean InForceNoXGE, Boolean InUseParallelExecutor, Boolean InForceNonUnity, Boolean InForceUnity, Boolean InShowProgress, Dictionary`2 PlatformEnvVars, Nullable`1 InChangelistNumberOverride, Dictionary`2 InTargetToManifest)
+[2017.03.30-17.56.40:001][891]UATHelper: Packaging (Windows (64-bit)):    at Project.Build(BuildCommand Command, ProjectParams Params, Int32 WorkingCL, ProjectBuildTargets TargetMask)
+[2017.03.30-17.56.40:002][891]UATHelper: Packaging (Windows (64-bit)):    at BuildCookRun.DoBuildCookRun(ProjectParams Params)
+[2017.03.30-17.56.40:002][891]UATHelper: Packaging (Windows (64-bit)):    at BuildCookRun.ExecuteBuild()
+[2017.03.30-17.56.40:002][891]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.BuildCommand.Execute()
+[2017.03.30-17.56.40:002][891]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.Automation.Execute(List`1 CommandsToExecute, CaselessDictionary`1 Commands)
+[2017.03.30-17.56.40:002][891]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.Automation.Process(String[] Arguments)
+[2017.03.30-17.56.40:002][891]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.Program.MainProc(Object Param)
+[2017.03.30-17.56.40:002][891]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.InternalUtils.RunSingleInstance(Func`2 Main, Object Param)
+[2017.03.30-17.56.40:002][891]UATHelper: Packaging (Windows (64-bit)):    at AutomationTool.Program.Main()
+[2017.03.30-17.56.40:002][891]UATHelper: Packaging (Windows (64-bit)): Program.Main: AutomationTool exiting with ExitCode=5 (5)
+[2017.03.30-17.56.40:026][894]UATHelper: Packaging (Windows (64-bit)): BUILD FAILED
+[2017.03.30-17.56.40:027][894]PackagingResults:Error: Error Unknown Error
+[2017.03.30-17.57.36:993][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.30-17.57.43:283][573]LogTemp: Repeting last play command: Standalone Game
+[2017.03.30-17.57.43:477][573]LogSavePackage: Save=65.88ms
+[2017.03.30-17.57.43:477][573]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/UEDPCLobby13B734024FE47794C196D1ABCBDB0F76.tmp' to '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby.umap'
+[2017.03.30-17.57.43:479][573]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby.umap
+[2017.03.30-17.57.43:513][573]LogSavePackage: Save=16.75ms
+[2017.03.30-17.57.43:513][573]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/Lobby_BuiltDataD098A7C546D4F89F64E42FBE34179FFB.tmp' to '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Content/FirstPersonBP/Maps/Lobby_BuiltData.uasset'
+[2017.03.30-17.57.43:514][573]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Content/FirstPersonBP/Maps/Lobby_BuiltData.uasset
+[2017.03.30-17.57.43:518][573]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.30-17.58.04:054][183]LogTemp: Repeting last play command: Standalone Game
+[2017.03.30-17.58.04:241][183]LogSavePackage: Save=61.12ms
+[2017.03.30-17.58.04:241][183]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/UEDPCLobbyE02F1D0A443F05563A07E59E6D9A63CB.tmp' to '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby.umap'
+[2017.03.30-17.58.04:242][183]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby.umap
+[2017.03.30-17.58.04:275][183]LogSavePackage: Save=16.91ms
+[2017.03.30-17.58.04:275][183]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/Lobby_BuiltData92F1FC554D116613D168F3AF32639592.tmp' to '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Content/FirstPersonBP/Maps/Lobby_BuiltData.uasset'
+[2017.03.30-17.58.04:276][183]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Content/FirstPersonBP/Maps/Lobby_BuiltData.uasset
+[2017.03.30-17.58.04:279][183]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.03.30-17.59.38:368][877]LogTemp: Repeting last play command: Standalone Game
+[2017.03.30-17.59.38:586][877]LogSavePackage: Save=65.28ms
+[2017.03.30-17.59.38:587][877]LogSavePackage: Moving '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/UEDPCLobby43D7387F4D40014CF40D4BAF97569976.tmp' to '../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby.umap'
+[2017.03.30-17.59.38:588][877]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/SIG Admin/Desktop/unreal-project-vry-paint-Mar22.2/Saved/Autosaves/Game/FirstPersonBP/Maps/UEDPCLobby.umap
